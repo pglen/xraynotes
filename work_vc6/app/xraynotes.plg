@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: xraynotes - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\petergl\AppData\Local\Temp\RSP1A97.bat" with contents
+[
+@echo off
+start /wait hcw /C /E /M "hlp\xraynotes.hpj"
+if errorlevel 1 goto :Error
+if not exist "hlp\xraynotes.hlp" goto :Error
+copy "hlp\xraynotes.hlp" .\Debug
+goto :done
+:Error
+echo hlp\xraynotes.hpj(1) : error:
+type "hlp\xraynotes.log"
+:done
+]
+Creating command line "C:\Users\petergl\AppData\Local\Temp\RSP1A97.bat"
+<h3>Output Window</h3>
+Making help file...
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+xraynotes.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,27 @@
+create table address ( id integer primary key,
+lname text,  mname text,  fname text,  prefix text,  suffix text,
+
+email text,  email2 text,
+fax text,  faxext text,
+cell text,  cext text,
+wtel text,  wext text,
+office text, officeext text,
+
+post text,  tel text,  telext text,
+
+udate datetime,  cdate datetime, startdate datetime,  appdate datetime,
+
+note text,
+qnote text,
+
+zip text,  city text,  state text, address text,  country text,  ccode text,
+
+id text,  uid text,  uidstr text,
+
+bfirst text, bmiddle, text, blast text,
+
+bdate text,  bcity text,  bstate text,  bcountry text,  bplace text,  bnote text,  bzip text,
+bcode text,
+
+prl text,  patid text,  active text)
+

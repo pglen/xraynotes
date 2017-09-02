@@ -1,0 +1,83 @@
+# Microsoft Developer Studio Generated Dependency File, included by j2k.mak
+
+.\bio.c : \
+	".\bio.h"\
+	
+
+.\cio.c : \
+	".\cio.h"\
+	
+
+.\dwt.c : \
+	".\dwt.h"\
+	".\fix.h"\
+	".\int.h"\
+	
+
+.\fix.c : \
+	".\fix.h"\
+	
+
+.\j2k.c : \
+	".\cio.h"\
+	".\dwt.h"\
+	".\int.h"\
+	".\j2k.h"\
+	".\tcd.h"\
+	".\tgt.h"\
+	
+
+.\mct.c : \
+	".\fix.h"\
+	".\mct.h"\
+	
+
+.\mqc.c : \
+	".\mqc.h"\
+	
+
+.\pi.c : \
+	".\int.h"\
+	".\j2k.h"\
+	".\pi.h"\
+	".\tcd.h"\
+	".\tgt.h"\
+	
+
+.\t1.c : \
+	".\dwt.h"\
+	".\fix.h"\
+	".\int.h"\
+	".\j2k.h"\
+	".\mct.h"\
+	".\mqc.h"\
+	".\t1.h"\
+	".\tcd.h"\
+	".\tgt.h"\
+	
+
+.\t2.c : \
+	".\bio.h"\
+	".\int.h"\
+	".\j2k.h"\
+	".\pi.h"\
+	".\t2.h"\
+	".\tcd.h"\
+	".\tgt.h"\
+	
+
+.\tcd.c : \
+	".\dwt.h"\
+	".\int.h"\
+	".\j2k.h"\
+	".\mct.h"\
+	".\t1.h"\
+	".\t2.h"\
+	".\tcd.h"\
+	".\tgt.h"\
+	
+
+.\tgt.c : \
+	".\bio.h"\
+	".\tgt.h"\
+	

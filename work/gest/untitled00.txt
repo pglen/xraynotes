@@ -1,0 +1,37 @@
+IDC_BUTTON2       m_Add
+IDC_BUTTON3       m_Delete
+IDC_BUTTON4       m_Load
+IDC_BUTTON6       m_Save
+IDC_BUTTON1       m_More
+IDC_BUTTON7       m_Clear
+IDC_BUTTON8       m_Dump
+IDC_BUTTON9       m_Play
+IDC_BUTTON10      m_Place
+IDC_BUTTON11      m_ClearLast
+IDC_BUTTON5       m_Copy
+IDC_BUTTON12      m_Paste
+IDC_BUTTON13      m_Clear
+IDC_BUTTON14      m_Recall
+
+
+	DDX_Control(pDX, IDC_BUTTON1, m_butt1);
+
+
+	CxTargetButton	m_Add	    ;
+	CxTargetButton	m_Delete	;
+	CxTargetButton	m_Load		;
+	CxTargetButton	m_Save		;
+	CxTargetButton	m_More 		;
+	CxTargetButton	m_Clear		;
+	CxTargetButton	m_Dump		;
+	CxTargetButton	m_Play		;
+	CxTargetButton	m_Place		;
+	CxTargetButton	m_ClearLast	;
+	CxTargetButton	m_Copy		;
+	CxTargetButton	m_Paste		;
+	CxTargetButton	m_Clear		;
+	CxTargetButton	m_Recall	;
+
+
+
+

@@ -1,0 +1,14 @@
+digraph G
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="CPRocList",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="m_tide",fontname="FreeSans"];
+  Node2 [label="CPGedit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_p_gedit.html"];
+  Node3 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="farr",fontname="FreeSans"];
+  Node3 [label="_fields",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct__fields.html"];
+  Node4 -> Node3 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="ctrl",fontname="FreeSans"];
+  Node4 [label="CEditEx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_edit_ex.html"];
+  Node5 -> Node4 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="tip",fontname="FreeSans"];
+  Node5 [label="CPopup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_popup.html"];
+}

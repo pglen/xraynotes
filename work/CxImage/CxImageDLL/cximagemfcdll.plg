@@ -1,0 +1,222 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CxImageMfcDll - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x410 /fo"Debug/cximagemfcdll.res" /d "_DEBUG" /d "_AFXDLL" "C:\develop\xraynotes\work\CxImage\CxImageDLL\cximagemfcdll.rc"" 
+Creating temporary file "C:\DOCUME~1\PETERG~1\LOCALS~1\Temp\RSPE5.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "../../zlib" /I "../../jasper/include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "JAS_WIN_MSVC_BUILD" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\develop\xraynotes\work\CxImage\CxImageDLL\cximagemfcdll.cpp"
+"C:\develop\xraynotes\work\CxImage\tif_xfile.cpp"
+"C:\develop\xraynotes\work\CxImage\ximabmp.cpp"
+"C:\develop\xraynotes\work\CxImage\ximadsp.cpp"
+"C:\develop\xraynotes\work\CxImage\ximaenc.cpp"
+"C:\develop\xraynotes\work\CxImage\ximaexif.cpp"
+"C:\develop\xraynotes\work\CxImage\ximage.cpp"
+"C:\develop\xraynotes\work\CxImage\ximagif.cpp"
+"C:\develop\xraynotes\work\CxImage\ximahist.cpp"
+"C:\develop\xraynotes\work\CxImage\ximaico.cpp"
+"C:\develop\xraynotes\work\CxImage\ximainfo.cpp"
+"C:\develop\xraynotes\work\CxImage\ximaint.cpp"
+"C:\develop\xraynotes\work\CxImage\ximaj2k.cpp"
+"C:\develop\xraynotes\work\CxImage\ximajas.cpp"
+"C:\develop\xraynotes\work\CxImage\ximajbg.cpp"
+"C:\develop\xraynotes\work\CxImage\ximajpg.cpp"
+"C:\develop\xraynotes\work\CxImage\ximalpha.cpp"
+"C:\develop\xraynotes\work\CxImage\ximalyr.cpp"
+"C:\develop\xraynotes\work\CxImage\ximamng.cpp"
+"C:\develop\xraynotes\work\CxImage\ximapal.cpp"
+"C:\develop\xraynotes\work\CxImage\ximapcx.cpp"
+"C:\develop\xraynotes\work\CxImage\ximapng.cpp"
+"C:\develop\xraynotes\work\CxImage\ximasel.cpp"
+"C:\develop\xraynotes\work\CxImage\ximatga.cpp"
+"C:\develop\xraynotes\work\CxImage\ximath.cpp"
+"C:\develop\xraynotes\work\CxImage\ximatif.cpp"
+"C:\develop\xraynotes\work\CxImage\ximatran.cpp"
+"C:\develop\xraynotes\work\CxImage\ximawbmp.cpp"
+"C:\develop\xraynotes\work\CxImage\ximawmf.cpp"
+"C:\develop\xraynotes\work\CxImage\ximawnd.cpp"
+"C:\develop\xraynotes\work\CxImage\xmemfile.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\PETERG~1\LOCALS~1\Temp\RSPE5.tmp" 
+Creating temporary file "C:\DOCUME~1\PETERG~1\LOCALS~1\Temp\RSPE6.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "../../zlib" /I "../../jasper/include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "JAS_WIN_MSVC_BUILD" /Fp"Debug/cximagemfcdll.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\develop\xraynotes\work\CxImage\CxImageDLL\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\PETERG~1\LOCALS~1\Temp\RSPE6.tmp" 
+Creating temporary file "C:\DOCUME~1\PETERG~1\LOCALS~1\Temp\RSPE7.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/cximaged.pdb" /debug /machine:I386 /out:"../../bin/cximaged.dll" /implib:"Debug/cximaged.lib" /pdbtype:sept 
+.\Debug\cximagemfcdll.obj
+.\Debug\StdAfx.obj
+.\Debug\tif_xfile.obj
+.\Debug\ximabmp.obj
+.\Debug\ximadsp.obj
+.\Debug\ximaenc.obj
+.\Debug\ximaexif.obj
+.\Debug\ximage.obj
+.\Debug\ximagif.obj
+.\Debug\ximahist.obj
+.\Debug\ximaico.obj
+.\Debug\ximainfo.obj
+.\Debug\ximaint.obj
+.\Debug\ximaj2k.obj
+.\Debug\ximajas.obj
+.\Debug\ximajbg.obj
+.\Debug\ximajpg.obj
+.\Debug\ximalpha.obj
+.\Debug\ximalyr.obj
+.\Debug\ximamng.obj
+.\Debug\ximapal.obj
+.\Debug\ximapcx.obj
+.\Debug\ximapng.obj
+.\Debug\ximasel.obj
+.\Debug\ximatga.obj
+.\Debug\ximath.obj
+.\Debug\ximatif.obj
+.\Debug\ximatran.obj
+.\Debug\ximawbmp.obj
+.\Debug\ximawmf.obj
+.\Debug\ximawnd.obj
+.\Debug\xmemfile.obj
+.\Debug\cximagemfcdll.res
+]
+Creating command line "link.exe @C:\DOCUME~1\PETERG~1\LOCALS~1\Temp\RSPE7.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+cximagemfcdll.cpp
+tif_xfile.cpp
+ximabmp.cpp
+ximadsp.cpp
+ximaenc.cpp
+ximaexif.cpp
+ximage.cpp
+ximagif.cpp
+ximahist.cpp
+ximaico.cpp
+ximainfo.cpp
+ximaint.cpp
+ximaj2k.cpp
+ximajas.cpp
+ximajbg.cpp
+ximajpg.cpp
+ximalpha.cpp
+ximalyr.cpp
+ximamng.cpp
+ximapal.cpp
+Generating Code...
+Compiling...
+ximapcx.cpp
+ximapng.cpp
+ximasel.cpp
+ximatga.cpp
+ximath.cpp
+ximatif.cpp
+ximatran.cpp
+ximawbmp.cpp
+ximawmf.cpp
+ximawnd.cpp
+xmemfile.cpp
+Generating Code...
+Linking...
+LINK : LNK6004: ../../bin/cximaged.dll not found or not built by the last incremental link; performing full link
+   Creating library Debug/cximaged.lib and object Debug/cximaged.exp
+tif_xfile.obj : error LNK2001: unresolved external symbol _TIFFClientOpen
+ximajas.obj : error LNK2001: unresolved external symbol _jas_stream_close
+ximajas.obj : error LNK2001: unresolved external symbol _jas_cleanup
+ximajas.obj : error LNK2001: unresolved external symbol _jas_matrix_destroy
+ximajas.obj : error LNK2001: unresolved external symbol _jas_image_readcmpt
+ximajas.obj : error LNK2001: unresolved external symbol _jas_matrix_create
+ximajas.obj : error LNK2001: unresolved external symbol _jas_cmprof_destroy
+ximajas.obj : error LNK2001: unresolved external symbol _jas_image_destroy
+ximajas.obj : error LNK2001: unresolved external symbol _jas_image_chclrspc
+ximajas.obj : error LNK2001: unresolved external symbol _jas_cmprof_createfromclrspc
+ximajas.obj : error LNK2001: unresolved external symbol _jas_image_decode
+ximajas.obj : error LNK2001: unresolved external symbol _jas_stream_fdopen
+ximajas.obj : error LNK2001: unresolved external symbol _jas_init
+ximajas.obj : error LNK2001: unresolved external symbol _jas_free
+ximajas.obj : error LNK2001: unresolved external symbol _jas_stream_flush
+ximajas.obj : error LNK2001: unresolved external symbol _jas_image_encode
+ximajas.obj : error LNK2001: unresolved external symbol _jas_image_strtofmt
+ximajas.obj : error LNK2001: unresolved external symbol _jas_image_writecmpt
+ximajas.obj : error LNK2001: unresolved external symbol _jas_image_create
+ximajpg.obj : error LNK2001: unresolved external symbol _jpeg_finish_decompress
+ximajpg.obj : error LNK2001: unresolved external symbol _jpeg_read_scanlines
+ximajpg.obj : error LNK2001: unresolved external symbol _jpeg_start_decompress
+ximajpg.obj : error LNK2001: unresolved external symbol _jpeg_calc_output_dimensions
+ximajpg.obj : error LNK2001: unresolved external symbol _jpeg_read_header
+ximajpg.obj : error LNK2001: unresolved external symbol _jpeg_CreateDecompress
+ximajpg.obj : error LNK2001: unresolved external symbol _jpeg_destroy_decompress
+ximajpg.obj : error LNK2001: unresolved external symbol _jpeg_std_error
+ximajpg.obj : error LNK2001: unresolved external symbol _jpeg_resync_to_restart
+ximajpg.obj : error LNK2001: unresolved external symbol _jpeg_finish_compress
+ximajpg.obj : error LNK2001: unresolved external symbol _jpeg_write_scanlines
+ximajpg.obj : error LNK2001: unresolved external symbol _jpeg_start_compress
+ximajpg.obj : error LNK2001: unresolved external symbol _jpeg_simple_progression
+ximajpg.obj : error LNK2001: unresolved external symbol _jpeg_set_quality
+ximajpg.obj : error LNK2001: unresolved external symbol _jpeg_set_colorspace
+ximajpg.obj : error LNK2001: unresolved external symbol _jpeg_set_defaults
+ximajpg.obj : error LNK2001: unresolved external symbol _jpeg_CreateCompress
+ximajpg.obj : error LNK2001: unresolved external symbol _jpeg_destroy_compress
+ximapng.obj : error LNK2001: unresolved external symbol _png_read_end
+ximapng.obj : error LNK2001: unresolved external symbol _png_read_row
+ximapng.obj : error LNK2001: unresolved external symbol _png_set_interlace_handling
+ximapng.obj : error LNK2001: unresolved external symbol _png_set_bgr
+ximapng.obj : error LNK2001: unresolved external symbol _png_set_filler
+ximapng.obj : error LNK2001: unresolved external symbol _png_set_expand
+ximapng.obj : error LNK2001: unresolved external symbol _png_set_gray_to_rgb
+ximapng.obj : error LNK2001: unresolved external symbol _png_set_strip_16
+ximapng.obj : error LNK2001: unresolved external symbol _png_set_background
+ximapng.obj : error LNK2001: unresolved external symbol _png_get_bKGD
+ximapng.obj : error LNK2001: unresolved external symbol _png_read_info
+ximapng.obj : error LNK2001: unresolved external symbol _png_set_error_fn
+ximapng.obj : error LNK2001: unresolved external symbol _png_set_read_fn
+ximapng.obj : error LNK2001: unresolved external symbol _png_destroy_read_struct
+ximapng.obj : error LNK2001: unresolved external symbol _png_create_info_struct
+ximapng.obj : error LNK2001: unresolved external symbol _png_create_read_struct
+ximapng.obj : error LNK2001: unresolved external symbol _png_error
+ximapng.obj : error LNK2001: unresolved external symbol _png_write_end
+ximapng.obj : error LNK2001: unresolved external symbol _png_write_row
+ximapng.obj : error LNK2001: unresolved external symbol _png_write_info
+ximapng.obj : error LNK2001: unresolved external symbol _png_set_IHDR
+ximapng.obj : error LNK2001: unresolved external symbol _png_set_pHYs
+ximapng.obj : error LNK2001: unresolved external symbol _png_set_bKGD
+ximapng.obj : error LNK2001: unresolved external symbol _png_set_write_fn
+ximapng.obj : error LNK2001: unresolved external symbol _png_destroy_write_struct
+ximapng.obj : error LNK2001: unresolved external symbol _png_create_write_struct
+ximatif.obj : error LNK2001: unresolved external symbol _TIFFClose
+ximatif.obj : error LNK2001: unresolved external symbol _TIFFReadEncodedStrip
+ximatif.obj : error LNK2001: unresolved external symbol _TIFFComputeStrip
+ximatif.obj : error LNK2001: unresolved external symbol _TIFFReadTile
+ximatif.obj : error LNK2001: unresolved external symbol _TIFFTileRowSize
+ximatif.obj : error LNK2001: unresolved external symbol _TIFFScanlineSize
+ximatif.obj : error LNK2001: unresolved external symbol _TIFFTileSize
+ximatif.obj : error LNK2001: unresolved external symbol _TIFFIsTiled
+ximatif.obj : error LNK2001: unresolved external symbol _TIFFStripSize
+ximatif.obj : error LNK2001: unresolved external symbol _TIFFReadRGBAImage
+ximatif.obj : error LNK2001: unresolved external symbol _TIFFSetField
+ximatif.obj : error LNK2001: unresolved external symbol _TIFFGetFieldDefaulted
+ximatif.obj : error LNK2001: unresolved external symbol _TIFFGetField
+ximatif.obj : error LNK2001: unresolved external symbol _TIFFSetDirectory
+ximatif.obj : error LNK2001: unresolved external symbol _TIFFNumberOfDirectories
+ximatif.obj : error LNK2001: unresolved external symbol _TIFFWriteDirectory
+ximatif.obj : error LNK2001: unresolved external symbol _TIFFWriteScanline
+ximatif.obj : error LNK2001: unresolved external symbol _TIFFDefaultStripSize
+../../bin/cximaged.dll : fatal error LNK1120: 81 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+cximaged.dll - 82 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,217 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: dbtest - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/dbtest.res" /d "_DEBUG" /d "_AFXDLL" "C:\develop2\xraynotes\work\dbtest\dbtest.rc"" 
+Creating temporary file "C:\Users\PETERG~1\AppData\Local\Temp\RSPF9BA.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/dbtest.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\develop2\xraynotes\work\dbtest\AddrEntry.cpp"
+"C:\develop2\xraynotes\work\dbtest\AlaDlg.cpp"
+"C:\develop2\xraynotes\work\dbtest\BCMenu.cpp"
+"C:\develop2\xraynotes\work\dbtest\BmpButt.cpp"
+"C:\develop2\xraynotes\work\dbtest\CalCtrl.cpp"
+"C:\develop2\xraynotes\work\dbtest\calen.cpp"
+"C:\develop2\xraynotes\work\dbtest\CodeEd.cpp"
+"C:\develop2\xraynotes\work\dbtest\CtimeCtrl.cpp"
+"C:\develop2\xraynotes\work\dbtest\DateSel.cpp"
+"C:\develop2\xraynotes\work\dbtest\DBMain.cpp"
+"C:\develop2\xraynotes\work\dbtest\dbtest.cpp"
+"C:\develop2\xraynotes\work\dbtest\dbtestDlg.cpp"
+"C:\develop2\xraynotes\work\dbtest\DiagList.cpp"
+"C:\develop2\xraynotes\work\dbtest\EditEx.cpp"
+"C:\develop2\xraynotes\work\dbtest\EventDlg.cpp"
+"C:\develop2\xraynotes\work\dbtest\FileDialogST.cpp"
+"C:\develop2\xraynotes\work\dbtest\GrayWin.cpp"
+"C:\develop2\xraynotes\work\dbtest\HistoryDlg.cpp"
+"C:\develop2\xraynotes\work\dbtest\HShield.cpp"
+"C:\develop2\xraynotes\work\dbtest\label.cpp"
+"C:\develop2\xraynotes\work\dbtest\lcd7.cpp"
+"C:\develop2\xraynotes\work\dbtest\LevenStein.cpp"
+"C:\develop2\xraynotes\work\dbtest\MedReg.cpp"
+"C:\develop2\xraynotes\work\dbtest\MsgBox.cpp"
+"C:\develop2\xraynotes\work\dbtest\mxpad.cpp"
+"C:\develop2\xraynotes\work\dbtest\parse.cpp"
+"C:\develop2\xraynotes\work\dbtest\pcSelection.cpp"
+"C:\develop2\xraynotes\work\dbtest\PersistDlg.cpp"
+"C:\develop2\xraynotes\work\dbtest\PGedit.cpp"
+"C:\develop2\xraynotes\work\dbtest\PGtree.cpp"
+"C:\develop2\xraynotes\work\dbtest\Popup.cpp"
+"C:\develop2\xraynotes\work\dbtest\prl.cpp"
+"C:\develop2\xraynotes\work\dbtest\ProcedureDlg.cpp"
+"C:\develop2\xraynotes\work\dbtest\PRocList.cpp"
+"C:\develop2\xraynotes\work\dbtest\SimpleGrid.cpp"
+"C:\develop2\xraynotes\work\dbtest\Support.cpp"
+"C:\develop2\xraynotes\work\dbtest\Transcript.cpp"
+"C:\develop2\xraynotes\work\dbtest\UniqID.cpp"
+"C:\develop2\xraynotes\work\dbtest\xcalDlg.cpp"
+"C:\develop2\xraynotes\work\dbtest\xCalen.cpp"
+"C:\develop2\xraynotes\work\dbtest\xTargetButton.cpp"
+]
+Creating command line "cl.exe @C:\Users\PETERG~1\AppData\Local\Temp\RSPF9BA.tmp" 
+Creating temporary file "C:\Users\PETERG~1\AppData\Local\Temp\RSPF9BB.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/dbtest.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\develop2\xraynotes\work\dbtest\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\PETERG~1\AppData\Local\Temp\RSPF9BB.tmp" 
+Creating temporary file "C:\Users\PETERG~1\AppData\Local\Temp\RSPF9BC.tmp" with contents
+[
+sqlite3.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/dbtest.pdb" /debug /machine:I386 /out:"Debug/dbtest.exe" /pdbtype:sept 
+.\Debug\AddrEntry.obj
+.\Debug\AlaDlg.obj
+.\Debug\BCMenu.obj
+.\Debug\BmpButt.obj
+.\Debug\CalCtrl.obj
+.\Debug\calen.obj
+.\Debug\CodeEd.obj
+.\Debug\CtimeCtrl.obj
+.\Debug\DateSel.obj
+.\Debug\DBMain.obj
+.\Debug\dbtest.obj
+.\Debug\dbtestDlg.obj
+.\Debug\DiagList.obj
+.\Debug\EditEx.obj
+.\Debug\EventDlg.obj
+.\Debug\FileDialogST.obj
+.\Debug\GrayWin.obj
+.\Debug\HistoryDlg.obj
+.\Debug\HShield.obj
+.\Debug\label.obj
+.\Debug\lcd7.obj
+.\Debug\LevenStein.obj
+.\Debug\MedReg.obj
+.\Debug\MsgBox.obj
+.\Debug\mxpad.obj
+.\Debug\parse.obj
+.\Debug\pcSelection.obj
+.\Debug\PersistDlg.obj
+.\Debug\PGedit.obj
+.\Debug\PGtree.obj
+.\Debug\Popup.obj
+.\Debug\prl.obj
+.\Debug\ProcedureDlg.obj
+.\Debug\PRocList.obj
+.\Debug\SimpleGrid.obj
+.\Debug\StdAfx.obj
+.\Debug\Support.obj
+.\Debug\Transcript.obj
+.\Debug\UniqID.obj
+.\Debug\xcalDlg.obj
+.\Debug\xCalen.obj
+.\Debug\xTargetButton.obj
+.\Debug\dbtest.res
+]
+Creating command line "link.exe @C:\Users\PETERG~1\AppData\Local\Temp\RSPF9BC.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AddrEntry.cpp
+AlaDlg.cpp
+BCMenu.cpp
+BmpButt.cpp
+CalCtrl.cpp
+calen.cpp
+CodeEd.cpp
+CtimeCtrl.cpp
+DateSel.cpp
+DBMain.cpp
+dbtest.cpp
+dbtestDlg.cpp
+DiagList.cpp
+EditEx.cpp
+EventDlg.cpp
+FileDialogST.cpp
+GrayWin.cpp
+HistoryDlg.cpp
+HShield.cpp
+label.cpp
+Generating Code...
+Compiling...
+lcd7.cpp
+LevenStein.cpp
+MedReg.cpp
+MsgBox.cpp
+mxpad.cpp
+parse.cpp
+pcSelection.cpp
+PersistDlg.cpp
+PGedit.cpp
+PGtree.cpp
+Popup.cpp
+prl.cpp
+ProcedureDlg.cpp
+PRocList.cpp
+SimpleGrid.cpp
+Support.cpp
+Transcript.cpp
+UniqID.cpp
+xcalDlg.cpp
+xCalen.cpp
+Generating Code...
+Compiling...
+xTargetButton.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\Users\PETERG~1\AppData\Local\Temp\RSP783.tmp" with contents
+[
+/nologo /o"Debug/dbtest.bsc" 
+.\Debug\StdAfx.sbr
+.\Debug\AddrEntry.sbr
+.\Debug\AlaDlg.sbr
+.\Debug\BCMenu.sbr
+.\Debug\BmpButt.sbr
+.\Debug\CalCtrl.sbr
+.\Debug\calen.sbr
+.\Debug\CodeEd.sbr
+.\Debug\CtimeCtrl.sbr
+.\Debug\DateSel.sbr
+.\Debug\DBMain.sbr
+.\Debug\dbtest.sbr
+.\Debug\dbtestDlg.sbr
+.\Debug\DiagList.sbr
+.\Debug\EditEx.sbr
+.\Debug\EventDlg.sbr
+.\Debug\FileDialogST.sbr
+.\Debug\GrayWin.sbr
+.\Debug\HistoryDlg.sbr
+.\Debug\HShield.sbr
+.\Debug\label.sbr
+.\Debug\lcd7.sbr
+.\Debug\LevenStein.sbr
+.\Debug\MedReg.sbr
+.\Debug\MsgBox.sbr
+.\Debug\mxpad.sbr
+.\Debug\parse.sbr
+.\Debug\pcSelection.sbr
+.\Debug\PersistDlg.sbr
+.\Debug\PGedit.sbr
+.\Debug\PGtree.sbr
+.\Debug\Popup.sbr
+.\Debug\prl.sbr
+.\Debug\ProcedureDlg.sbr
+.\Debug\PRocList.sbr
+.\Debug\SimpleGrid.sbr
+.\Debug\Support.sbr
+.\Debug\Transcript.sbr
+.\Debug\UniqID.sbr
+.\Debug\xcalDlg.sbr
+.\Debug\xCalen.sbr
+.\Debug\xTargetButton.sbr]
+Creating command line "bscmake.exe @C:\Users\PETERG~1\AppData\Local\Temp\RSP783.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+dbtest.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

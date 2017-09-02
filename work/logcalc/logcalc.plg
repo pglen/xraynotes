@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: logcalc - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\PETERG~1\LOCALS~1\Temp\RSP1997.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/logcalc.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\develop\xraynotes\work\logcalc\logcalcDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\PETERG~1\LOCALS~1\Temp\RSP1997.tmp" 
+Creating command line "link.exe wsock32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/logcalc.pdb" /debug /machine:I386 /out:"Debug/logcalc.exe" /pdbtype:sept  .\Debug\logcalc.obj .\Debug\logcalcDlg.obj .\Debug\mxpad.obj .\Debug\StdAfx.obj .\Debug\logcalc.res "
+<h3>Output Window</h3>
+Compiling...
+logcalcDlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+logcalc.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

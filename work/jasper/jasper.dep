@@ -1,0 +1,738 @@
+# Microsoft Developer Studio Generated Dependency File, included by jasper.mak
+
+.\bmp\bmp_cod.c : \
+	".\bmp\bmp_cod.h"\
+	".\include\jasper\jas_cm.h"\
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_icc.h"\
+	".\include\jasper\jas_image.h"\
+	".\include\jasper\jas_malloc.h"\
+	".\include\jasper\jas_seq.h"\
+	".\include\jasper\jas_stream.h"\
+	".\include\jasper\jas_types.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\bmp\bmp_dec.c : \
+	".\bmp\bmp_cod.h"\
+	".\include\jasper\jas_cm.h"\
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_icc.h"\
+	".\include\jasper\jas_image.h"\
+	".\include\jasper\jas_malloc.h"\
+	".\include\jasper\jas_seq.h"\
+	".\include\jasper\jas_stream.h"\
+	".\include\jasper\jas_types.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\bmp\bmp_enc.c : \
+	".\bmp\bmp_cod.h"\
+	".\bmp\bmp_enc.h"\
+	".\include\jasper\jas_cm.h"\
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_debug.h"\
+	".\include\jasper\jas_icc.h"\
+	".\include\jasper\jas_image.h"\
+	".\include\jasper\jas_seq.h"\
+	".\include\jasper\jas_stream.h"\
+	".\include\jasper\jas_types.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\base\jas_cm.c : \
+	".\include\jasper\jas_cm.h"\
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_icc.h"\
+	".\include\jasper\jas_init.h"\
+	".\include\jasper\jas_malloc.h"\
+	".\include\jasper\jas_math.h"\
+	".\include\jasper\jas_stream.h"\
+	".\include\jasper\jas_types.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\base\jas_debug.c : \
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_debug.h"\
+	".\include\jasper\jas_types.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\base\jas_getopt.c : \
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_getopt.h"\
+	".\include\jasper\jas_math.h"\
+	
+
+.\base\jas_icc.c : \
+	".\include\jasper\jas_cm.h"\
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_debug.h"\
+	".\include\jasper\jas_icc.h"\
+	".\include\jasper\jas_malloc.h"\
+	".\include\jasper\jas_stream.h"\
+	".\include\jasper\jas_types.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\base\jas_iccdata.c : \
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_types.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\base\jas_image.c : \
+	".\include\jasper\jas_cm.h"\
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_icc.h"\
+	".\include\jasper\jas_image.h"\
+	".\include\jasper\jas_malloc.h"\
+	".\include\jasper\jas_math.h"\
+	".\include\jasper\jas_seq.h"\
+	".\include\jasper\jas_stream.h"\
+	".\include\jasper\jas_string.h"\
+	".\include\jasper\jas_types.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\base\jas_init.c : \
+	".\include\jasper\jas_cm.h"\
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_icc.h"\
+	".\include\jasper\jas_image.h"\
+	".\include\jasper\jas_init.h"\
+	".\include\jasper\jas_seq.h"\
+	".\include\jasper\jas_stream.h"\
+	".\include\jasper\jas_types.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\base\jas_malloc.c : \
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_malloc.h"\
+	
+
+.\base\jas_seq.c : \
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_malloc.h"\
+	".\include\jasper\jas_math.h"\
+	".\include\jasper\jas_seq.h"\
+	".\include\jasper\jas_stream.h"\
+	".\include\jasper\jas_types.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\base\jas_stream.c : \
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_malloc.h"\
+	".\include\jasper\jas_math.h"\
+	".\include\jasper\jas_stream.h"\
+	".\include\jasper\jas_types.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\base\jas_string.c : \
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_malloc.h"\
+	".\include\jasper\jas_string.h"\
+	
+
+.\base\jas_tvp.c : \
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_malloc.h"\
+	".\include\jasper\jas_string.h"\
+	".\include\jasper\jas_tvp.h"\
+	
+
+.\base\jas_version.c : \
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_version.h"\
+	
+
+.\jp2\jp2_cod.c : \
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_debug.h"\
+	".\include\jasper\jas_malloc.h"\
+	".\include\jasper\jas_stream.h"\
+	".\include\jasper\jas_types.h"\
+	".\jp2\jp2_cod.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\jp2\jp2_dec.c : \
+	".\include\jasper\jas_cm.h"\
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_debug.h"\
+	".\include\jasper\jas_icc.h"\
+	".\include\jasper\jas_image.h"\
+	".\include\jasper\jas_malloc.h"\
+	".\include\jasper\jas_math.h"\
+	".\include\jasper\jas_seq.h"\
+	".\include\jasper\jas_stream.h"\
+	".\include\jasper\jas_types.h"\
+	".\include\jasper\jas_version.h"\
+	".\jp2\jp2_cod.h"\
+	".\jp2\jp2_dec.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\jp2\jp2_enc.c : \
+	".\include\jasper\jas_cm.h"\
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_icc.h"\
+	".\include\jasper\jas_image.h"\
+	".\include\jasper\jas_malloc.h"\
+	".\include\jasper\jas_seq.h"\
+	".\include\jasper\jas_stream.h"\
+	".\include\jasper\jas_types.h"\
+	".\jp2\jp2_cod.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\jpc\jpc_bs.c : \
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_debug.h"\
+	".\include\jasper\jas_malloc.h"\
+	".\include\jasper\jas_math.h"\
+	".\include\jasper\jas_stream.h"\
+	".\include\jasper\jas_types.h"\
+	".\jpc\jpc_bs.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\jpc\jpc_cs.c : \
+	".\include\jasper\jas_cm.h"\
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_debug.h"\
+	".\include\jasper\jas_icc.h"\
+	".\include\jasper\jas_image.h"\
+	".\include\jasper\jas_malloc.h"\
+	".\include\jasper\jas_seq.h"\
+	".\include\jasper\jas_stream.h"\
+	".\include\jasper\jas_types.h"\
+	".\jpc\jpc_cod.h"\
+	".\jpc\jpc_cs.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\jpc\jpc_dec.c : \
+	".\include\jasper\jas_cm.h"\
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_debug.h"\
+	".\include\jasper\jas_fix.h"\
+	".\include\jasper\jas_icc.h"\
+	".\include\jasper\jas_image.h"\
+	".\include\jasper\jas_malloc.h"\
+	".\include\jasper\jas_math.h"\
+	".\include\jasper\jas_seq.h"\
+	".\include\jasper\jas_stream.h"\
+	".\include\jasper\jas_tvp.h"\
+	".\include\jasper\jas_types.h"\
+	".\jpc\jpc_bs.h"\
+	".\jpc\jpc_cod.h"\
+	".\jpc\jpc_cs.h"\
+	".\jpc\jpc_dec.h"\
+	".\jpc\jpc_fix.h"\
+	".\jpc\jpc_math.h"\
+	".\jpc\jpc_mct.h"\
+	".\jpc\jpc_mqcod.h"\
+	".\jpc\jpc_mqdec.h"\
+	".\jpc\jpc_qmfb.h"\
+	".\jpc\jpc_t1cod.h"\
+	".\jpc\jpc_t1dec.h"\
+	".\jpc\jpc_t2cod.h"\
+	".\jpc\jpc_t2dec.h"\
+	".\jpc\jpc_tagtree.h"\
+	".\jpc\jpc_tsfb.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\jpc\jpc_enc.c : \
+	".\include\jasper\jas_cm.h"\
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_debug.h"\
+	".\include\jasper\jas_fix.h"\
+	".\include\jasper\jas_icc.h"\
+	".\include\jasper\jas_image.h"\
+	".\include\jasper\jas_malloc.h"\
+	".\include\jasper\jas_math.h"\
+	".\include\jasper\jas_seq.h"\
+	".\include\jasper\jas_stream.h"\
+	".\include\jasper\jas_string.h"\
+	".\include\jasper\jas_tvp.h"\
+	".\include\jasper\jas_types.h"\
+	".\include\jasper\jas_version.h"\
+	".\jpc\jpc_bs.h"\
+	".\jpc\jpc_cod.h"\
+	".\jpc\jpc_cs.h"\
+	".\jpc\jpc_enc.h"\
+	".\jpc\jpc_fix.h"\
+	".\jpc\jpc_flt.h"\
+	".\jpc\jpc_math.h"\
+	".\jpc\jpc_mct.h"\
+	".\jpc\jpc_mqcod.h"\
+	".\jpc\jpc_mqenc.h"\
+	".\jpc\jpc_qmfb.h"\
+	".\jpc\jpc_t1cod.h"\
+	".\jpc\jpc_t1enc.h"\
+	".\jpc\jpc_t2cod.h"\
+	".\jpc\jpc_t2enc.h"\
+	".\jpc\jpc_tagtree.h"\
+	".\jpc\jpc_tsfb.h"\
+	".\jpc\jpc_util.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\jpc\jpc_math.c : \
+	".\jpc\jpc_math.h"\
+	
+
+.\jpc\jpc_mct.c : \
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_fix.h"\
+	".\include\jasper\jas_seq.h"\
+	".\include\jasper\jas_stream.h"\
+	".\include\jasper\jas_types.h"\
+	".\jpc\jpc_fix.h"\
+	".\jpc\jpc_mct.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\jpc\jpc_mqcod.c : \
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_malloc.h"\
+	".\include\jasper\jas_types.h"\
+	".\jpc\jpc_mqcod.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\jpc\jpc_mqdec.c : \
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_debug.h"\
+	".\include\jasper\jas_malloc.h"\
+	".\include\jasper\jas_math.h"\
+	".\include\jasper\jas_stream.h"\
+	".\include\jasper\jas_types.h"\
+	".\jpc\jpc_mqcod.h"\
+	".\jpc\jpc_mqdec.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\jpc\jpc_mqenc.c : \
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_debug.h"\
+	".\include\jasper\jas_malloc.h"\
+	".\include\jasper\jas_math.h"\
+	".\include\jasper\jas_stream.h"\
+	".\include\jasper\jas_types.h"\
+	".\jpc\jpc_mqcod.h"\
+	".\jpc\jpc_mqenc.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\jpc\jpc_qmfb.c : \
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_fix.h"\
+	".\include\jasper\jas_malloc.h"\
+	".\include\jasper\jas_math.h"\
+	".\include\jasper\jas_seq.h"\
+	".\include\jasper\jas_stream.h"\
+	".\include\jasper\jas_types.h"\
+	".\jpc\jpc_fix.h"\
+	".\jpc\jpc_math.h"\
+	".\jpc\jpc_qmfb.h"\
+	".\jpc\jpc_tsfb.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\jpc\jpc_t1cod.c : \
+	".\include\jasper\jas_cm.h"\
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_fix.h"\
+	".\include\jasper\jas_icc.h"\
+	".\include\jasper\jas_image.h"\
+	".\include\jasper\jas_math.h"\
+	".\include\jasper\jas_seq.h"\
+	".\include\jasper\jas_stream.h"\
+	".\include\jasper\jas_types.h"\
+	".\jpc\jpc_bs.h"\
+	".\jpc\jpc_cod.h"\
+	".\jpc\jpc_cs.h"\
+	".\jpc\jpc_dec.h"\
+	".\jpc\jpc_fix.h"\
+	".\jpc\jpc_mqcod.h"\
+	".\jpc\jpc_mqdec.h"\
+	".\jpc\jpc_qmfb.h"\
+	".\jpc\jpc_t1cod.h"\
+	".\jpc\jpc_t2cod.h"\
+	".\jpc\jpc_tagtree.h"\
+	".\jpc\jpc_tsfb.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\jpc\jpc_t1dec.c : \
+	".\include\jasper\jas_cm.h"\
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_fix.h"\
+	".\include\jasper\jas_icc.h"\
+	".\include\jasper\jas_image.h"\
+	".\include\jasper\jas_math.h"\
+	".\include\jasper\jas_seq.h"\
+	".\include\jasper\jas_stream.h"\
+	".\include\jasper\jas_types.h"\
+	".\jpc\jpc_bs.h"\
+	".\jpc\jpc_cod.h"\
+	".\jpc\jpc_cs.h"\
+	".\jpc\jpc_dec.h"\
+	".\jpc\jpc_fix.h"\
+	".\jpc\jpc_mqcod.h"\
+	".\jpc\jpc_mqdec.h"\
+	".\jpc\jpc_qmfb.h"\
+	".\jpc\jpc_t1cod.h"\
+	".\jpc\jpc_t1dec.h"\
+	".\jpc\jpc_t2cod.h"\
+	".\jpc\jpc_tagtree.h"\
+	".\jpc\jpc_tsfb.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\jpc\jpc_t1enc.c : \
+	".\include\jasper\jas_cm.h"\
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_fix.h"\
+	".\include\jasper\jas_icc.h"\
+	".\include\jasper\jas_image.h"\
+	".\include\jasper\jas_malloc.h"\
+	".\include\jasper\jas_math.h"\
+	".\include\jasper\jas_seq.h"\
+	".\include\jasper\jas_stream.h"\
+	".\include\jasper\jas_types.h"\
+	".\jpc\jpc_bs.h"\
+	".\jpc\jpc_cod.h"\
+	".\jpc\jpc_cs.h"\
+	".\jpc\jpc_enc.h"\
+	".\jpc\jpc_fix.h"\
+	".\jpc\jpc_flt.h"\
+	".\jpc\jpc_math.h"\
+	".\jpc\jpc_mqcod.h"\
+	".\jpc\jpc_mqenc.h"\
+	".\jpc\jpc_qmfb.h"\
+	".\jpc\jpc_t1cod.h"\
+	".\jpc\jpc_t1enc.h"\
+	".\jpc\jpc_t2cod.h"\
+	".\jpc\jpc_tagtree.h"\
+	".\jpc\jpc_tsfb.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\jpc\jpc_t2cod.c : \
+	".\include\jasper\jas_cm.h"\
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_icc.h"\
+	".\include\jasper\jas_image.h"\
+	".\include\jasper\jas_malloc.h"\
+	".\include\jasper\jas_math.h"\
+	".\include\jasper\jas_seq.h"\
+	".\include\jasper\jas_stream.h"\
+	".\include\jasper\jas_types.h"\
+	".\jpc\jpc_cod.h"\
+	".\jpc\jpc_cs.h"\
+	".\jpc\jpc_math.h"\
+	".\jpc\jpc_t2cod.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\jpc\jpc_t2dec.c : \
+	".\include\jasper\jas_cm.h"\
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_debug.h"\
+	".\include\jasper\jas_fix.h"\
+	".\include\jasper\jas_icc.h"\
+	".\include\jasper\jas_image.h"\
+	".\include\jasper\jas_malloc.h"\
+	".\include\jasper\jas_math.h"\
+	".\include\jasper\jas_seq.h"\
+	".\include\jasper\jas_stream.h"\
+	".\include\jasper\jas_types.h"\
+	".\jpc\jpc_bs.h"\
+	".\jpc\jpc_cod.h"\
+	".\jpc\jpc_cs.h"\
+	".\jpc\jpc_dec.h"\
+	".\jpc\jpc_fix.h"\
+	".\jpc\jpc_math.h"\
+	".\jpc\jpc_mqcod.h"\
+	".\jpc\jpc_mqdec.h"\
+	".\jpc\jpc_qmfb.h"\
+	".\jpc\jpc_t1cod.h"\
+	".\jpc\jpc_t2cod.h"\
+	".\jpc\jpc_t2dec.h"\
+	".\jpc\jpc_tagtree.h"\
+	".\jpc\jpc_tsfb.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\jpc\jpc_t2enc.c : \
+	".\include\jasper\jas_cm.h"\
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_debug.h"\
+	".\include\jasper\jas_fix.h"\
+	".\include\jasper\jas_icc.h"\
+	".\include\jasper\jas_image.h"\
+	".\include\jasper\jas_malloc.h"\
+	".\include\jasper\jas_math.h"\
+	".\include\jasper\jas_seq.h"\
+	".\include\jasper\jas_stream.h"\
+	".\include\jasper\jas_types.h"\
+	".\jpc\jpc_bs.h"\
+	".\jpc\jpc_cod.h"\
+	".\jpc\jpc_cs.h"\
+	".\jpc\jpc_enc.h"\
+	".\jpc\jpc_fix.h"\
+	".\jpc\jpc_flt.h"\
+	".\jpc\jpc_math.h"\
+	".\jpc\jpc_mqcod.h"\
+	".\jpc\jpc_mqenc.h"\
+	".\jpc\jpc_qmfb.h"\
+	".\jpc\jpc_t2cod.h"\
+	".\jpc\jpc_t2enc.h"\
+	".\jpc\jpc_tagtree.h"\
+	".\jpc\jpc_tsfb.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\jpc\jpc_tagtree.c : \
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_malloc.h"\
+	".\include\jasper\jas_stream.h"\
+	".\include\jasper\jas_types.h"\
+	".\jpc\jpc_bs.h"\
+	".\jpc\jpc_tagtree.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\jpc\jpc_tsfb.c : \
+	".\include\jasper\jas_cm.h"\
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_fix.h"\
+	".\include\jasper\jas_icc.h"\
+	".\include\jasper\jas_image.h"\
+	".\include\jasper\jas_malloc.h"\
+	".\include\jasper\jas_seq.h"\
+	".\include\jasper\jas_stream.h"\
+	".\include\jasper\jas_types.h"\
+	".\jpc\jpc_cod.h"\
+	".\jpc\jpc_cs.h"\
+	".\jpc\jpc_fix.h"\
+	".\jpc\jpc_qmfb.h"\
+	".\jpc\jpc_tsfb.h"\
+	".\jpc\jpc_util.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\jpc\jpc_util.c : \
+	".\include\jasper\jas_cm.h"\
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_fix.h"\
+	".\include\jasper\jas_icc.h"\
+	".\include\jasper\jas_image.h"\
+	".\include\jasper\jas_malloc.h"\
+	".\include\jasper\jas_math.h"\
+	".\include\jasper\jas_seq.h"\
+	".\include\jasper\jas_stream.h"\
+	".\include\jasper\jas_types.h"\
+	".\jpc\jpc_cod.h"\
+	".\jpc\jpc_cs.h"\
+	".\jpc\jpc_fix.h"\
+	".\jpc\jpc_flt.h"\
+	".\jpc\jpc_util.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\jpg\jpg_dummy.c : \
+	".\include\jasper\jas_cm.h"\
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_icc.h"\
+	".\include\jasper\jas_image.h"\
+	".\include\jasper\jas_seq.h"\
+	".\include\jasper\jas_stream.h"\
+	".\include\jasper\jas_string.h"\
+	".\include\jasper\jas_tvp.h"\
+	".\include\jasper\jas_types.h"\
+	".\jpg\jpg_cod.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\jpg\jpg_val.c : \
+	".\include\jasper\jas_cm.h"\
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_icc.h"\
+	".\include\jasper\jas_image.h"\
+	".\include\jasper\jas_seq.h"\
+	".\include\jasper\jas_stream.h"\
+	".\include\jasper\jas_types.h"\
+	".\jpg\jpg_cod.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\mif\mif_cod.c : \
+	".\include\jasper\jas_cm.h"\
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_icc.h"\
+	".\include\jasper\jas_image.h"\
+	".\include\jasper\jas_malloc.h"\
+	".\include\jasper\jas_seq.h"\
+	".\include\jasper\jas_stream.h"\
+	".\include\jasper\jas_string.h"\
+	".\include\jasper\jas_tvp.h"\
+	".\include\jasper\jas_types.h"\
+	".\mif\mif_cod.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\pgx\pgx_cod.c : \
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_types.h"\
+	".\pgx\pgx_cod.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\pgx\pgx_dec.c : \
+	".\include\jasper\jas_cm.h"\
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_icc.h"\
+	".\include\jasper\jas_image.h"\
+	".\include\jasper\jas_seq.h"\
+	".\include\jasper\jas_stream.h"\
+	".\include\jasper\jas_string.h"\
+	".\include\jasper\jas_tvp.h"\
+	".\include\jasper\jas_types.h"\
+	".\pgx\pgx_cod.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\pgx\pgx_enc.c : \
+	".\include\jasper\jas_cm.h"\
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_debug.h"\
+	".\include\jasper\jas_icc.h"\
+	".\include\jasper\jas_image.h"\
+	".\include\jasper\jas_seq.h"\
+	".\include\jasper\jas_stream.h"\
+	".\include\jasper\jas_string.h"\
+	".\include\jasper\jas_tvp.h"\
+	".\include\jasper\jas_types.h"\
+	".\pgx\pgx_cod.h"\
+	".\pgx\pgx_enc.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\pnm\pnm_cod.c : \
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_math.h"\
+	".\include\jasper\jas_types.h"\
+	".\pnm\pnm_cod.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\pnm\pnm_dec.c : \
+	".\include\jasper\jas_cm.h"\
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_icc.h"\
+	".\include\jasper\jas_image.h"\
+	".\include\jasper\jas_seq.h"\
+	".\include\jasper\jas_stream.h"\
+	".\include\jasper\jas_types.h"\
+	".\pnm\pnm_cod.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\pnm\pnm_enc.c : \
+	".\include\jasper\jas_cm.h"\
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_debug.h"\
+	".\include\jasper\jas_icc.h"\
+	".\include\jasper\jas_image.h"\
+	".\include\jasper\jas_seq.h"\
+	".\include\jasper\jas_stream.h"\
+	".\include\jasper\jas_tvp.h"\
+	".\include\jasper\jas_types.h"\
+	".\pnm\pnm_cod.h"\
+	".\pnm\pnm_enc.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\ras\ras_dec.c : \
+	".\include\jasper\jas_cm.h"\
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_debug.h"\
+	".\include\jasper\jas_icc.h"\
+	".\include\jasper\jas_image.h"\
+	".\include\jasper\jas_seq.h"\
+	".\include\jasper\jas_stream.h"\
+	".\include\jasper\jas_types.h"\
+	".\ras\ras_cod.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\ras\ras_enc.c : \
+	".\include\jasper\jas_cm.h"\
+	".\include\jasper\jas_config.h"\
+	".\include\jasper\jas_config2.h"\
+	".\include\jasper\jas_debug.h"\
+	".\include\jasper\jas_icc.h"\
+	".\include\jasper\jas_image.h"\
+	".\include\jasper\jas_seq.h"\
+	".\include\jasper\jas_stream.h"\
+	".\include\jasper\jas_types.h"\
+	".\ras\ras_cod.h"\
+	".\ras\ras_enc.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	

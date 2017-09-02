@@ -1,0 +1,13 @@
+P2N("	 UINT    cbSize; 	  %d\r\n",  	 MenuItemInfo.cbSize);
+P2N("    UINT    fMask;        %d\r\n",      MenuItemInfo.fMask);
+P2N("    UINT    fType;        %d\r\n",      MenuItemInfo.fType);
+P2N("    UINT    fState;       %d\r\n",      MenuItemInfo.fState);
+P2N("    UINT    wID;          %d\r\n",      MenuItemInfo.wID);
+P2N("    HMENU   hSubMenu;     %d\r\n",      MenuItemInfo.hSubMenu);
+P2N("    HBITMAP hbmpChecked;  %d\r\n",      MenuItemInfo.hbmpChecked);
+P2N("    HBITMAP hbmpUnchecked;%d\r\n",      MenuItemInfo.hbmpUnchecked);
+P2N("    DWORD   dwItemData;   %d\r\n",      MenuItemInfo.dwItemData);
+P2N("    LPTSTR  dwTypeData;   %d\r\n",      MenuItemInfo.dwTypeData);
+P2N("    UINT    cch;          %d\r\n",      MenuItemInfo.cch);
+
+

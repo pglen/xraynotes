@@ -1,0 +1,46 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: gest - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\PETERG~1\LOCALS~1\Temp\RSP77.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/gest.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\develop\xraynotes\work\gest\gestureDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\PETERG~1\LOCALS~1\Temp\RSP77.tmp" 
+Creating temporary file "C:\DOCUME~1\PETERG~1\LOCALS~1\Temp\RSP78.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/gest.pdb" /debug /machine:I386 /out:"Debug/gest.exe" /pdbtype:sept 
+.\Debug\FileDialogST.obj
+.\Debug\gest.obj
+.\Debug\gestDlg.obj
+.\Debug\gestureDlg.obj
+.\Debug\GetText.obj
+.\Debug\GrayWin.obj
+.\Debug\intarr.obj
+.\Debug\label.obj
+.\Debug\mxpad.obj
+.\Debug\PersistDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\Support.obj
+.\Debug\xFile.obj
+.\Debug\xTargetButton.obj
+.\Debug\gest.res
+]
+Creating command line "link.exe @C:\DOCUME~1\PETERG~1\LOCALS~1\Temp\RSP78.tmp"
+<h3>Output Window</h3>
+Compiling...
+gestureDlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+gest.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

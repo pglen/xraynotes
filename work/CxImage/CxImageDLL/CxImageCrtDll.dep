@@ -1,0 +1,391 @@
+# Microsoft Developer Studio Generated Dependency File, included by CxImageCrtDll.mak
+
+.\CxImageCrtDll.cpp : \
+	".\stdcrt.h"\
+	
+
+..\tif_xfile.cpp : \
+	"..\..\tiff\tif_dir.h"\
+	"..\..\tiff\tiff.h"\
+	"..\..\tiff\tiffcomp.h"\
+	"..\..\tiff\tiffconf.h"\
+	"..\..\tiff\tiffio.h"\
+	"..\..\tiff\tiffiop.h"\
+	"..\xfile.h"\
+	"..\ximacfg.h"\
+	"..\ximadef.h"\
+	"..\ximage.h"\
+	"..\xiofile.h"\
+	"..\xmemfile.h"\
+	
+
+..\ximabmp.cpp : \
+	"..\xfile.h"\
+	"..\ximabmp.h"\
+	"..\ximacfg.h"\
+	"..\ximadef.h"\
+	"..\ximage.h"\
+	"..\ximaiter.h"\
+	"..\xiofile.h"\
+	"..\xmemfile.h"\
+	
+
+..\ximadsp.cpp : \
+	"..\xfile.h"\
+	"..\ximacfg.h"\
+	"..\ximadef.h"\
+	"..\ximage.h"\
+	"..\ximaiter.h"\
+	"..\xiofile.h"\
+	"..\xmemfile.h"\
+	
+
+..\ximaenc.cpp : \
+	"..\..\j2k\j2k.h"\
+	"..\..\jasper\include\jasper\jas_cm.h"\
+	"..\..\jasper\include\jasper\jas_config.h"\
+	"..\..\jasper\include\jasper\jas_config2.h"\
+	"..\..\jasper\include\jasper\jas_debug.h"\
+	"..\..\jasper\include\jasper\jas_fix.h"\
+	"..\..\jasper\include\jasper\jas_getopt.h"\
+	"..\..\jasper\include\jasper\jas_icc.h"\
+	"..\..\jasper\include\jasper\jas_image.h"\
+	"..\..\jasper\include\jasper\jas_init.h"\
+	"..\..\jasper\include\jasper\jas_malloc.h"\
+	"..\..\jasper\include\jasper\jas_math.h"\
+	"..\..\jasper\include\jasper\jas_seq.h"\
+	"..\..\jasper\include\jasper\jas_stream.h"\
+	"..\..\jasper\include\jasper\jas_string.h"\
+	"..\..\jasper\include\jasper\jas_tvp.h"\
+	"..\..\jasper\include\jasper\jas_types.h"\
+	"..\..\jasper\include\jasper\jas_version.h"\
+	"..\..\jasper\include\jasper\jasper.h"\
+	"..\..\jbig\jbig.h"\
+	"..\..\jpeg\Jconfig.h"\
+	"..\..\jpeg\Jerror.h"\
+	"..\..\jpeg\Jmorecfg.h"\
+	"..\..\jpeg\Jpegint.h"\
+	"..\..\jpeg\Jpeglib.h"\
+	"..\..\png\png.h"\
+	"..\..\png\pngconf.h"\
+	"..\..\tiff\tiff.h"\
+	"..\..\tiff\tiffio.h"\
+	"..\..\zlib\zconf.h"\
+	"..\..\zlib\zlib.h"\
+	"..\xfile.h"\
+	"..\ximabmp.h"\
+	"..\ximacfg.h"\
+	"..\ximadef.h"\
+	"..\ximage.h"\
+	"..\ximagif.h"\
+	"..\ximaico.h"\
+	"..\ximaj2k.h"\
+	"..\ximajas.h"\
+	"..\ximajbg.h"\
+	"..\ximajpg.h"\
+	"..\ximamng.h"\
+	"..\ximapcx.h"\
+	"..\ximapng.h"\
+	"..\ximatga.h"\
+	"..\ximatif.h"\
+	"..\ximawbmp.h"\
+	"..\ximawmf.h"\
+	"..\xiofile.h"\
+	"..\xmemfile.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+..\ximaexif.cpp : \
+	"..\..\jpeg\Jconfig.h"\
+	"..\..\jpeg\Jerror.h"\
+	"..\..\jpeg\Jmorecfg.h"\
+	"..\..\jpeg\Jpegint.h"\
+	"..\..\jpeg\Jpeglib.h"\
+	"..\xfile.h"\
+	"..\ximacfg.h"\
+	"..\ximadef.h"\
+	"..\ximage.h"\
+	"..\ximajpg.h"\
+	"..\xiofile.h"\
+	"..\xmemfile.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+..\ximage.cpp : \
+	"..\xfile.h"\
+	"..\ximacfg.h"\
+	"..\ximadef.h"\
+	"..\ximage.h"\
+	"..\xiofile.h"\
+	"..\xmemfile.h"\
+	
+
+..\ximagif.cpp : \
+	"..\xfile.h"\
+	"..\ximacfg.h"\
+	"..\ximadef.h"\
+	"..\ximage.h"\
+	"..\ximagif.h"\
+	"..\ximaiter.h"\
+	"..\xiofile.h"\
+	"..\xmemfile.h"\
+	
+
+..\ximahist.cpp : \
+	"..\xfile.h"\
+	"..\ximacfg.h"\
+	"..\ximadef.h"\
+	"..\ximage.h"\
+	"..\xiofile.h"\
+	"..\xmemfile.h"\
+	
+
+..\ximaico.cpp : \
+	"..\xfile.h"\
+	"..\ximacfg.h"\
+	"..\ximadef.h"\
+	"..\ximage.h"\
+	"..\ximaico.h"\
+	"..\xiofile.h"\
+	"..\xmemfile.h"\
+	
+
+..\ximainfo.cpp : \
+	"..\xfile.h"\
+	"..\ximacfg.h"\
+	"..\ximadef.h"\
+	"..\ximage.h"\
+	"..\xiofile.h"\
+	"..\xmemfile.h"\
+	
+
+..\ximaint.cpp : \
+	"..\xfile.h"\
+	"..\ximacfg.h"\
+	"..\ximadef.h"\
+	"..\ximage.h"\
+	"..\ximath.h"\
+	"..\xiofile.h"\
+	"..\xmemfile.h"\
+	
+
+..\ximaj2k.cpp : \
+	"..\..\j2k\j2k.h"\
+	"..\xfile.h"\
+	"..\ximacfg.h"\
+	"..\ximadef.h"\
+	"..\ximage.h"\
+	"..\ximaj2k.h"\
+	"..\xiofile.h"\
+	"..\xmemfile.h"\
+	
+
+..\ximajas.cpp : \
+	"..\..\jasper\include\jasper\jas_cm.h"\
+	"..\..\jasper\include\jasper\jas_config.h"\
+	"..\..\jasper\include\jasper\jas_config2.h"\
+	"..\..\jasper\include\jasper\jas_debug.h"\
+	"..\..\jasper\include\jasper\jas_fix.h"\
+	"..\..\jasper\include\jasper\jas_getopt.h"\
+	"..\..\jasper\include\jasper\jas_icc.h"\
+	"..\..\jasper\include\jasper\jas_image.h"\
+	"..\..\jasper\include\jasper\jas_init.h"\
+	"..\..\jasper\include\jasper\jas_malloc.h"\
+	"..\..\jasper\include\jasper\jas_math.h"\
+	"..\..\jasper\include\jasper\jas_seq.h"\
+	"..\..\jasper\include\jasper\jas_stream.h"\
+	"..\..\jasper\include\jasper\jas_string.h"\
+	"..\..\jasper\include\jasper\jas_tvp.h"\
+	"..\..\jasper\include\jasper\jas_types.h"\
+	"..\..\jasper\include\jasper\jas_version.h"\
+	"..\..\jasper\include\jasper\jasper.h"\
+	"..\xfile.h"\
+	"..\ximacfg.h"\
+	"..\ximadef.h"\
+	"..\ximage.h"\
+	"..\ximajas.h"\
+	"..\xiofile.h"\
+	"..\xmemfile.h"\
+	
+
+..\ximajbg.cpp : \
+	"..\..\jbig\jbig.h"\
+	"..\xfile.h"\
+	"..\ximacfg.h"\
+	"..\ximadef.h"\
+	"..\ximage.h"\
+	"..\ximaiter.h"\
+	"..\ximajbg.h"\
+	"..\xiofile.h"\
+	"..\xmemfile.h"\
+	
+
+..\ximajpg.cpp : \
+	"..\..\jpeg\Jconfig.h"\
+	"..\..\jpeg\Jerror.h"\
+	"..\..\jpeg\Jmorecfg.h"\
+	"..\..\jpeg\Jpegint.h"\
+	"..\..\jpeg\Jpeglib.h"\
+	"..\xfile.h"\
+	"..\ximacfg.h"\
+	"..\ximadef.h"\
+	"..\ximage.h"\
+	"..\ximaiter.h"\
+	"..\ximajpg.h"\
+	"..\xiofile.h"\
+	"..\xmemfile.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+..\ximalpha.cpp : \
+	"..\xfile.h"\
+	"..\ximacfg.h"\
+	"..\ximadef.h"\
+	"..\ximage.h"\
+	"..\xiofile.h"\
+	"..\xmemfile.h"\
+	
+
+..\ximalyr.cpp : \
+	"..\xfile.h"\
+	"..\ximacfg.h"\
+	"..\ximadef.h"\
+	"..\ximage.h"\
+	"..\xiofile.h"\
+	"..\xmemfile.h"\
+	
+
+..\ximamng.cpp : \
+	"..\xfile.h"\
+	"..\ximacfg.h"\
+	"..\ximadef.h"\
+	"..\ximage.h"\
+	"..\ximamng.h"\
+	"..\xiofile.h"\
+	"..\xmemfile.h"\
+	
+
+..\ximapal.cpp : \
+	"..\xfile.h"\
+	"..\ximacfg.h"\
+	"..\ximadef.h"\
+	"..\ximage.h"\
+	"..\xiofile.h"\
+	"..\xmemfile.h"\
+	
+
+..\ximapcx.cpp : \
+	"..\xfile.h"\
+	"..\ximacfg.h"\
+	"..\ximadef.h"\
+	"..\ximage.h"\
+	"..\ximapcx.h"\
+	"..\xiofile.h"\
+	"..\xmemfile.h"\
+	
+
+..\ximapng.cpp : \
+	"..\..\png\png.h"\
+	"..\..\png\pngconf.h"\
+	"..\..\zlib\zconf.h"\
+	"..\..\zlib\zlib.h"\
+	"..\xfile.h"\
+	"..\ximacfg.h"\
+	"..\ximadef.h"\
+	"..\ximage.h"\
+	"..\ximaiter.h"\
+	"..\ximapng.h"\
+	"..\xiofile.h"\
+	"..\xmemfile.h"\
+	
+
+..\ximasel.cpp : \
+	"..\xfile.h"\
+	"..\ximacfg.h"\
+	"..\ximadef.h"\
+	"..\ximage.h"\
+	"..\xiofile.h"\
+	"..\xmemfile.h"\
+	
+
+..\ximatga.cpp : \
+	"..\xfile.h"\
+	"..\ximacfg.h"\
+	"..\ximadef.h"\
+	"..\ximage.h"\
+	"..\ximaiter.h"\
+	"..\ximatga.h"\
+	"..\xiofile.h"\
+	"..\xmemfile.h"\
+	
+
+..\ximath.cpp : \
+	"..\xfile.h"\
+	"..\ximacfg.h"\
+	"..\ximadef.h"\
+	"..\ximage.h"\
+	"..\ximath.h"\
+	"..\xiofile.h"\
+	"..\xmemfile.h"\
+	
+
+..\ximatif.cpp : \
+	"..\..\tiff\tiff.h"\
+	"..\..\tiff\tiffio.h"\
+	"..\xfile.h"\
+	"..\ximacfg.h"\
+	"..\ximadef.h"\
+	"..\ximage.h"\
+	"..\ximatif.h"\
+	"..\xiofile.h"\
+	"..\xmemfile.h"\
+	
+
+..\ximatran.cpp : \
+	"..\xfile.h"\
+	"..\ximacfg.h"\
+	"..\ximadef.h"\
+	"..\ximage.h"\
+	"..\ximath.h"\
+	"..\xiofile.h"\
+	"..\xmemfile.h"\
+	
+
+..\ximawbmp.cpp : \
+	"..\xfile.h"\
+	"..\ximacfg.h"\
+	"..\ximadef.h"\
+	"..\ximage.h"\
+	"..\ximaiter.h"\
+	"..\ximawbmp.h"\
+	"..\xiofile.h"\
+	"..\xmemfile.h"\
+	
+
+..\ximawmf.cpp : \
+	"..\xfile.h"\
+	"..\ximacfg.h"\
+	"..\ximadef.h"\
+	"..\ximage.h"\
+	"..\ximawmf.h"\
+	"..\xiofile.h"\
+	"..\xmemfile.h"\
+	
+
+..\ximawnd.cpp : \
+	"..\xfile.h"\
+	"..\ximabmp.h"\
+	"..\ximacfg.h"\
+	"..\ximadef.h"\
+	"..\ximage.h"\
+	"..\ximaiter.h"\
+	"..\xiofile.h"\
+	"..\xmemfile.h"\
+	
+
+..\xmemfile.cpp : \
+	"..\xfile.h"\
+	"..\ximacfg.h"\
+	"..\ximadef.h"\
+	"..\xmemfile.h"\
+	

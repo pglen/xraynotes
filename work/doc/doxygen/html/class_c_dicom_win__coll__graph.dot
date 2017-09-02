@@ -1,0 +1,20 @@
+digraph G
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="CDicomWin",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="CGrayDlg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_gray_dlg.html"];
+  Node3 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="PersistDlg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_persist_dlg.html"];
+  Node4 -> Node3 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="modals",fontname="FreeSans"];
+  Node4 [label="CxPtrArr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_cx_ptr_arr.html"];
+  Node5 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="m_lab1\nm_lab2\nm_lab3\nm_lab4\nm_lab5",fontname="FreeSans"];
+  Node5 [label="CLabel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_label.html"];
+  Node6 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="m_b1\nm_stop\nm_b2\nm_play\nm_can\nm_b20\nm_b10\nm_b21\nm_b5\nm_b6\n...",fontname="FreeSans"];
+  Node6 [label="CxTargetButton",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_cx_target_button.html"];
+  Node7 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="m_width\nm_lev\nm_curr\nm_frame",fontname="FreeSans"];
+  Node7 [label="CTransSlider",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_trans_slider.html"];
+  Node8 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="mask",fontname="FreeSans"];
+  Node8 [label="CxImg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_cx_img.html"];
+}

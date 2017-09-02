@@ -1,0 +1,51 @@
+IDOK			,m_OK
+IDCANCEL		,m_Cancel
+IDC_BUTTON1		,m_Soften
+IDC_BUTTON2		,m_Sharpen
+IDC_BUTTON3		,m_Reset
+IDC_BUTTON4		,m_Erode
+IDC_BUTTON5		,m_Emboss
+IDC_BUTTON6		,m_Log
+IDC_BUTTON7		,m_Root
+IDC_BUTTON8		,m_Reverse
+IDC_BUTTON9		,m_Punch
+IDC_BUTTON10	,m_Equalize
+IDC_BUTTON11	,m_Normalize
+IDC_BUTTON12	,m_Stretch
+IDC_BUTTON13	,m_Pinch
+IDC_BUTTON14	,m_GrayScale
+IDC_BUTTON15	,m_Dilate
+IDC_BUTTON16	,m_Contour
+IDC_BUTTON17	,m_Jitter
+IDC_BUTTON18	,m_Edge
+IDC_BUTTON19	,m_GrayScale
+IDC_BUTTON20	,m_Gamma
+
+
+
+DDX_Control(pDX, IDC_BUTTON1, m_b1);
+CxTargetButton	m_b1;
+
+CxTargetButton	m_OK
+CxTargetButton	m_Cancel
+CxTargetButton	m_Soften
+CxTargetButton	m_Sharpen
+CxTargetButton	m_Reset
+CxTargetButton	m_Erode
+CxTargetButton	m_Emboss
+CxTargetButton	m_Log
+CxTargetButton	m_Root
+CxTargetButton	m_Reverse
+CxTargetButton	m_Punch
+CxTargetButton	m_Equalize
+CxTargetButton	m_Normalize
+CxTargetButton	m_Stretch
+CxTargetButton	m_Pinch
+CxTargetButton	m_GrayScale
+CxTargetButton	m_Dilate
+CxTargetButton	m_Contour
+CxTargetButton	m_Jitter
+CxTargetButton	m_Edge
+CxTargetButton	m_GrayScale
+CxTargetButton	m_Gamma
+

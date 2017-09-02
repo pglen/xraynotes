@@ -1,0 +1,75 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: xcal - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/xcal.res" /d "_DEBUG" /d "_AFXDLL" "C:\develop2\xraynotes\work\xcal\xcal.rc"" 
+Creating temporary file "C:\Users\PETERG~1\AppData\Local\Temp\RSPE362.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/xcal.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\develop2\xraynotes\work\xcal\About.cpp"
+"C:\develop2\xraynotes\work\xcal\AlaDlg.cpp"
+"C:\develop2\xraynotes\work\xcal\mxpad.cpp"
+"C:\develop2\xraynotes\work\xcal\Popup.cpp"
+"C:\develop2\xraynotes\work\xcal\support.cpp"
+"C:\develop2\xraynotes\work\xcal\vSplit.cpp"
+"C:\develop2\xraynotes\work\xcal\xcal.cpp"
+"C:\develop2\xraynotes\work\xcal\xcalDlg.cpp"
+"C:\develop2\xraynotes\work\xcal\xCalen.cpp"
+"C:\develop2\xraynotes\work\xcal\xWnd.cpp"
+]
+Creating command line "cl.exe @C:\Users\PETERG~1\AppData\Local\Temp\RSPE362.tmp" 
+Creating temporary file "C:\Users\PETERG~1\AppData\Local\Temp\RSPE372.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/xcal.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\develop2\xraynotes\work\xcal\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\PETERG~1\AppData\Local\Temp\RSPE372.tmp" 
+Creating temporary file "C:\Users\PETERG~1\AppData\Local\Temp\RSPE373.tmp" with contents
+[
+sqlite3.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/xcal.pdb" /debug /machine:I386 /out:"Debug/xcal.exe" /pdbtype:sept 
+.\Debug\About.obj
+.\Debug\AlaDlg.obj
+.\Debug\mxpad.obj
+.\Debug\Popup.obj
+.\Debug\StdAfx.obj
+.\Debug\support.obj
+.\Debug\vSplit.obj
+.\Debug\xcal.obj
+.\Debug\xcalDlg.obj
+.\Debug\xCalen.obj
+.\Debug\xWnd.obj
+.\Debug\xcal.res
+]
+Creating command line "link.exe @C:\Users\PETERG~1\AppData\Local\Temp\RSPE373.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+About.cpp
+AlaDlg.cpp
+mxpad.cpp
+Popup.cpp
+support.cpp
+vSplit.cpp
+xcal.cpp
+xcalDlg.cpp
+xCalen.cpp
+xWnd.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/xcal.bsc"  .\Debug\StdAfx.sbr .\Debug\About.sbr .\Debug\AlaDlg.sbr .\Debug\mxpad.sbr .\Debug\Popup.sbr .\Debug\support.sbr .\Debug\vSplit.sbr .\Debug\xcal.sbr .\Debug\xcalDlg.sbr .\Debug\xCalen.sbr .\Debug\xWnd.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+xcal.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

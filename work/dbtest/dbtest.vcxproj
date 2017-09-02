@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>MFCProj</Keyword>
+    <ProjectGuid>{09586648-FA1A-437C-AF8B-88313DFE27FF}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\Debug\dbtest.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Debug\dbtest.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug\dbtest.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Debug\dbtest.exe</OutputFile>
+      <AdditionalDependencies>sqlite3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Release\dbtest.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Release\dbtest.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release\dbtest.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Release\dbtest.exe</OutputFile>
+      <AdditionalDependencies>sqlite3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AddrEntry.cpp" />
+    <ClCompile Include="AlaDlg.cpp" />
+    <ClCompile Include="BCMenu.cpp" />
+    <ClCompile Include="BmpButt.cpp" />
+    <ClCompile Include="CalCtrl.cpp" />
+    <ClCompile Include="calen.cpp" />
+    <ClCompile Include="CodeEd.cpp" />
+    <ClCompile Include="CtimeCtrl.cpp" />
+    <ClCompile Include="DateSel.cpp" />
+    <ClCompile Include="DBMain.cpp" />
+    <ClCompile Include="dbtest.cpp" />
+    <ClCompile Include="dbtestDlg.cpp" />
+    <ClCompile Include="DiagList.cpp" />
+    <ClCompile Include="EditEx.cpp" />
+    <ClCompile Include="EventDlg.cpp" />
+    <ClCompile Include="FileDialogST.cpp" />
+    <ClCompile Include="GrayWin.cpp" />
+    <ClCompile Include="HistoryDlg.cpp" />
+    <ClCompile Include="HShield.cpp" />
+    <ClCompile Include="label.cpp" />
+    <ClCompile Include="lcd7.cpp" />
+    <ClCompile Include="LevenStein.cpp" />
+    <ClCompile Include="MedReg.cpp" />
+    <ClCompile Include="MsgBox.cpp" />
+    <ClCompile Include="mxpad.cpp" />
+    <ClCompile Include="parse.cpp" />
+    <ClCompile Include="pcSelection.cpp" />
+    <ClCompile Include="PersistDlg.cpp" />
+    <ClCompile Include="PGedit.cpp" />
+    <ClCompile Include="PGtree.cpp" />
+    <ClCompile Include="Popup.cpp" />
+    <ClCompile Include="prl.cpp" />
+    <ClCompile Include="ProcedureDlg.cpp" />
+    <ClCompile Include="PRocList.cpp" />
+    <ClCompile Include="SimpleGrid.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="Support.cpp" />
+    <ClCompile Include="Transcript.cpp" />
+    <ClCompile Include="UniqID.cpp" />
+    <ClCompile Include="xcalDlg.cpp" />
+    <ClCompile Include="xCalen.cpp" />
+    <ClCompile Include="xTargetButton.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="dbtest.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AddrEntry.h" />
+    <ClInclude Include="AlaDlg.h" />
+    <ClInclude Include="AlaDlg1.h" />
+    <ClInclude Include="BCMenu.h" />
+    <ClInclude Include="BmpButt.h" />
+    <ClInclude Include="CalCtrl.h" />
+    <ClInclude Include="calen.h" />
+    <ClInclude Include="CodeEd.h" />
+    <ClInclude Include="CTimeCtrl.h" />
+    <ClInclude Include="DateSel.h" />
+    <ClInclude Include="DBMain.h" />
+    <ClInclude Include="dbtest.h" />
+    <ClInclude Include="dbtestDlg.h" />
+    <ClInclude Include="DiagList.h" />
+    <ClInclude Include="EditEx.h" />
+    <ClInclude Include="EventDlg.h" />
+    <ClInclude Include="FileDialogST.h" />
+    <ClInclude Include="GrayWin.h" />
+    <ClInclude Include="HistoryDlg.h" />
+    <ClInclude Include="HShield.h" />
+    <ClInclude Include="label.h" />
+    <ClInclude Include="lcd7.h" />
+    <ClInclude Include="LevenStein.h" />
+    <ClInclude Include="MedReg.h" />
+    <ClInclude Include="MsgBox.h" />
+    <ClInclude Include="mxpad.h" />
+    <ClInclude Include="parse.h" />
+    <ClInclude Include="pcSelection.h" />
+    <ClInclude Include="PersistDlg.h" />
+    <ClInclude Include="PGedit.h" />
+    <ClInclude Include="PGtree.h" />
+    <ClInclude Include="Popup.h" />
+    <ClInclude Include="prl.h" />
+    <ClInclude Include="ProcedureDlg.h" />
+    <ClInclude Include="PRocList.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SimpleGrid.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="Support.h" />
+    <ClInclude Include="Transcript.h" />
+    <ClInclude Include="UniqID.h" />
+    <ClInclude Include="xcalDlg.h" />
+    <ClInclude Include="xCalen.h" />
+    <ClInclude Include="xTargetButton.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\appoint.bmp" />
+    <Image Include="images\assets.bmp" />
+    <Image Include="images\bitmap10.bmp" />
+    <Image Include="images\hippaa2.bmp" />
+    <Image Include="images\newpat.bmp" />
+    <Image Include="images\pay.bmp" />
+    <Image Include="images\reports.bmp" />
+    <Image Include="images\stat.bmp" />
+    <Image Include="images\tools.bmp" />
+    <Image Include="res\bitmap1.bmp" />
+    <Image Include="res\bitmap2.bmp" />
+    <Image Include="res\dbtest.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\dbtest.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

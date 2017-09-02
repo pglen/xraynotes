@@ -1,0 +1,63 @@
+      XrayNotes Licence Agreement
+
+----------------------------------------------------------------------------------------------
+
+    XrayNotes is in development, please acknowledge that you are looking at a product that is 
+undergoing severe modifications and endures heavy change. The developers can not assume responsibility for data integrity and data compatibility when using this version of XrayNotes.
+
+    Once XrayNotes is out of development stage, this header will be removed.
+
+----------------------------------------------------------------------------------------------
+
+     XrayNotes End User License Agreement
+
+1.  This is an End-User License Agreement between you (“Licensee”), the end user of the XrayNotes software, and (“Licensor”), XrayNotes and its Affiliates.
+
+2. Non-Exclusivity, Scope of Rights.
+
+   2.a) ”Licensor” grants the “Licensee” a nonexclusive license to use the XrayNotes Program, which includes: (i) Package of Computer Program(s), (ii) User Manual(s), (iii) Application Data, (iv) Data Connection and Server Services. This License Agreement is also applicable to downloadable and/or binary forms of said items. These items together constitute the "Licensed Program", subject to the following terms and conditions, which apply to any and all versions of the “Licensed Program”.
+
+  2.b) “Licensee” may: install one copy of the Licensed Program on a single network/computer. 
+
+  2.c) “Licensee” may: use and execute the Licensed Program on a single computer for the purposes of serving the needs of the end user. 
+
+  2.d) "Licencee" may: Use and distribute without limitation the XrayNotes program in "viewer mode", or "Demo Mode", that is the XrayNotes program without the Licence Key. The XrayNotes program in viewer mode is a fully functional viewer of all documents XrayNotes is able to create.
+
+  2.e) “Licensee” may: make copies of the Licensed Program for nonproductive backup purposes only.
+
+  2.f) “Licensee” may not: install the Licensed Program on any other computer without “Licensor’s” express authorization obtained in advance.
+
+
+3. Proprietary Protection and Restrictions.
+
+ 3.a) “Licensee” shall have no ownership of any right, title, and interest in and to the Licensed Program and any modifications, improvements and enhancements thereof.  The Licensed Program is licensed, - not sold - for use by “Licensee”.
+
+  3.b) “Licensor” does not sell or transfer title to the Licensed Program to “Licensee”.  “Licensor” solely owns the Licensed Program and any modifications, improvements, and enhancements thereof, including its features and mode of operation, copyrights, trade secrets, know-how, inventions, techniques, processes, programs, ideas, computer code, internal documentation, design and function specifications, product requirements, software documents, and all other technical, business, product, marketing and financial information, plans and/or data.
+
+
+4. Limited Warranty and Limitation of Liability.
+
+ 4.a) “Licensor” has taken care, for the “Licensee’s” benefit, to ensure the accuracy and reliability of the Licensed Program. The following disclaimer is expressly conditioned on observance of the Computer Program’s operating requirements, and the procedures set forth in the materials included with the “Licensed Program”.
+
+   4.a) “Licensor” assumes no liability for errors or omissions in the Licensed Program and reserve the right to make changes and improvements without further notice to the Licensed program for any reason.
+
+   4.b) Except as expressly set forth in this agreement, “Licensor” disclaims any and all representations and warranties with respect to the Licensed Program, including its condition, its conformity to any description, and its merchantability for fitness for a particular purpose. The information provided with the Licensed Program is not intended to be representations or warranties concerning the Licensed Program. This disclaimer excludes media defect, which will be repaired or replaced at the option of the “Licensor”.
+
+    4.c) The cumulative liability of “Licensor” to “Licensee”, shall not exceed the total amount of all license fees paid by “Licensee” to “Licensor”. This limitation of liability applies without regard to whether other provisions of this Agreement have been breached or have proven ineffective or unenforceable. (It being understood that “Licensee” is solely responsible operating Licensed Program, including reasonable backup precautions)
+
+    4.d) In no event shall “Licensor” be liable for any loss of profits; any incidental, or consequential damages; or any claims or demands brought against “Licensee”, even if “Licensor” has been advised of the possibility of such claims or demands. This limitation upon damages and claims apply without regard to whether other provisions of this agreement have been breached or have proven ineffective or unenforceable.
+
+    4.e) In no event shall “Licensor” be liable for any incidental or purposeful disclosure of data maintainded by or edited by the XrayNotes program and the XrayNotes data service. The Licensee and / or the operator of the program assumes sole liability for the data stored or data submited to services or communicated with third parties. No representation is made by XrayNotes or its affiliates as to the accuracy of said data, neither any claims are made as to the integrity or security of said data. This limitation upon damages and claims apply without regard to whether the breach was caused or induced by the 'Licencee' or any 'Third Party' wheather known or unknown. 
+
+    5.0. Miscellaneous.
+
+    5.a) This Agreement shall be governed by and construed in accordance with the laws of the State of Florida and be subject to the exclusive jurisdiction and venue of its courts.
+
+    5.b) No modification of this Agreement shall be binding unless it is in writing and is signed by an authorized representative of both parties.
+
+    5.c) Any notices required or permitted under this Agreement shall be in writing and delivered in person or sent by registered or certified mail, return receipt requested.
+
+    5.d) In the event that any of the terms of this Agreement is invalid or unenforceable, or declared void by any competent jurisdiction, all the remaining terms of this Agreement shall remain in full force and effect.
+
+    5.e) This agreement is the complete and exclusive statement of “Licensor”'s obligations and responsibilities to “Licensee” and supersedes any other proposal, representation, or other communication by or on behalf of “Licensor” relating to the subject matter hereof.
+

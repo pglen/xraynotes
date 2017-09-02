@@ -1,0 +1,329 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type">
+  <title>XrayNotes Manual</title>
+  <meta content="Peter Glen" name="author">
+  <meta content="Manual Main Page" name="description">
+  <style>
+A:link {color: #444444}
+A:active {color: #000000}
+A:visited {color: #333333}
+  </style>
+</head>
+<body>
+<table
+ style="width: 1000px; text-align: left; margin-left: auto; margin-right: auto;"
+ align="center" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;">
+      <div style="text-align: center;"> <img
+ style="width: 1000px; height: 120px;" alt="" src="header2.jpg"><br>
+      </div>
+      <table style="width: 100%; text-align: left;" border="0"
+ cellpadding="2" cellspacing="2">
+        <tbody>
+          <tr>
+            <td style="width: 160px; vertical-align: top;"><span
+ style="font-weight: bold;"><font size="-1"> </font> </span>
+            <table
+ style="background-color: rgb(238, 238, 238); width: 180px; text-align: left; margin-left: auto; margin-right: auto;"
+ cellpadding="2" cellspacing="2">
+              <tbody>
+                <tr>
+                  <td style="vertical-align: top;">
+                  <div style="text-align: center;"><a href="index.html">Manual
+Home</a><br>
+                  </div>
+                  </td>
+                </tr>
+                <tr align="center">
+                  <td style="vertical-align: top;"><a
+ href="started.html">Getting Started<br>
+                  </a></td>
+                </tr>
+                <tr align="center">
+                  <td style="vertical-align: top;"><a
+ href="gesture.html">The Gesture Pad</a></td>
+                </tr>
+                <tr align="center">
+                  <td style="vertical-align: top;"><a
+ href="application.html">The Application</a></td>
+                </tr>
+                <tr align="center">
+                  <td style="vertical-align: top;"><a
+ href="database.html">The Database<br>
+                  </a></td>
+                </tr>
+                <tr align="center">
+                  <td style="vertical-align: top;"><a
+ href="countrycodes.html">Country Codes</a></td>
+                </tr>
+                <tr align="center">
+                  <td style="vertical-align: top;"><a
+ href="hotkeys.html">Hotkeys</a></td>
+                </tr>
+                <tr align="center">
+                  <td style="vertical-align: top;"><a
+ href="standards.html">Standards</a></td>
+                </tr>
+                <tr align="center">
+                  <td style="vertical-align: top;"><a href="toc.html">Manual
+TOC</a></td>
+                </tr>
+                <tr>
+                  <td style="vertical-align: top; text-align: center;"><a
+ href="http://www.xraynotes.com"><font size="+1"> </font>Main Web Site</a><br>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <span style="font-weight: bold;"><font size="-1"><br>
+            </font> </span></td>
+            <td style="vertical-align: top;">
+            <div style="text-align: center;"><font size="+1"><span
+ style="font-weight: bold;"><font size="+3">XrayNotes Resampling
+Algorythms</font><br>
+            <br>
+            </span></font>
+            <table style="text-align: left; width: 100%;" border="0"
+ cellpadding="6" cellspacing="2">
+              <tbody>
+                <tr>
+                  <td style="vertical-align: top;">&nbsp;&nbsp; To
+increase appearent computer speed,&nbsp; XrayNotes works with the
+advanced computing capabilies of modern processors. When moving an
+object (or image) on screen, XrayNotes uses multi threading technology
+to display a 'preview' qualtity image while moving it, and a 'fine'
+quality image when the user stopped the interaction. This delivers
+better performance while not degrading the final view quality of the
+image.<br>
+                  <br>
+&nbsp; XrayNotes allows one to configure the kind of resampling
+algorythm to use in both 'preview' and 'fine' cases. Here is a list of
+algorythms one can chose from:<br>
+                  <br>
+                  <table style="text-align: left; width: 100%;"
+ border="0" cellpadding="2" cellspacing="2">
+                    <tbody>
+                      <tr>
+                        <td
+ style="vertical-align: top; font-weight: bold;">Name<br>
+                        </td>
+                        <td
+ style="vertical-align: top; font-weight: bold;">Description<br>
+                        </td>
+                        <td
+ style="vertical-align: top; font-weight: bold;">Speed<br>
+                        </td>
+                        <td
+ style="vertical-align: top; font-weight: bold;">Quality<br>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="vertical-align: top;">IM_NEAREST_NEIGHBOUR
+&nbsp; <br>
+                        </td>
+                        <td style="vertical-align: top;">Used as
+default preview algorythm<br>
+                        </td>
+                        <td style="vertical-align: top;">FAST<br>
+                        </td>
+                        <td style="vertical-align: top;">Low<br>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="vertical-align: top;">IM_BILINEAR </td>
+                        <td style="vertical-align: top;">Used as
+default fine algorythm</td>
+                        <td style="vertical-align: top;">SLOW<br>
+                        </td>
+                        <td style="vertical-align: top;">Good<br>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="vertical-align: top;">IM_BSPLINE </td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="vertical-align: top;">IM_BICUBIC&nbsp;
+                        <br>
+                        </td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="vertical-align: top;">IM_BICUBIC2
+&nbsp; <br>
+                        </td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="vertical-align: top;">IM_LANCZOS </td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="vertical-align: top;">IM_BOX </td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="vertical-align: top;">IM_HERMITE </td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="vertical-align: top;">IM_HAMMING </td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="vertical-align: top;">IM_SINC</td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="vertical-align: top;">IM_BLACKMAN</td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="vertical-align: top;">IM_BESSEL</td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="vertical-align: top;">IM_GAUSSIAN</td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="vertical-align: top;">IM_QUADRATIC</td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="vertical-align: top;">IM_MITCHELL </td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="vertical-align: top;">IM_CATROM</td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                        <td style="vertical-align: top;"><br>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+&nbsp;&nbsp; <br>
+"Nearest Neighbour"<br>
+"Bilinear"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+"Bspline"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+"Bicubic"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+"Bicubic2"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+"Lanczos"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+"Box"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <br>
+"Hermite"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+"Hamming"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+"Sinc"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <br>
+"Blackman"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+"Bessel"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+"Gaussian"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+"Quadratic"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+"Mitchell"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+"Catrom"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+                  <br>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <br>
+            <div style="text-align: justify;">&nbsp;&nbsp;&nbsp;&nbsp; </div>
+            </div>
+            </td>
+            <td style="vertical-align: top;"><br>
+            <br>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <table
+ style="width: 100%; text-align: left; margin-left: auto; margin-right: auto; background-color: rgb(204, 204, 204);"
+ border="0" cellpadding="2" cellspacing="2">
+        <tbody>
+          <tr>
+            <td style="text-align: center; vertical-align: top;"><span
+ style="font-weight: bold;">Copyright </span><span
+ style="font-weight: bold;">&copy;</span><span
+ style="font-weight: bold;"> By Peter Glen, 2008<br>
+            </span></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

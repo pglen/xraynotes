@@ -1,0 +1,229 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type">
+  <title>XrayNotes Manual</title>
+  <meta content="Peter Glen" name="author">
+  <meta content="Manual Main Page" name="description">
+  <style>
+A:link {color: #444444}
+A:active {color: #000000}
+A:visited {color: #333333}
+  </style>
+</head>
+<body>
+<table
+ style="width: 1000px; text-align: left; margin-left: auto; margin-right: auto;"
+ align="center" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;">
+      <div style="text-align: center;"> <img
+ style="width: 1000px; height: 120px;" alt="" src="header2.jpg"><br>
+      </div>
+      <table style="width: 100%; text-align: left;" border="0"
+ cellpadding="2" cellspacing="2">
+        <tbody>
+          <tr>
+            <td style="width: 160px; vertical-align: top;"><span
+ style="font-weight: bold;"><font size="-1"></font></span><br>
+            <br>
+            <br>
+            <table
+ style="background-color: rgb(238, 238, 238); width: 180px; text-align: left; margin-left: auto; margin-right: auto;"
+ cellpadding="2" cellspacing="2">
+              <tbody>
+                <tr>
+                  <td style="vertical-align: top;">
+                  <div style="text-align: center;"><a href="index.html">Manual
+Home</a><br>
+                  </div>
+                  </td>
+                </tr>
+                <tr align="center">
+                  <td style="vertical-align: top;"><a
+ href="started.html">Getting Started<br>
+                  </a></td>
+                </tr>
+                <tr align="center">
+                  <td style="vertical-align: top;"><a
+ href="gesture.html">The Gesture Pad</a></td>
+                </tr>
+                <tr align="center">
+                  <td style="vertical-align: top;"><a
+ href="application.html">The Application</a></td>
+                </tr>
+                <tr align="center">
+                  <td style="vertical-align: top;"><a
+ href="file:///Z:/archive/xraynotes/umanual/database.html">The Database<br>
+                  </a></td>
+                </tr>
+                <tr align="center">
+                  <td style="vertical-align: top;"><a
+ href="countrycodes.html">Country Codes</a></td>
+                </tr>
+                <tr align="center">
+                  <td style="vertical-align: top;"><a
+ href="hotkeys.html">Hotkeys</a></td>
+                </tr>
+                <tr align="center">
+                  <td style="vertical-align: top;"><a
+ href="standards.html">Standards</a></td>
+                </tr>
+                <tr align="center">
+                  <td style="vertical-align: top;"><a href="toc.html">Manual
+TOC</a></td>
+                </tr>
+                <tr>
+                  <td style="vertical-align: top; text-align: center;"><a
+ href="http://www.xraynotes.com/"><font size="+1"> </font>Main Web Site</a><br>
+                  </td>
+                </tr>
+                <tr align="center">
+                  <td style="vertical-align: top;"><a href="event.html">Medical
+Events</a><br>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+            <td style="vertical-align: top;">
+            <div style="text-align: center;"><font
+ style="font-weight: bold;" size="+3">The XrayNotes Event Database</font><font
+ style="font-weight: bold;"><br>
+            <br>
+            </font>
+            <table style="text-align: left; width: 100%;" border="0"
+ cellpadding="6" cellspacing="2">
+              <tbody>
+                <tr>
+                  <td style="vertical-align: top; text-align: justify;">&nbsp;&nbsp;
+While designing the XrayNotes database great care has been taken to
+design a database that captures the medical reality as close as
+possible while maintaining security and privacy and robustness. One of
+the main innovations in XrayNotes the ability to capture medical
+events. A medical event is something that happened to the patient in
+the course of patients seeking help or getting treatment. For example,
+one of the first events that a patient will encounter is the 'New
+Patient' event. The patient then, can receive or register several more
+events where his/her basic biometrics are entered, an appointment is
+registered or symptoms and complaints are noted. Diagnostic is also an
+event. Procedures are also&nbsp; entered as an event. In fact, almost
+everything that happened&nbsp; in the course of treating the patient,
+may be registered as an event. XrayNotes will allow one to create any
+custom event that is suitable for representing what happened in the
+course of treating the patient. Naturally, XrayNotes has a full set of
+built-in events that is sufficient to describe every aspect of the
+treatment process from lab tests to surgeries to insurance claims.<br>
+                  <br>
+&nbsp;&nbsp; Every patient data entry is tagged with a unique Patient
+ID, that unique ID is globally unique and will represent the data that
+is connected to that patient. An example of that unique ID is
+'Q783-7FGL-730C-4941-F42C-46S2-26R7-DW6Q'. Also every event is tagged
+with a unique event ID,&nbsp; again a globally unique, and specific to
+that patient and to that event. An example of an event ID would be: <br>
+                  <div style="text-align: center;"><font size="+1"><span
+ style="color: rgb(0, 0, 153);">"Q783-7FGL-730C-496E-3B79-46S2-26R7-DW6Q"</span></font><br>
+                  </div>
+                  <br>
+&nbsp;&nbsp; At this point this unique ID is connectable to that
+patient only by the doctor or the hospital that generated that ID.
+Because only the treating doctor (or entity) can connect the patient ID
+to the name, it is safe to share medical detail and every event on an
+open global network. Because the patient identity cannot be backtraced
+from the unique number, medical data can freely flow and can be freely
+accessible&nbsp; for research, education and science.<br>
+                  <br>
+&nbsp; These set of events contain great power. Particularly, the
+events allow real-life actions to be captured as they happen. Because
+in reality one cannot undo anything in the past, the events should also
+be treated like they cannot be changed. If one needs to correct
+something, just like in real life we create the correction event to
+undo the error, or rather to correct the error. Because anything that
+happened in the past is treated as a read only entity, event queues and
+events from different locations can be merged into one master queue,
+allowing medical professionals to have a complete overview of a set
+of&nbsp; events that happened.<br>
+                  <br>
+&nbsp;Grouping of events. The same patient may seek help for multiple
+unrelated cases at multiple different times. XrayNotes allows an event
+to point to a parent event, whereby specifying grouping of events that
+belonged to the same case. The root event of one particular case will
+have no parent event.<br>
+                  <br>
+&nbsp;The Patient Resource Locator. This special locator is designed to
+allow any qualified medical professional to find a person's emergency
+medical information with minimal effort and minimal data input. The
+patient resource locator is assembled from the following information:
+birth location birth date, birth name. For example the following PRL
+was created from a hypothetical patient who was born in Sarasota in
+1959 November 20, and was called 'Test Patient':<br>
+                  <br>
+                  <div style="text-align: center;"><font size="+1"><span
+ style="color: rgb(0, 0, 153);">PRL://US_FL_SARASOTA_1959_11_20_TEST_PATIENT<br>
+                  </span></font></div>
+                  <br>
+&nbsp;This combination of birth locale, and birth name also creates a
+globally unique ID, whereby it is unrealistic to expect the same name
+person to be born at the same location at the same time. Even if the
+twins they are named differently.<br>
+                  <br>
+The Xraynoes event data may be accessed by two main methods: Patient
+Resource Locator or patient's unique ID. <br>
+                  <br>
+1. The patient resource locator only contains emergency related
+information, and the doctor and the patient has complete power over
+which events to mark as visible under the patient resource locator. If
+the doctor/patient does not find suitable events to mark for public
+visibility they can create an event specially tailored to be visible by
+the patient resource locator.<br>
+                  <br>
+2. The globally unique ID allows all patient data to be visible. The
+only exception whether patient requests complete (or partial) privacy
+of his or her events in which case XrayNotes will not publish any of
+the event details on the global network.<br>
+                  <br>
+Ordinarily, the XrayNotes data, accessed by the patient's unique ID
+contains all medical event data. Because the patient ID is globally
+unique and non-translatable into the original patient's name, the
+access to that data needs not be restricted or controlled or encrypted.
+However if one suspects that the patient's unique IDs compromised a new
+unique ID can be created. When a new unique ID is created, the patient
+or doctor or administrator who is creating the new unique ID is
+responsible to propagate events onto the new unique ID. This should
+happen only in extreme cases, and the XrayNotes program will greatly
+assist in the transition.<br>
+                  <br>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <br>
+            <div style="text-align: justify;">&nbsp;&nbsp;&nbsp;&nbsp; </div>
+            </div>
+            </td>
+            <td style="vertical-align: top;"><br>
+            <br>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <table
+ style="width: 100%; text-align: left; margin-left: auto; margin-right: auto; background-color: rgb(204, 204, 204);"
+ border="0" cellpadding="2" cellspacing="2">
+        <tbody>
+          <tr>
+            <td style="text-align: center; vertical-align: top;"><span
+ style="font-weight: bold;">Copyright </span><span
+ style="font-weight: bold;">&copy;</span><span
+ style="font-weight: bold;"> By Peter Glen, 2008<br>
+            </span></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

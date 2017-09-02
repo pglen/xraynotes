@@ -1,0 +1,533 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>MFCProj</Keyword>
+    <ProjectGuid>{62E75C2A-69D3-4FFA-AFF7-BA6612D7AF4E}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <AdditionalIncludeDirectories>..\..\..\common\work;..\common;include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\Debug\xraynotes.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Debug\xraynotes.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug\xraynotes.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Debug\xraynotes.exe</OutputFile>
+      <AdditionalDependencies>../png/Debug/png.lib;../jpeg/Debug/jpeg.lib;../zlib/Debug/zlib.lib;../tiff/Debug/tiff.lib;../j2k/Debug/j2k.lib;../jbig/Debug/jbig.lib;../jasper/Debug/jasper.lib;../cximage/Debug/cximage.lib;wininet.lib;msimg32.lib;rpcrt4.lib;sqlite3.lib;winmm.lib;user32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>..\..\..\common\work;..\common;include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\Release\xraynotes.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Release\xraynotes.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release\xraynotes.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Release\xraynotes.exe</OutputFile>
+      <AdditionalDependencies>../png/Release/png.lib;../jpeg/Release/jpeg.lib;../zlib/Release/zlib.lib;../tiff/Release/tiff.lib;../j2k/Release/j2k.lib;../jbig/Release/jbig.lib;../jasper/Release/jasper.lib;../cximage/Release/cximage.lib;wininet.lib;msimg32.lib;rpcrt4.lib;sqlite3.lib;winmm.lib;user32.lib;python25.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\common\work\GrayDlg.cpp" />
+    <ClCompile Include="..\..\..\common\work\label.cpp" />
+    <ClCompile Include="..\..\..\common\work\misc.cpp" />
+    <ClCompile Include="..\..\..\common\work\multimon.cpp" />
+    <ClCompile Include="..\..\..\common\work\mxpad.cpp" />
+    <ClCompile Include="..\..\..\common\work\PersistDlg.cpp" />
+    <ClCompile Include="..\..\..\common\work\Popup.cpp" />
+    <ClCompile Include="..\..\..\common\work\XrayM.cpp" />
+    <ClCompile Include="2dCtl.cpp" />
+    <ClCompile Include="AddrEntry.cpp" />
+    <ClCompile Include="AlaDlg.cpp" />
+    <ClCompile Include="Alpha.cpp" />
+    <ClCompile Include="BaseWnd.cpp" />
+    <ClCompile Include="BmpButt.cpp" />
+    <ClCompile Include="BmpDC.cpp" />
+    <ClCompile Include="BriCon.cpp" />
+    <ClCompile Include="CalCtrl.cpp" />
+    <ClCompile Include="calen.cpp" />
+    <ClCompile Include="Chevron.cpp" />
+    <ClCompile Include="CLayImg.cpp" />
+    <ClCompile Include="CodeEd.cpp" />
+    <ClCompile Include="ColDlg.cpp" />
+    <ClCompile Include="CommLine.cpp" />
+    <ClCompile Include="CTimeCtrl.cpp" />
+    <ClCompile Include="Curve.cpp" />
+    <ClCompile Include="CurveDlg.cpp" />
+    <ClCompile Include="DateSel.cpp" />
+    <ClCompile Include="DBMain.cpp" />
+    <ClCompile Include="DiagList.cpp" />
+    <ClCompile Include="DicomFile.cpp" />
+    <ClCompile Include="DicomWin.cpp" />
+    <ClCompile Include="DiMore.cpp" />
+    <ClCompile Include="do3dp.cpp" />
+    <ClCompile Include="DocList.cpp" />
+    <ClCompile Include="EditEx.cpp" />
+    <ClCompile Include="EventDlg.cpp" />
+    <ClCompile Include="FileDialogST.cpp" />
+    <ClCompile Include="Flag.cpp" />
+    <ClCompile Include="Flyout.cpp" />
+    <ClCompile Include="GdiRot.cpp" />
+    <ClCompile Include="gestureDlg.cpp" />
+    <ClCompile Include="GetText.cpp" />
+    <ClCompile Include="HistoryDlg.cpp" />
+    <ClCompile Include="HShield.cpp" />
+    <ClCompile Include="INeuNet.cpp" />
+    <ClCompile Include="INeuron.cpp" />
+    <ClCompile Include="LayCirc.cpp" />
+    <ClCompile Include="Layer.cpp" />
+    <ClCompile Include="LayLines.cpp" />
+    <ClCompile Include="LayRect.cpp" />
+    <ClCompile Include="LaySline.cpp" />
+    <ClCompile Include="LayText.cpp" />
+    <ClCompile Include="lcd7.cpp" />
+    <ClCompile Include="LevenStein.cpp" />
+    <ClCompile Include="Light.cpp" />
+    <ClCompile Include="lineProp.cpp" />
+    <ClCompile Include="lines.cpp" />
+    <ClCompile Include="MagDlg.cpp" />
+    <ClCompile Include="MagWnd.cpp" />
+    <ClCompile Include="MedReg.cpp" />
+    <ClCompile Include="memdc.cpp" />
+    <ClCompile Include="MsgBox.cpp" />
+    <ClCompile Include="parse.cpp" />
+    <ClCompile Include="PatDmg.cpp" />
+    <ClCompile Include="pcSelection.cpp" />
+    <ClCompile Include="PGedit.cpp" />
+    <ClCompile Include="PGtree.cpp" />
+    <ClCompile Include="PicList.cpp" />
+    <ClCompile Include="PicSel.cpp" />
+    <ClCompile Include="Plot.cpp" />
+    <ClCompile Include="PlotDlg.cpp" />
+    <ClCompile Include="prl.cpp" />
+    <ClCompile Include="ProcDlg.cpp" />
+    <ClCompile Include="PRocList.cpp" />
+    <ClCompile Include="pybind.cpp" />
+    <ClCompile Include="PyGlg.cpp" />
+    <ClCompile Include="ScrKbd.cpp" />
+    <ClCompile Include="SelHelper.cpp" />
+    <ClCompile Include="sellist.cpp" />
+    <ClCompile Include="shades.cpp" />
+    <ClCompile Include="shadesDlg.cpp" />
+    <ClCompile Include="ShadesFunc.cpp" />
+    <ClCompile Include="ShadesHelp.cpp" />
+    <ClCompile Include="ShadesSel.cpp" />
+    <ClCompile Include="ShapeProp.cpp" />
+    <ClCompile Include="SimpleGrid.cpp" />
+    <ClCompile Include="Splash.cpp" />
+    <ClCompile Include="Status.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="Support.cpp" />
+    <ClCompile Include="TestDlg.cpp" />
+    <ClCompile Include="TextMode.cpp" />
+    <ClCompile Include="TextProp.cpp" />
+    <ClCompile Include="tools.cpp" />
+    <ClCompile Include="ToolShow.cpp" />
+    <ClCompile Include="Transcript.cpp" />
+    <ClCompile Include="transprog.cpp" />
+    <ClCompile Include="TransSlider.cpp" />
+    <ClCompile Include="TransStatic.cpp" />
+    <ClCompile Include="Triangle.cpp" />
+    <ClCompile Include="UniqID.cpp" />
+    <ClCompile Include="xcalDlg.cpp" />
+    <ClCompile Include="xCalen.cpp" />
+    <ClCompile Include="xConfig.cpp" />
+    <ClCompile Include="xFile.cpp" />
+    <ClCompile Include="xImg.cpp" />
+    <ClCompile Include="xntmask.cpp" />
+    <ClCompile Include="xPtrArr.cpp" />
+    <ClCompile Include="XrayDoc.cpp" />
+    <ClCompile Include="xRect.cpp" />
+    <ClCompile Include="xScroll.cpp" />
+    <ClCompile Include="xStr.cpp" />
+    <ClCompile Include="xTargetButton.cpp" />
+    <ClCompile Include="xTracker.cpp" />
+    <ClCompile Include="xyzDlg.cpp" />
+    <ClCompile Include="yScroll.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\common\work\GrayDlg.h" />
+    <ClInclude Include="..\..\..\common\work\label.h" />
+    <ClInclude Include="..\..\..\common\work\misc.h" />
+    <ClInclude Include="..\..\..\common\work\multimon.h" />
+    <ClInclude Include="..\..\..\common\work\mxpad.h" />
+    <ClInclude Include="..\..\..\common\work\PersistDlg.h" />
+    <ClInclude Include="..\..\..\common\work\Popup.h" />
+    <ClInclude Include="..\..\..\common\work\XrayM.h" />
+    <ClInclude Include="2dCtl.h" />
+    <ClInclude Include="about.h" />
+    <ClInclude Include="AddrEntry.h" />
+    <ClInclude Include="AddrEntry1.h" />
+    <ClInclude Include="AlaDlg.h" />
+    <ClInclude Include="Alpha.h" />
+    <ClInclude Include="BaseWnd.h" />
+    <ClInclude Include="BmpButt.h" />
+    <ClInclude Include="BmpDC.h" />
+    <ClInclude Include="BriCon.h" />
+    <ClInclude Include="CalCtrl.h" />
+    <ClInclude Include="calen.h" />
+    <ClInclude Include="Chevron.h" />
+    <ClInclude Include="CodeEd.h" />
+    <ClInclude Include="ColDlg.h" />
+    <ClInclude Include="CommLine.h" />
+    <ClInclude Include="CTimeCtrl.h" />
+    <ClInclude Include="Curve.h" />
+    <ClInclude Include="CurveDlg.h" />
+    <ClInclude Include="DateSel.h" />
+    <ClInclude Include="dbdef.h" />
+    <ClInclude Include="DBMain.h" />
+    <ClInclude Include="DiagList.h" />
+    <ClInclude Include="DicomFile.h" />
+    <ClInclude Include="DicomWin.h" />
+    <ClInclude Include="DiMore.h" />
+    <ClInclude Include="do3dp.h" />
+    <ClInclude Include="DocList.h" />
+    <ClInclude Include="EditEx.h" />
+    <ClInclude Include="EventDlg.h" />
+    <ClInclude Include="FileDialogST.h" />
+    <ClInclude Include="Flag.h" />
+    <ClInclude Include="Flyout.h" />
+    <ClInclude Include="GdiRot.h" />
+    <ClInclude Include="gestureDlg.h" />
+    <ClInclude Include="GetText.h" />
+    <ClInclude Include="helperdlgs.h" />
+    <ClInclude Include="HistoryDlg.h" />
+    <ClInclude Include="HShield.h" />
+    <ClInclude Include="INeuNet.h" />
+    <ClInclude Include="INeuron.h" />
+    <ClInclude Include="LayCirc.h" />
+    <ClInclude Include="Layer.h" />
+    <ClInclude Include="LayImg.h" />
+    <ClInclude Include="LayLines.h" />
+    <ClInclude Include="LayRect.h" />
+    <ClInclude Include="LaySline.h" />
+    <ClInclude Include="LayText.h" />
+    <ClInclude Include="lcd7.h" />
+    <ClInclude Include="LevenStein.h" />
+    <ClInclude Include="Light.h" />
+    <ClInclude Include="lineProp.h" />
+    <ClInclude Include="lines.h" />
+    <ClInclude Include="MagDlg.h" />
+    <ClInclude Include="MagWnd.h" />
+    <ClInclude Include="MedReg.h" />
+    <ClInclude Include="memdc.h" />
+    <ClInclude Include="MsgBox.h" />
+    <ClInclude Include="parse.h" />
+    <ClInclude Include="PatDmg.h" />
+    <ClInclude Include="pcSelection.h" />
+    <ClInclude Include="PGedit.h" />
+    <ClInclude Include="PGtree.h" />
+    <ClInclude Include="PicList.h" />
+    <ClInclude Include="PicSel.h" />
+    <ClInclude Include="Plot.h" />
+    <ClInclude Include="PlotDlg.h" />
+    <ClInclude Include="prl.h" />
+    <ClInclude Include="ProcDlg.h" />
+    <ClInclude Include="PRocList.h" />
+    <ClInclude Include="PyGlg.h" />
+    <CustomBuild Include="Resource.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">echo. &gt;"hlp\$(TargetName).hm" 
+echo // Commands (ID_* and IDM_*) &gt;&gt;"hlp\$(TargetName).hm" 
+makehm ID_,HID_,0x10000 IDM_,HIDM_,0x10000 resource.h &gt;&gt;"hlp\$(TargetName).hm" 
+echo. &gt;&gt;"hlp\$(TargetName).hm" 
+echo // Prompts (IDP_*) &gt;&gt;"hlp\$(TargetName).hm" 
+makehm IDP_,HIDP_,0x30000 resource.h &gt;&gt;"hlp\$(TargetName).hm" 
+echo. &gt;&gt;"hlp\$(TargetName).hm" 
+echo // Resources (IDR_*) &gt;&gt;"hlp\$(TargetName).hm" 
+makehm IDR_,HIDR_,0x20000 resource.h &gt;&gt;"hlp\$(TargetName).hm" 
+echo. &gt;&gt;"hlp\$(TargetName).hm" 
+echo // Dialogs (IDD_*) &gt;&gt;"hlp\$(TargetName).hm" 
+makehm IDD_,HIDD_,0x20000 resource.h &gt;&gt;"hlp\$(TargetName).hm" 
+echo. &gt;&gt;"hlp\$(TargetName).hm" 
+echo // Frame Controls (IDW_*) &gt;&gt;"hlp\$(TargetName).hm" 
+makehm IDW_,HIDW_,0x50000 resource.h &gt;&gt;"hlp\$(TargetName).hm" </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Making help include file...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">hlp\$(TargetName).hm;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="ScrKbd.h" />
+    <ClInclude Include="SelHelper.h" />
+    <ClInclude Include="sellist.h" />
+    <ClInclude Include="shades.h" />
+    <ClInclude Include="shadesDlg.h" />
+    <ClInclude Include="ShadesFunc.h" />
+    <ClInclude Include="ShadesHelp.h" />
+    <ClInclude Include="ShadesSel.h" />
+    <ClInclude Include="ShapeProp.h" />
+    <ClInclude Include="SimpleGrid.h" />
+    <ClInclude Include="Splash.h" />
+    <ClInclude Include="Status.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="Support.h" />
+    <ClInclude Include="TestDlg.h" />
+    <ClInclude Include="TextMode.h" />
+    <ClInclude Include="TextProp.h" />
+    <ClInclude Include="tooldef.h" />
+    <ClInclude Include="tools.h" />
+    <ClInclude Include="ToolShow.h" />
+    <ClInclude Include="Transcript.h" />
+    <ClInclude Include="transprog.h" />
+    <ClInclude Include="TransSlider.h" />
+    <ClInclude Include="TransStatic.h" />
+    <ClInclude Include="Triangle.h" />
+    <ClInclude Include="UniqID.h" />
+    <ClInclude Include="worker.h" />
+    <ClInclude Include="xcalDlg.h" />
+    <ClInclude Include="xCalen.h" />
+    <ClInclude Include="xConfig.h" />
+    <ClInclude Include="xFile.h" />
+    <ClInclude Include="xImg.h" />
+    <ClInclude Include="XntMask.h" />
+    <ClInclude Include="xPtrArr.h" />
+    <ClInclude Include="XrayDoc.h" />
+    <ClInclude Include="xraynotes.h" />
+    <ClInclude Include="xRect.h" />
+    <ClInclude Include="xScroll.h" />
+    <ClInclude Include="xStr.h" />
+    <ClInclude Include="xTargetButton.h" />
+    <ClInclude Include="xTracker.h" />
+    <ClInclude Include="xyzDlg.h" />
+    <ClInclude Include="yScroll.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\cursor1.cur" />
+    <CustomBuild Include="res\cursor10.cur" />
+    <CustomBuild Include="res\cursor11.cur" />
+    <CustomBuild Include="res\cursor12.cur" />
+    <CustomBuild Include="res\cursor13.cur" />
+    <CustomBuild Include="res\cursor2.cur" />
+    <CustomBuild Include="res\cursor3.cur" />
+    <CustomBuild Include="res\cursor4.cur" />
+    <CustomBuild Include="res\cursor5.cur" />
+    <CustomBuild Include="res\cursor6.cur" />
+    <CustomBuild Include="res\cursor7.cur" />
+    <CustomBuild Include="res\cursor8.cur" />
+    <CustomBuild Include="res\cursor9.cur" />
+    <CustomBuild Include="res\shades.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="xraynotes.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\images\logo.bmp" />
+    <Image Include="..\images\logo2.bmp" />
+    <Image Include="..\images\logo3.bmp" />
+    <Image Include="images\logo.bmp" />
+    <Image Include="images\logo2.bmp" />
+    <Image Include="images\logo3.bmp" />
+    <Image Include="res\aestheticzone.bmp" />
+    <Image Include="res\appoint.bmp" />
+    <Image Include="res\assets.bmp" />
+    <Image Include="res\beach.BMP" />
+    <Image Include="res\bg.bmp" />
+    <Image Include="res\bg2.bmp" />
+    <Image Include="res\bg3.bmp" />
+    <Image Include="res\bitmap1.bmp" />
+    <Image Include="res\bitmap18.bmp" />
+    <Image Include="res\bitmap20.bmp" />
+    <Image Include="res\bitmap21.bmp" />
+    <Image Include="res\bitmap22.bmp" />
+    <Image Include="res\bitmap23.bmp" />
+    <Image Include="res\bitmap32.bmp" />
+    <Image Include="res\bitmap34.bmp" />
+    <Image Include="res\bitmap35.bmp" />
+    <Image Include="res\bitmap8.bmp" />
+    <Image Include="res\bmp00001.bmp" />
+    <Image Include="res\Graphic2.bmp" />
+    <Image Include="res\Graphic3.bmp" />
+    <Image Include="res\Graphic4.bmp" />
+    <Image Include="res\graphic5.bmp" />
+    <Image Include="res\hippaa2.bmp" />
+    <Image Include="res\icon.bmp" />
+    <Image Include="res\icon2.ico" />
+    <Image Include="res\icon3.ico" />
+    <Image Include="res\icon4.ico" />
+    <Image Include="res\icon5.ico" />
+    <Image Include="res\icon6.ico" />
+    <Image Include="res\icon7.ico" />
+    <Image Include="res\icon8.ico" />
+    <Image Include="res\logo3.bmp" />
+    <Image Include="res\logo4.bmp" />
+    <Image Include="res\logo5.bmp" />
+    <Image Include="res\mboxbg.bmp" />
+    <Image Include="res\newpat.bmp" />
+    <Image Include="res\pay.bmp" />
+    <Image Include="res\reports.bmp" />
+    <Image Include="res\shades.ico" />
+    <Image Include="res\shades2.ico" />
+    <Image Include="res\stat.bmp" />
+    <Image Include="res\toolbar1.bmp" />
+    <Image Include="res\toolbar2.bmp" />
+    <Image Include="res\tools.bmp" />
+    <Image Include="res\xray.bmp" />
+    <Image Include="res\xray2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CxImage\cximage.vcxproj">
+      <Project>{2cd87e9b-53ab-4844-bed7-379e40f41d22}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\j2k\j2k.vcxproj">
+      <Project>{f2035b98-95d9-48ba-aa17-45a538c48537}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\jasper\jasper.vcxproj">
+      <Project>{0ad734b5-5a2d-4057-a0d4-2a59694f0bb3}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\jbig\jbig.vcxproj">
+      <Project>{b7c5e643-d49b-45a2-8859-7960f41296de}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\jpeg\Jpeg.vcxproj">
+      <Project>{a1113a07-574a-46cd-841d-97302850713e}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\png\png.vcxproj">
+      <Project>{64eae65d-b105-4874-b1b1-a75843c0fb8d}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\tiff\Tiff.vcxproj">
+      <Project>{a1db5069-d2cb-4c5f-b366-a1653ad8c7f5}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\zlib\zlib.vcxproj">
+      <Project>{bbceb7c3-da42-4869-b94c-5b6e065b9201}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

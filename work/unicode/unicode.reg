@@ -1,0 +1,13 @@
+REGEDIT
+; This .REG file may be used by your SETUP program.
+;   If a SETUP program is not available, the entries below will be
+;   registered in your InitInstance automatically with a call to
+;   CWinApp::RegisterShellFileTypes and COleObjectFactory::UpdateRegistryAll.
+
+
+HKEY_CLASSES_ROOT\Unicode.Application = Unicode Application
+HKEY_CLASSES_ROOT\Unicode.Application\CLSID = {5B279D39-2FFA-445D-A957-762AC7045E5A}
+
+HKEY_CLASSES_ROOT\CLSID\{5B279D39-2FFA-445D-A957-762AC7045E5A} = Unicode Application
+HKEY_CLASSES_ROOT\CLSID\{5B279D39-2FFA-445D-A957-762AC7045E5A}\ProgId = Unicode.Application
+HKEY_CLASSES_ROOT\CLSID\{5B279D39-2FFA-445D-A957-762AC7045E5A}\LocalServer32 = UNICODE.EXE

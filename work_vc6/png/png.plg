@@ -1,0 +1,78 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: png - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\PETERG~1\LOCALS~1\Temp\RSPC9.tmp" with contents
+[
+/nologo /MDd /W3 /GX /ZI /Od /I "..\zlib" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\work2\xcpt\png\png.c"
+"C:\work2\xcpt\png\pngerror.c"
+"C:\work2\xcpt\png\pngget.c"
+"C:\work2\xcpt\png\pngmem.c"
+"C:\work2\xcpt\png\pngpread.c"
+"C:\work2\xcpt\png\pngread.c"
+"C:\work2\xcpt\png\pngrio.c"
+"C:\work2\xcpt\png\pngrtran.c"
+"C:\work2\xcpt\png\pngrutil.c"
+"C:\work2\xcpt\png\pngset.c"
+"C:\work2\xcpt\png\pngtrans.c"
+"C:\work2\xcpt\png\pngvcrd.c"
+"C:\work2\xcpt\png\pngwio.c"
+"C:\work2\xcpt\png\pngwrite.c"
+"C:\work2\xcpt\png\pngwtran.c"
+"C:\work2\xcpt\png\pngwutil.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\PETERG~1\LOCALS~1\Temp\RSPC9.tmp" 
+Creating temporary file "C:\DOCUME~1\PETERG~1\LOCALS~1\Temp\RSPCA.tmp" with contents
+[
+/nologo /out:"Debug\png.lib" 
+.\Debug\png.obj
+.\Debug\pngerror.obj
+.\Debug\pngget.obj
+.\Debug\pngmem.obj
+.\Debug\pngpread.obj
+.\Debug\pngread.obj
+.\Debug\pngrio.obj
+.\Debug\pngrtran.obj
+.\Debug\pngrutil.obj
+.\Debug\pngset.obj
+.\Debug\pngtrans.obj
+.\Debug\pngvcrd.obj
+.\Debug\pngwio.obj
+.\Debug\pngwrite.obj
+.\Debug\pngwtran.obj
+.\Debug\pngwutil.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\PETERG~1\LOCALS~1\Temp\RSPCA.tmp"
+<h3>Output Window</h3>
+Compiling...
+png.c
+pngerror.c
+pngget.c
+pngmem.c
+pngpread.c
+pngread.c
+pngrio.c
+pngrtran.c
+pngrutil.c
+pngset.c
+pngtrans.c
+pngvcrd.c
+pngwio.c
+pngwrite.c
+pngwtran.c
+pngwutil.c
+Generating Code...
+Creating library...
+
+
+
+<h3>Results</h3>
+png.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

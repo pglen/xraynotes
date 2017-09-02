@@ -1,0 +1,474 @@
+# Microsoft Developer Studio Generated Dependency File, included by Jpeg.mak
+
+.\Jcapimin.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jcapistd.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jccoefct.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jccolor.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jcdctmgr.c : \
+	".\Jconfig.h"\
+	".\Jdct.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jchuff.c : \
+	".\Jchuff.h"\
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jcinit.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jcmainct.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jcmarker.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jcmaster.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jcomapi.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jcparam.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jcphuff.c : \
+	".\Jchuff.h"\
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jcprepct.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jcsample.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jctrans.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jdapimin.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jdapistd.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jdatadst.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jdatasrc.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jdcoefct.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jdcolor.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jddctmgr.c : \
+	".\Jconfig.h"\
+	".\Jdct.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jdhuff.c : \
+	".\Jconfig.h"\
+	".\Jdhuff.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jdinput.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jdmainct.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jdmarker.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jdmaster.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jdmerge.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jdphuff.c : \
+	".\Jconfig.h"\
+	".\Jdhuff.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jdpostct.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jdsample.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jdtrans.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jerror.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpeglib.h"\
+	".\Jversion.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jfdctflt.c : \
+	".\Jconfig.h"\
+	".\Jdct.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jfdctfst.c : \
+	".\Jconfig.h"\
+	".\Jdct.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jfdctint.c : \
+	".\Jconfig.h"\
+	".\Jdct.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jidctflt.c : \
+	".\Jconfig.h"\
+	".\Jdct.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jidctfst.c : \
+	".\Jconfig.h"\
+	".\Jdct.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jidctint.c : \
+	".\Jconfig.h"\
+	".\Jdct.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jidctred.c : \
+	".\Jconfig.h"\
+	".\Jdct.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jmemmgr.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmemsys.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jmemnobs.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmemsys.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jquant1.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jquant2.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+
+.\Jutils.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	

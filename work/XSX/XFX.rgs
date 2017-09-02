@@ -1,0 +1,23 @@
+HKCR
+{
+	XSX.XFX.1 = s 'XFX Class'
+	{
+		CLSID = s '{9580EBAF-B0FF-4F0C-A2DF-2DFD46B9CB4C}'
+	}
+	XSX.XFX = s 'XFX Class'
+	{
+		CLSID = s '{9580EBAF-B0FF-4F0C-A2DF-2DFD46B9CB4C}'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {9580EBAF-B0FF-4F0C-A2DF-2DFD46B9CB4C} = s 'XFX Class'
+		{
+			ProgID = s 'XSX.XFX.1'
+			VersionIndependentProgID = s 'XSX.XFX'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'both'
+			}
+		}
+	}
+}

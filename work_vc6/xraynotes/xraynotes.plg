@@ -1,0 +1,1170 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CxImage - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\PETERG~1\AppData\Local\Temp\RSP93F2.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\jpeg" /I "..\png" /I "..\zlib" /I "..\mng" /I "..\tiff" /I "..\j2k" /I "..\jasper\include" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "_AFXDLL" /D "JAS_WIN_MSVC_BUILD" /Fr"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\develop5\xraynotes\work_vc6\CxImage\tif_xfile.cpp"
+"C:\develop5\xraynotes\work_vc6\CxImage\ximabmp.cpp"
+"C:\develop5\xraynotes\work_vc6\CxImage\ximadsp.cpp"
+"C:\develop5\xraynotes\work_vc6\CxImage\ximaenc.cpp"
+"C:\develop5\xraynotes\work_vc6\CxImage\ximaexif.cpp"
+"C:\develop5\xraynotes\work_vc6\CxImage\ximage.cpp"
+"C:\develop5\xraynotes\work_vc6\CxImage\ximagif.cpp"
+"C:\develop5\xraynotes\work_vc6\CxImage\ximahist.cpp"
+"C:\develop5\xraynotes\work_vc6\CxImage\ximaico.cpp"
+"C:\develop5\xraynotes\work_vc6\CxImage\ximainfo.cpp"
+"C:\develop5\xraynotes\work_vc6\CxImage\ximaint.cpp"
+"C:\develop5\xraynotes\work_vc6\CxImage\ximaj2k.cpp"
+"C:\develop5\xraynotes\work_vc6\CxImage\ximajas.cpp"
+"C:\develop5\xraynotes\work_vc6\CxImage\ximajbg.cpp"
+"C:\develop5\xraynotes\work_vc6\CxImage\ximajpg.cpp"
+"C:\develop5\xraynotes\work_vc6\CxImage\ximalpha.cpp"
+"C:\develop5\xraynotes\work_vc6\CxImage\ximalyr.cpp"
+"C:\develop5\xraynotes\work_vc6\CxImage\ximamng.cpp"
+"C:\develop5\xraynotes\work_vc6\CxImage\ximapal.cpp"
+"C:\develop5\xraynotes\work_vc6\CxImage\ximapcx.cpp"
+"C:\develop5\xraynotes\work_vc6\CxImage\ximapng.cpp"
+"C:\develop5\xraynotes\work_vc6\CxImage\ximasel.cpp"
+"C:\develop5\xraynotes\work_vc6\CxImage\ximatga.cpp"
+"C:\develop5\xraynotes\work_vc6\CxImage\ximath.cpp"
+"C:\develop5\xraynotes\work_vc6\CxImage\ximatif.cpp"
+"C:\develop5\xraynotes\work_vc6\CxImage\ximatran.cpp"
+"C:\develop5\xraynotes\work_vc6\CxImage\ximawbmp.cpp"
+"C:\develop5\xraynotes\work_vc6\CxImage\ximawmf.cpp"
+"C:\develop5\xraynotes\work_vc6\CxImage\ximawnd.cpp"
+"C:\develop5\xraynotes\work_vc6\CxImage\xmemfile.cpp"
+]
+Creating command line "cl.exe @C:\Users\PETERG~1\AppData\Local\Temp\RSP93F2.tmp" 
+Creating temporary file "C:\Users\PETERG~1\AppData\Local\Temp\RSP93F3.tmp" with contents
+[
+/nologo /out:"Debug\cximage.lib" 
+.\Debug\tif_xfile.obj
+.\Debug\ximabmp.obj
+.\Debug\ximadsp.obj
+.\Debug\ximaenc.obj
+.\Debug\ximaexif.obj
+.\Debug\xImage.obj
+.\Debug\ximagif.obj
+.\Debug\ximahist.obj
+.\Debug\ximaico.obj
+.\Debug\ximainfo.obj
+.\Debug\ximaint.obj
+.\Debug\ximaj2k.obj
+.\Debug\ximajas.obj
+.\Debug\ximajbg.obj
+.\Debug\ximajpg.obj
+.\Debug\ximalpha.obj
+.\Debug\ximalyr.obj
+.\Debug\ximamng.obj
+.\Debug\ximapal.obj
+.\Debug\ximapcx.obj
+.\Debug\ximapng.obj
+.\Debug\ximasel.obj
+.\Debug\ximatga.obj
+.\Debug\ximath.obj
+.\Debug\ximatif.obj
+.\Debug\ximatran.obj
+.\Debug\ximawbmp.obj
+.\Debug\ximawmf.obj
+.\Debug\ximawnd.obj
+.\Debug\xmemfile.obj
+]
+Creating command line "link.exe -lib @C:\Users\PETERG~1\AppData\Local\Temp\RSP93F3.tmp"
+<h3>Output Window</h3>
+Compiling...
+tif_xfile.cpp
+ximabmp.cpp
+ximadsp.cpp
+ximaenc.cpp
+ximaexif.cpp
+ximage.cpp
+ximagif.cpp
+ximahist.cpp
+ximaico.cpp
+ximainfo.cpp
+ximaint.cpp
+ximaj2k.cpp
+ximajas.cpp
+ximajbg.cpp
+ximajpg.cpp
+ximalpha.cpp
+ximalyr.cpp
+ximamng.cpp
+ximapal.cpp
+ximapcx.cpp
+Generating Code...
+Compiling...
+ximapng.cpp
+ximasel.cpp
+ximatga.cpp
+ximath.cpp
+ximatif.cpp
+ximatran.cpp
+ximawbmp.cpp
+ximawmf.cpp
+ximawnd.cpp
+xmemfile.cpp
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: jpeg - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\PETERG~1\AppData\Local\Temp\RSPBF98.tmp" with contents
+[
+/nologo /MDd /W3 /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\develop5\xraynotes\work_vc6\jpeg\Jcapimin.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jcapistd.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jccoefct.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jccolor.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jcdctmgr.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jchuff.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jcinit.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jcmainct.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jcmarker.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jcmaster.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jcomapi.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jcparam.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jcphuff.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jcprepct.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jcsample.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jctrans.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jdapimin.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jdapistd.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jdatadst.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jdatasrc.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jdcoefct.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jdcolor.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jddctmgr.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jdhuff.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jdinput.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jdmainct.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jdmarker.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jdmaster.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jdmerge.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jdphuff.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jdpostct.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jdsample.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jdtrans.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jerror.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jfdctflt.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jfdctfst.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jfdctint.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jidctflt.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jidctfst.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jidctint.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jidctred.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jmemmgr.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jmemnobs.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jquant1.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jquant2.c"
+"C:\develop5\xraynotes\work_vc6\jpeg\Jutils.c"
+]
+Creating command line "cl.exe @C:\Users\PETERG~1\AppData\Local\Temp\RSPBF98.tmp" 
+Creating temporary file "C:\Users\PETERG~1\AppData\Local\Temp\RSPBF99.tmp" with contents
+[
+/nologo /out:"Debug\Jpeg.lib" 
+.\Debug\Jcapimin.obj
+.\Debug\Jcapistd.obj
+.\Debug\Jccoefct.obj
+.\Debug\Jccolor.obj
+.\Debug\Jcdctmgr.obj
+.\Debug\Jchuff.obj
+.\Debug\Jcinit.obj
+.\Debug\Jcmainct.obj
+.\Debug\Jcmarker.obj
+.\Debug\Jcmaster.obj
+.\Debug\Jcomapi.obj
+.\Debug\Jcparam.obj
+.\Debug\Jcphuff.obj
+.\Debug\Jcprepct.obj
+.\Debug\Jcsample.obj
+.\Debug\Jctrans.obj
+.\Debug\Jdapimin.obj
+.\Debug\Jdapistd.obj
+.\Debug\Jdatadst.obj
+.\Debug\Jdatasrc.obj
+.\Debug\Jdcoefct.obj
+.\Debug\Jdcolor.obj
+.\Debug\Jddctmgr.obj
+.\Debug\Jdhuff.obj
+.\Debug\Jdinput.obj
+.\Debug\Jdmainct.obj
+.\Debug\Jdmarker.obj
+.\Debug\Jdmaster.obj
+.\Debug\Jdmerge.obj
+.\Debug\Jdphuff.obj
+.\Debug\Jdpostct.obj
+.\Debug\Jdsample.obj
+.\Debug\Jdtrans.obj
+.\Debug\Jerror.obj
+.\Debug\Jfdctflt.obj
+.\Debug\Jfdctfst.obj
+.\Debug\Jfdctint.obj
+.\Debug\Jidctflt.obj
+.\Debug\Jidctfst.obj
+.\Debug\Jidctint.obj
+.\Debug\Jidctred.obj
+.\Debug\Jmemmgr.obj
+.\Debug\Jmemnobs.obj
+.\Debug\Jquant1.obj
+.\Debug\Jquant2.obj
+.\Debug\Jutils.obj
+]
+Creating command line "link.exe -lib @C:\Users\PETERG~1\AppData\Local\Temp\RSPBF99.tmp"
+<h3>Output Window</h3>
+Compiling...
+Jcapimin.c
+Jcapistd.c
+Jccoefct.c
+Jccolor.c
+Jcdctmgr.c
+Jchuff.c
+Jcinit.c
+Jcmainct.c
+Jcmarker.c
+Jcmaster.c
+Jcomapi.c
+Jcparam.c
+Jcphuff.c
+Jcprepct.c
+Jcsample.c
+Jctrans.c
+Jdapimin.c
+Jdapistd.c
+Jdatadst.c
+Jdatasrc.c
+Generating Code...
+Compiling...
+Jdcoefct.c
+Jdcolor.c
+Jddctmgr.c
+Jdhuff.c
+Jdinput.c
+Jdmainct.c
+Jdmarker.c
+Jdmaster.c
+Jdmerge.c
+Jdphuff.c
+Jdpostct.c
+Jdsample.c
+Jdtrans.c
+Jerror.c
+Jfdctflt.c
+Jfdctfst.c
+Jfdctint.c
+Jidctflt.c
+Jidctfst.c
+Jidctint.c
+Generating Code...
+Compiling...
+Jidctred.c
+Jmemmgr.c
+Jmemnobs.c
+Jquant1.c
+Jquant2.c
+Jutils.c
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: png - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\PETERG~1\AppData\Local\Temp\RSPC3FF.tmp" with contents
+[
+/nologo /MDd /W3 /GX /ZI /Od /I "..\zlib" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\develop5\xraynotes\work_vc6\png\png.c"
+"C:\develop5\xraynotes\work_vc6\png\pngerror.c"
+"C:\develop5\xraynotes\work_vc6\png\pngget.c"
+"C:\develop5\xraynotes\work_vc6\png\pngmem.c"
+"C:\develop5\xraynotes\work_vc6\png\pngpread.c"
+"C:\develop5\xraynotes\work_vc6\png\pngread.c"
+"C:\develop5\xraynotes\work_vc6\png\pngrio.c"
+"C:\develop5\xraynotes\work_vc6\png\pngrtran.c"
+"C:\develop5\xraynotes\work_vc6\png\pngrutil.c"
+"C:\develop5\xraynotes\work_vc6\png\pngset.c"
+"C:\develop5\xraynotes\work_vc6\png\pngtrans.c"
+"C:\develop5\xraynotes\work_vc6\png\pngvcrd.c"
+"C:\develop5\xraynotes\work_vc6\png\pngwio.c"
+"C:\develop5\xraynotes\work_vc6\png\pngwrite.c"
+"C:\develop5\xraynotes\work_vc6\png\pngwtran.c"
+"C:\develop5\xraynotes\work_vc6\png\pngwutil.c"
+]
+Creating command line "cl.exe @C:\Users\PETERG~1\AppData\Local\Temp\RSPC3FF.tmp" 
+Creating temporary file "C:\Users\PETERG~1\AppData\Local\Temp\RSPC400.tmp" with contents
+[
+/nologo /out:"Debug\png.lib" 
+.\Debug\png.obj
+.\Debug\pngerror.obj
+.\Debug\pngget.obj
+.\Debug\pngmem.obj
+.\Debug\pngpread.obj
+.\Debug\pngread.obj
+.\Debug\pngrio.obj
+.\Debug\pngrtran.obj
+.\Debug\pngrutil.obj
+.\Debug\pngset.obj
+.\Debug\pngtrans.obj
+.\Debug\pngvcrd.obj
+.\Debug\pngwio.obj
+.\Debug\pngwrite.obj
+.\Debug\pngwtran.obj
+.\Debug\pngwutil.obj
+]
+Creating command line "link.exe -lib @C:\Users\PETERG~1\AppData\Local\Temp\RSPC400.tmp"
+<h3>Output Window</h3>
+Compiling...
+png.c
+pngerror.c
+pngget.c
+pngmem.c
+pngpread.c
+pngread.c
+pngrio.c
+pngrtran.c
+pngrutil.c
+pngset.c
+pngtrans.c
+pngvcrd.c
+pngwio.c
+pngwrite.c
+pngwtran.c
+pngwutil.c
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: tiff - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\PETERG~1\AppData\Local\Temp\RSPC7AB.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\zlib" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "_AFXDLL" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\develop5\xraynotes\work_vc6\tiff\fax3sm_winnt.c"
+"C:\develop5\xraynotes\work_vc6\tiff\tif_aux.c"
+"C:\develop5\xraynotes\work_vc6\tiff\tif_close.c"
+"C:\develop5\xraynotes\work_vc6\tiff\tif_codec.c"
+"C:\develop5\xraynotes\work_vc6\tiff\tif_compress.c"
+"C:\develop5\xraynotes\work_vc6\tiff\tif_dir.c"
+"C:\develop5\xraynotes\work_vc6\tiff\tif_dirinfo.c"
+"C:\develop5\xraynotes\work_vc6\tiff\tif_dirread.c"
+"C:\develop5\xraynotes\work_vc6\tiff\tif_dirwrite.c"
+"C:\develop5\xraynotes\work_vc6\tiff\tif_dumpmode.c"
+"C:\develop5\xraynotes\work_vc6\tiff\tif_error.c"
+"C:\develop5\xraynotes\work_vc6\tiff\tif_fax3.c"
+"C:\develop5\xraynotes\work_vc6\tiff\tif_flush.c"
+"C:\develop5\xraynotes\work_vc6\tiff\tif_getimage.c"
+"C:\develop5\xraynotes\work_vc6\tiff\tif_jpeg.c"
+"C:\develop5\xraynotes\work_vc6\tiff\tif_luv.c"
+"C:\develop5\xraynotes\work_vc6\tiff\tif_lzw.c"
+"C:\develop5\xraynotes\work_vc6\tiff\tif_next.c"
+"C:\develop5\xraynotes\work_vc6\tiff\tif_ojpeg.c"
+"C:\develop5\xraynotes\work_vc6\tiff\tif_open.c"
+"C:\develop5\xraynotes\work_vc6\tiff\tif_packbits.c"
+"C:\develop5\xraynotes\work_vc6\tiff\tif_pixarlog.c"
+"C:\develop5\xraynotes\work_vc6\tiff\tif_predict.c"
+"C:\develop5\xraynotes\work_vc6\tiff\tif_print.c"
+"C:\develop5\xraynotes\work_vc6\tiff\tif_read.c"
+"C:\develop5\xraynotes\work_vc6\tiff\tif_strip.c"
+"C:\develop5\xraynotes\work_vc6\tiff\tif_swab.c"
+"C:\develop5\xraynotes\work_vc6\tiff\tif_thunder.c"
+"C:\develop5\xraynotes\work_vc6\tiff\tif_tile.c"
+"C:\develop5\xraynotes\work_vc6\tiff\tif_version.c"
+"C:\develop5\xraynotes\work_vc6\tiff\tif_warning.c"
+"C:\develop5\xraynotes\work_vc6\tiff\tif_write.c"
+"C:\develop5\xraynotes\work_vc6\tiff\tif_zip.c"
+]
+Creating command line "cl.exe @C:\Users\PETERG~1\AppData\Local\Temp\RSPC7AB.tmp" 
+Creating temporary file "C:\Users\PETERG~1\AppData\Local\Temp\RSPC7BB.tmp" with contents
+[
+/nologo /out:"Debug\Tiff.lib" 
+.\Debug\fax3sm_winnt.obj
+.\Debug\tif_aux.obj
+.\Debug\tif_close.obj
+.\Debug\tif_codec.obj
+.\Debug\tif_compress.obj
+.\Debug\tif_dir.obj
+.\Debug\tif_dirinfo.obj
+.\Debug\tif_dirread.obj
+.\Debug\tif_dirwrite.obj
+.\Debug\tif_dumpmode.obj
+.\Debug\tif_error.obj
+.\Debug\tif_fax3.obj
+.\Debug\tif_flush.obj
+.\Debug\tif_getimage.obj
+.\Debug\tif_jpeg.obj
+.\Debug\tif_luv.obj
+.\Debug\tif_lzw.obj
+.\Debug\tif_next.obj
+.\Debug\tif_ojpeg.obj
+.\Debug\tif_open.obj
+.\Debug\tif_packbits.obj
+.\Debug\tif_pixarlog.obj
+.\Debug\tif_predict.obj
+.\Debug\tif_print.obj
+.\Debug\tif_read.obj
+.\Debug\tif_strip.obj
+.\Debug\tif_swab.obj
+.\Debug\tif_thunder.obj
+.\Debug\tif_tile.obj
+.\Debug\tif_version.obj
+.\Debug\tif_warning.obj
+.\Debug\tif_write.obj
+.\Debug\tif_zip.obj
+]
+Creating command line "link.exe -lib @C:\Users\PETERG~1\AppData\Local\Temp\RSPC7BB.tmp"
+<h3>Output Window</h3>
+Compiling...
+fax3sm_winnt.c
+tif_aux.c
+tif_close.c
+tif_codec.c
+tif_compress.c
+tif_dir.c
+tif_dirinfo.c
+tif_dirread.c
+tif_dirwrite.c
+tif_dumpmode.c
+tif_error.c
+tif_fax3.c
+tif_flush.c
+tif_getimage.c
+tif_jpeg.c
+tif_luv.c
+tif_lzw.c
+tif_next.c
+tif_ojpeg.c
+tif_open.c
+Generating Code...
+Compiling...
+tif_packbits.c
+tif_pixarlog.c
+tif_predict.c
+tif_print.c
+tif_read.c
+tif_strip.c
+tif_swab.c
+tif_thunder.c
+tif_tile.c
+tif_version.c
+tif_warning.c
+tif_write.c
+tif_zip.c
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: zlib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\PETERG~1\AppData\Local\Temp\RSPE026.tmp" with contents
+[
+/nologo /MDd /W3 /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\develop5\xraynotes\work_vc6\zlib\adler32.c"
+"C:\develop5\xraynotes\work_vc6\zlib\compress.c"
+"C:\develop5\xraynotes\work_vc6\zlib\crc32.c"
+"C:\develop5\xraynotes\work_vc6\zlib\deflate.c"
+"C:\develop5\xraynotes\work_vc6\zlib\gzio.c"
+"C:\develop5\xraynotes\work_vc6\zlib\infback.c"
+"C:\develop5\xraynotes\work_vc6\zlib\inffast.c"
+"C:\develop5\xraynotes\work_vc6\zlib\inflate.c"
+"C:\develop5\xraynotes\work_vc6\zlib\inftrees.c"
+"C:\develop5\xraynotes\work_vc6\zlib\trees.c"
+"C:\develop5\xraynotes\work_vc6\zlib\uncompr.c"
+"C:\develop5\xraynotes\work_vc6\zlib\zutil.c"
+]
+Creating command line "cl.exe @C:\Users\PETERG~1\AppData\Local\Temp\RSPE026.tmp" 
+Creating temporary file "C:\Users\PETERG~1\AppData\Local\Temp\RSPE027.tmp" with contents
+[
+/nologo /out:"Debug\zlib.lib" 
+.\Debug\adler32.obj
+.\Debug\compress.obj
+.\Debug\crc32.obj
+.\Debug\deflate.obj
+.\Debug\gzio.obj
+.\Debug\infback.obj
+.\Debug\inffast.obj
+.\Debug\inflate.obj
+.\Debug\inftrees.obj
+.\Debug\trees.obj
+.\Debug\uncompr.obj
+.\Debug\zutil.obj
+]
+Creating command line "link.exe -lib @C:\Users\PETERG~1\AppData\Local\Temp\RSPE027.tmp"
+<h3>Output Window</h3>
+Compiling...
+adler32.c
+compress.c
+crc32.c
+deflate.c
+gzio.c
+infback.c
+inffast.c
+inflate.c
+inftrees.c
+trees.c
+uncompr.c
+zutil.c
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: jbig - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\PETERG~1\AppData\Local\Temp\RSPE22C.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "_AFXDLL" /Fp"Debug/jbig.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\develop5\xraynotes\work_vc6\jbig\jbig.c"
+"C:\develop5\xraynotes\work_vc6\jbig\jbig_tab.c"
+]
+Creating command line "cl.exe @C:\Users\PETERG~1\AppData\Local\Temp\RSPE22C.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Debug\jbig.lib"  .\Debug\jbig.obj .\Debug\jbig_tab.obj "
+<h3>Output Window</h3>
+Compiling...
+jbig.c
+jbig_tab.c
+Creating library...
+<h3>
+--------------------Configuration: j2k - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\PETERG~1\AppData\Local\Temp\RSPE7AB.tmp" with contents
+[
+/nologo /MDd /W3 /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /D "LIBJ2K_EXPORTS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\develop5\xraynotes\work_vc6\j2k\bio.c"
+"C:\develop5\xraynotes\work_vc6\j2k\cio.c"
+"C:\develop5\xraynotes\work_vc6\j2k\dwt.c"
+"C:\develop5\xraynotes\work_vc6\j2k\fix.c"
+"C:\develop5\xraynotes\work_vc6\j2k\int.c"
+"C:\develop5\xraynotes\work_vc6\j2k\j2k.c"
+"C:\develop5\xraynotes\work_vc6\j2k\mct.c"
+"C:\develop5\xraynotes\work_vc6\j2k\mqc.c"
+"C:\develop5\xraynotes\work_vc6\j2k\pi.c"
+"C:\develop5\xraynotes\work_vc6\j2k\t1.c"
+"C:\develop5\xraynotes\work_vc6\j2k\t2.c"
+"C:\develop5\xraynotes\work_vc6\j2k\tcd.c"
+"C:\develop5\xraynotes\work_vc6\j2k\tgt.c"
+]
+Creating command line "cl.exe @C:\Users\PETERG~1\AppData\Local\Temp\RSPE7AB.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Debug\j2k.lib"  .\Debug\bio.obj .\Debug\cio.obj .\Debug\dwt.obj .\Debug\fix.obj .\Debug\int.obj .\Debug\j2k.obj .\Debug\mct.obj .\Debug\mqc.obj .\Debug\pi.obj .\Debug\t1.obj .\Debug\t2.obj .\Debug\tcd.obj .\Debug\tgt.obj "
+<h3>Output Window</h3>
+Compiling...
+bio.c
+cio.c
+dwt.c
+fix.c
+int.c
+j2k.c
+mct.c
+mqc.c
+pi.c
+t1.c
+t2.c
+tcd.c
+tgt.c
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: jasper - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\PETERG~1\AppData\Local\Temp\RSPE9EE.tmp" with contents
+[
+/nologo /MDd /W2 /Gm /GX /ZI /Od /I ".\include" /D "_DEBUG" /D "WIN32" /D "_MBCS" /D "_LIB" /D "JAS_WIN_MSVC_BUILD" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\develop5\xraynotes\work_vc6\jasper\bmp\bmp_cod.c"
+"C:\develop5\xraynotes\work_vc6\jasper\bmp\bmp_dec.c"
+"C:\develop5\xraynotes\work_vc6\jasper\bmp\bmp_enc.c"
+"C:\develop5\xraynotes\work_vc6\jasper\base\jas_cm.c"
+"C:\develop5\xraynotes\work_vc6\jasper\base\jas_debug.c"
+"C:\develop5\xraynotes\work_vc6\jasper\base\jas_getopt.c"
+"C:\develop5\xraynotes\work_vc6\jasper\base\jas_icc.c"
+"C:\develop5\xraynotes\work_vc6\jasper\base\jas_iccdata.c"
+"C:\develop5\xraynotes\work_vc6\jasper\base\jas_image.c"
+"C:\develop5\xraynotes\work_vc6\jasper\base\jas_init.c"
+"C:\develop5\xraynotes\work_vc6\jasper\base\jas_malloc.c"
+"C:\develop5\xraynotes\work_vc6\jasper\base\jas_seq.c"
+"C:\develop5\xraynotes\work_vc6\jasper\base\jas_stream.c"
+"C:\develop5\xraynotes\work_vc6\jasper\base\jas_string.c"
+"C:\develop5\xraynotes\work_vc6\jasper\base\jas_tvp.c"
+"C:\develop5\xraynotes\work_vc6\jasper\base\jas_version.c"
+"C:\develop5\xraynotes\work_vc6\jasper\jp2\jp2_cod.c"
+"C:\develop5\xraynotes\work_vc6\jasper\jp2\jp2_dec.c"
+"C:\develop5\xraynotes\work_vc6\jasper\jp2\jp2_enc.c"
+"C:\develop5\xraynotes\work_vc6\jasper\jpc\jpc_bs.c"
+"C:\develop5\xraynotes\work_vc6\jasper\jpc\jpc_cs.c"
+"C:\develop5\xraynotes\work_vc6\jasper\jpc\jpc_dec.c"
+"C:\develop5\xraynotes\work_vc6\jasper\jpc\jpc_enc.c"
+"C:\develop5\xraynotes\work_vc6\jasper\jpc\jpc_math.c"
+"C:\develop5\xraynotes\work_vc6\jasper\jpc\jpc_mct.c"
+"C:\develop5\xraynotes\work_vc6\jasper\jpc\jpc_mqcod.c"
+"C:\develop5\xraynotes\work_vc6\jasper\jpc\jpc_mqdec.c"
+"C:\develop5\xraynotes\work_vc6\jasper\jpc\jpc_mqenc.c"
+"C:\develop5\xraynotes\work_vc6\jasper\jpc\jpc_qmfb.c"
+"C:\develop5\xraynotes\work_vc6\jasper\jpc\jpc_t1cod.c"
+"C:\develop5\xraynotes\work_vc6\jasper\jpc\jpc_t1dec.c"
+"C:\develop5\xraynotes\work_vc6\jasper\jpc\jpc_t1enc.c"
+"C:\develop5\xraynotes\work_vc6\jasper\jpc\jpc_t2cod.c"
+"C:\develop5\xraynotes\work_vc6\jasper\jpc\jpc_t2dec.c"
+"C:\develop5\xraynotes\work_vc6\jasper\jpc\jpc_t2enc.c"
+"C:\develop5\xraynotes\work_vc6\jasper\jpc\jpc_tagtree.c"
+"C:\develop5\xraynotes\work_vc6\jasper\jpc\jpc_tsfb.c"
+"C:\develop5\xraynotes\work_vc6\jasper\jpc\jpc_util.c"
+"C:\develop5\xraynotes\work_vc6\jasper\jpg\jpg_dummy.c"
+"C:\develop5\xraynotes\work_vc6\jasper\jpg\jpg_val.c"
+"C:\develop5\xraynotes\work_vc6\jasper\mif\mif_cod.c"
+"C:\develop5\xraynotes\work_vc6\jasper\pgx\pgx_cod.c"
+"C:\develop5\xraynotes\work_vc6\jasper\pgx\pgx_dec.c"
+"C:\develop5\xraynotes\work_vc6\jasper\pgx\pgx_enc.c"
+"C:\develop5\xraynotes\work_vc6\jasper\pnm\pnm_cod.c"
+"C:\develop5\xraynotes\work_vc6\jasper\pnm\pnm_dec.c"
+"C:\develop5\xraynotes\work_vc6\jasper\pnm\pnm_enc.c"
+"C:\develop5\xraynotes\work_vc6\jasper\ras\ras_cod.c"
+"C:\develop5\xraynotes\work_vc6\jasper\ras\ras_dec.c"
+"C:\develop5\xraynotes\work_vc6\jasper\ras\ras_enc.c"
+]
+Creating command line "cl.exe @C:\Users\PETERG~1\AppData\Local\Temp\RSPE9EE.tmp" 
+Creating temporary file "C:\Users\PETERG~1\AppData\Local\Temp\RSPE9EF.tmp" with contents
+[
+/nologo /out:"Debug\jasper.lib" 
+.\Debug\bmp_cod.obj
+.\Debug\bmp_dec.obj
+.\Debug\bmp_enc.obj
+.\Debug\jas_cm.obj
+.\Debug\jas_debug.obj
+.\Debug\jas_getopt.obj
+.\Debug\jas_icc.obj
+.\Debug\jas_iccdata.obj
+.\Debug\jas_image.obj
+.\Debug\jas_init.obj
+.\Debug\jas_malloc.obj
+.\Debug\jas_seq.obj
+.\Debug\jas_stream.obj
+.\Debug\jas_string.obj
+.\Debug\jas_tvp.obj
+.\Debug\jas_version.obj
+.\Debug\jp2_cod.obj
+.\Debug\jp2_dec.obj
+.\Debug\jp2_enc.obj
+.\Debug\jpc_bs.obj
+.\Debug\jpc_cs.obj
+.\Debug\jpc_dec.obj
+.\Debug\jpc_enc.obj
+.\Debug\jpc_math.obj
+.\Debug\jpc_mct.obj
+.\Debug\jpc_mqcod.obj
+.\Debug\jpc_mqdec.obj
+.\Debug\jpc_mqenc.obj
+.\Debug\jpc_qmfb.obj
+.\Debug\jpc_t1cod.obj
+.\Debug\jpc_t1dec.obj
+.\Debug\jpc_t1enc.obj
+.\Debug\jpc_t2cod.obj
+.\Debug\jpc_t2dec.obj
+.\Debug\jpc_t2enc.obj
+.\Debug\jpc_tagtree.obj
+.\Debug\jpc_tsfb.obj
+.\Debug\jpc_util.obj
+.\Debug\jpg_dummy.obj
+.\Debug\jpg_val.obj
+.\Debug\mif_cod.obj
+.\Debug\pgx_cod.obj
+.\Debug\pgx_dec.obj
+.\Debug\pgx_enc.obj
+.\Debug\pnm_cod.obj
+.\Debug\pnm_dec.obj
+.\Debug\pnm_enc.obj
+.\Debug\ras_cod.obj
+.\Debug\ras_dec.obj
+.\Debug\ras_enc.obj
+]
+Creating command line "link.exe -lib @C:\Users\PETERG~1\AppData\Local\Temp\RSPE9EF.tmp"
+<h3>Output Window</h3>
+Compiling...
+bmp_cod.c
+bmp_dec.c
+bmp_enc.c
+jas_cm.c
+jas_debug.c
+jas_getopt.c
+jas_icc.c
+jas_iccdata.c
+jas_image.c
+jas_init.c
+jas_malloc.c
+jas_seq.c
+jas_stream.c
+jas_string.c
+jas_tvp.c
+jas_version.c
+jp2_cod.c
+jp2_dec.c
+jp2_enc.c
+jpc_bs.c
+Generating Code...
+c:\develop5\xraynotes\work_vc6\jasper\jp2\jp2_cod.c(757) : warning C4761: integral size mismatch in argument; conversion supplied
+c:\develop5\xraynotes\work_vc6\jasper\jp2\jp2_cod.c(757) : warning C4761: integral size mismatch in argument; conversion supplied
+c:\develop5\xraynotes\work_vc6\jasper\base\jas_image.c(221) : warning C4761: integral size mismatch in argument; conversion supplied
+c:\develop5\xraynotes\work_vc6\jasper\base\jas_image.c(720) : warning C4761: integral size mismatch in argument; conversion supplied
+Compiling...
+jpc_cs.c
+jpc_dec.c
+jpc_enc.c
+jpc_math.c
+jpc_mct.c
+jpc_mqcod.c
+jpc_mqdec.c
+jpc_mqenc.c
+jpc_qmfb.c
+jpc_t1cod.c
+jpc_t1dec.c
+jpc_t1enc.c
+jpc_t2cod.c
+jpc_t2dec.c
+jpc_t2enc.c
+jpc_tagtree.c
+jpc_tsfb.c
+jpc_util.c
+jpg_dummy.c
+jpg_val.c
+Generating Code...
+c:\develop5\xraynotes\work_vc6\jasper\jpc\jpc_dec.c(1232) : warning C4761: integral size mismatch in argument; conversion supplied
+c:\develop5\xraynotes\work_vc6\jasper\jpc\jpc_dec.c(1576) : warning C4761: integral size mismatch in argument; conversion supplied
+Compiling...
+mif_cod.c
+c:\develop5\xraynotes\work_vc6\jasper\jpc\jpc_cs.c(401) : warning C4761: integral size mismatch in argument; conversion supplied
+c:\develop5\xraynotes\work_vc6\jasper\jpc\jpc_cs.c(601) : warning C4761: integral size mismatch in argument; conversion supplied
+c:\develop5\xraynotes\work_vc6\jasper\jpc\jpc_cs.c(741) : warning C4761: integral size mismatch in argument; conversion supplied
+c:\develop5\xraynotes\work_vc6\jasper\jpc\jpc_cs.c(838) : warning C4761: integral size mismatch in argument; conversion supplied
+c:\develop5\xraynotes\work_vc6\jasper\jpc\jpc_cs.c(875) : warning C4761: integral size mismatch in argument; conversion supplied
+c:\develop5\xraynotes\work_vc6\jasper\jpc\jpc_cs.c(958) : warning C4761: integral size mismatch in argument; conversion supplied
+c:\develop5\xraynotes\work_vc6\jasper\jpc\jpc_cs.c(972) : warning C4761: integral size mismatch in argument; conversion supplied
+c:\develop5\xraynotes\work_vc6\jasper\jpc\jpc_cs.c(1065) : warning C4761: integral size mismatch in argument; conversion supplied
+c:\develop5\xraynotes\work_vc6\jasper\jpc\jpc_cs.c(1069) : warning C4761: integral size mismatch in argument; conversion supplied
+c:\develop5\xraynotes\work_vc6\jasper\jpc\jpc_cs.c(1339) : warning C4761: integral size mismatch in argument; conversion supplied
+c:\develop5\xraynotes\work_vc6\jasper\jpc\jpc_cs.c(1339) : warning C4761: integral size mismatch in argument; conversion supplied
+pgx_cod.c
+pgx_dec.c
+pgx_enc.c
+pnm_cod.c
+pnm_dec.c
+pnm_enc.c
+ras_cod.c
+ras_dec.c
+ras_enc.c
+Generating Code...
+c:\develop5\xraynotes\work_vc6\jasper\pnm\pnm_enc.c(342) : warning C4761: integral size mismatch in argument; conversion supplied
+c:\develop5\xraynotes\work_vc6\jasper\pnm\pnm_enc.c(380) : warning C4761: integral size mismatch in argument; conversion supplied
+c:\develop5\xraynotes\work_vc6\jasper\pnm\pnm_dec.c(260) : warning C4761: integral size mismatch in argument; conversion supplied
+c:\develop5\xraynotes\work_vc6\jasper\pnm\pnm_dec.c(275) : warning C4761: integral size mismatch in argument; conversion supplied
+c:\develop5\xraynotes\work_vc6\jasper\pnm\pnm_dec.c(317) : warning C4761: integral size mismatch in argument; conversion supplied
+c:\develop5\xraynotes\work_vc6\jasper\pnm\pnm_dec.c(318) : warning C4761: integral size mismatch in argument; conversion supplied
+Creating library...
+<h3>
+--------------------Configuration: xraynotes - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/xraynotes.res" /d "_DEBUG" /d "_AFXDLL" "C:\develop5\xraynotes\work_vc6\xraynotes\xraynotes.rc"" 
+Creating temporary file "C:\Users\PETERG~1\AppData\Local\Temp\RSPEED.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\..\..\common\work2" /I "..\common" /I "include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/xraynotes.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\develop5\xraynotes\work_vc6\xraynotes\2dCtl.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\AddrEntry.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\AlaDlg.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\Alpha.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\BaseWnd.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\BmpButt.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\BmpDC.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\BriCon.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\CalCtrl.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\calen.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\Chevron.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\CLayImg.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\CodeEd.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\ColDlg.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\CommLine.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\CTimeCtrl.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\Curve.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\CurveDlg.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\DateSel.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\DBMain.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\DiagList.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\DicomFile.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\DicomWin.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\DiMore.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\do3dp.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\DocList.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\EditEx.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\EventDlg.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\FileDialogST.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\Flag.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\Flyout.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\GdiRot.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\gestureDlg.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\GetText.cpp"
+"C:\develop5\common\work2\GrayDlg.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\HistoryDlg.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\HShield.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\INeuNet.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\INeuron.cpp"
+"C:\develop5\common\work2\label.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\LayCirc.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\Layer.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\LayLines.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\LayRect.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\LaySline.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\LayText.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\lcd7.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\LevenStein.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\Light.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\lineProp.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\lines.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\MagDlg.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\MagWnd.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\MedReg.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\memdc.cpp"
+"C:\develop5\common\work2\misc.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\MsgBox.cpp"
+"C:\develop5\common\work2\multimon.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\mxpad.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\parse.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\PatDmg.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\pcSelection.cpp"
+"C:\develop5\common\work2\PersistDlg.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\PGedit.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\PGtree.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\PicList.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\PicSel.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\Plot.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\PlotDlg.cpp"
+"C:\develop5\common\work2\Popup.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\prl.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\ProcDlg.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\PRocList.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\pybind.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\PyGlg.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\ScrKbd.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\SelHelper.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\sellist.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\shades.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\shadesDlg.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\ShadesFunc.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\ShadesHelp.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\ShadesSel.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\ShapeProp.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\SimpleGrid.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\Splash.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\Status.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\Support.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\TestDlg.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\TextMode.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\TextProp.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\tools.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\ToolShow.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\Transcript.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\transprog.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\TransSlider.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\TransStatic.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\Triangle.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\UniqID.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\xcalDlg.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\xCalen.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\xConfig.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\xFile.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\xImg.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\xntmask.cpp"
+"C:\develop5\common\work2\xPtrArr.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\xrayDlg.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\XrayDoc.cpp"
+"C:\develop5\common\work2\XrayM.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\xRect.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\xScroll.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\xStr.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\xTargetButton.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\xTracker.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\xyzDlg.cpp"
+"C:\develop5\xraynotes\work_vc6\xraynotes\yScroll.cpp"
+]
+Creating command line "cl.exe @C:\Users\PETERG~1\AppData\Local\Temp\RSPEED.tmp" 
+Creating temporary file "C:\Users\PETERG~1\AppData\Local\Temp\RSPEEE.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\..\..\common\work2" /I "..\common" /I "include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/xraynotes.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\develop5\xraynotes\work_vc6\xraynotes\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\PETERG~1\AppData\Local\Temp\RSPEEE.tmp" 
+Creating temporary file "C:\Users\PETERG~1\AppData\Local\Temp\RSPEEF.tmp" with contents
+[
+../png/Debug/png.lib ../jpeg/Debug/jpeg.lib ../zlib/Debug/zlib.lib ../tiff/Debug/tiff.lib ../j2k/Debug/j2k.lib ../jbig/Debug/jbig.lib ../jasper/Debug/jasper.lib ../cximage/Debug/cximage.lib wininet.lib msimg32.lib rpcrt4.lib winmm.lib user32.lib sqlite3.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/xraynotes.pdb" /debug /machine:I386 /out:"Debug/xraynotes.exe" /pdbtype:sept 
+.\Debug\2dCtl.obj
+.\Debug\AddrEntry.obj
+.\Debug\AlaDlg.obj
+.\Debug\Alpha.obj
+.\Debug\BaseWnd.obj
+.\Debug\BmpButt.obj
+.\Debug\BmpDC.obj
+.\Debug\BriCon.obj
+.\Debug\CalCtrl.obj
+.\Debug\calen.obj
+.\Debug\Chevron.obj
+.\Debug\CLayImg.obj
+.\Debug\CodeEd.obj
+.\Debug\ColDlg.obj
+.\Debug\CommLine.obj
+.\Debug\CTimeCtrl.obj
+.\Debug\Curve.obj
+.\Debug\CurveDlg.obj
+.\Debug\DateSel.obj
+.\Debug\DBMain.obj
+.\Debug\DiagList.obj
+.\Debug\DicomFile.obj
+.\Debug\DicomWin.obj
+.\Debug\DiMore.obj
+.\Debug\do3dp.obj
+.\Debug\DocList.obj
+.\Debug\EditEx.obj
+.\Debug\EventDlg.obj
+.\Debug\FileDialogST.obj
+.\Debug\Flag.obj
+.\Debug\Flyout.obj
+.\Debug\GdiRot.obj
+.\Debug\gestureDlg.obj
+.\Debug\GetText.obj
+.\Debug\GrayDlg.obj
+.\Debug\HistoryDlg.obj
+.\Debug\HShield.obj
+.\Debug\INeuNet.obj
+.\Debug\INeuron.obj
+.\Debug\label.obj
+.\Debug\LayCirc.obj
+.\Debug\Layer.obj
+.\Debug\LayLines.obj
+.\Debug\LayRect.obj
+.\Debug\LaySline.obj
+.\Debug\LayText.obj
+.\Debug\lcd7.obj
+.\Debug\LevenStein.obj
+.\Debug\Light.obj
+.\Debug\lineProp.obj
+.\Debug\lines.obj
+.\Debug\MagDlg.obj
+.\Debug\MagWnd.obj
+.\Debug\MedReg.obj
+.\Debug\memdc.obj
+.\Debug\misc.obj
+.\Debug\MsgBox.obj
+.\Debug\multimon.obj
+.\Debug\mxpad.obj
+.\Debug\parse.obj
+.\Debug\PatDmg.obj
+.\Debug\pcSelection.obj
+.\Debug\PersistDlg.obj
+.\Debug\PGedit.obj
+.\Debug\PGtree.obj
+.\Debug\PicList.obj
+.\Debug\PicSel.obj
+.\Debug\Plot.obj
+.\Debug\PlotDlg.obj
+.\Debug\Popup.obj
+.\Debug\prl.obj
+.\Debug\ProcDlg.obj
+.\Debug\PRocList.obj
+.\Debug\pybind.obj
+.\Debug\PyGlg.obj
+.\Debug\ScrKbd.obj
+.\Debug\SelHelper.obj
+.\Debug\sellist.obj
+.\Debug\shades.obj
+.\Debug\shadesDlg.obj
+.\Debug\ShadesFunc.obj
+.\Debug\ShadesHelp.obj
+.\Debug\ShadesSel.obj
+.\Debug\ShapeProp.obj
+.\Debug\SimpleGrid.obj
+.\Debug\Splash.obj
+.\Debug\Status.obj
+.\Debug\StdAfx.obj
+.\Debug\Support.obj
+.\Debug\TestDlg.obj
+.\Debug\TextMode.obj
+.\Debug\TextProp.obj
+.\Debug\tools.obj
+.\Debug\ToolShow.obj
+.\Debug\Transcript.obj
+.\Debug\transprog.obj
+.\Debug\TransSlider.obj
+.\Debug\TransStatic.obj
+.\Debug\Triangle.obj
+.\Debug\UniqID.obj
+.\Debug\xcalDlg.obj
+.\Debug\xCalen.obj
+.\Debug\xConfig.obj
+.\Debug\xFile.obj
+.\Debug\xImg.obj
+.\Debug\xntmask.obj
+.\Debug\xPtrArr.obj
+.\Debug\xrayDlg.obj
+.\Debug\XrayDoc.obj
+.\Debug\XrayM.obj
+.\Debug\xRect.obj
+.\Debug\xScroll.obj
+.\Debug\xStr.obj
+.\Debug\xTargetButton.obj
+.\Debug\xTracker.obj
+.\Debug\xyzDlg.obj
+.\Debug\yScroll.obj
+.\Debug\xraynotes.res
+\develop5\xraynotes\work_vc6\cximage\Debug\cximage.lib
+\develop5\xraynotes\work_vc6\jpeg\Debug\Jpeg.lib
+\develop5\xraynotes\work_vc6\png\Debug\png.lib
+\develop5\xraynotes\work_vc6\tiff\Debug\Tiff.lib
+\develop5\xraynotes\work_vc6\zlib\Debug\zlib.lib
+\develop5\xraynotes\work_vc6\jbig\Debug\jbig.lib
+\develop5\xraynotes\work_vc6\j2k\Debug\j2k.lib
+\develop5\xraynotes\work_vc6\jasper\Debug\jasper.lib
+]
+Creating command line "link.exe @C:\Users\PETERG~1\AppData\Local\Temp\RSPEEF.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+2dCtl.cpp
+AddrEntry.cpp
+AlaDlg.cpp
+Alpha.cpp
+BaseWnd.cpp
+BmpButt.cpp
+BmpDC.cpp
+BriCon.cpp
+CalCtrl.cpp
+calen.cpp
+Chevron.cpp
+CLayImg.cpp
+CodeEd.cpp
+ColDlg.cpp
+CommLine.cpp
+CTimeCtrl.cpp
+Curve.cpp
+CurveDlg.cpp
+DateSel.cpp
+DBMain.cpp
+Generating Code...
+Compiling...
+DiagList.cpp
+DicomFile.cpp
+DicomWin.cpp
+DiMore.cpp
+do3dp.cpp
+DocList.cpp
+EditEx.cpp
+EventDlg.cpp
+FileDialogST.cpp
+Flag.cpp
+Flyout.cpp
+GdiRot.cpp
+gestureDlg.cpp
+GetText.cpp
+GrayDlg.cpp
+HistoryDlg.cpp
+HShield.cpp
+INeuNet.cpp
+INeuron.cpp
+label.cpp
+Generating Code...
+Compiling...
+LayCirc.cpp
+Layer.cpp
+LayLines.cpp
+LayRect.cpp
+LaySline.cpp
+LayText.cpp
+lcd7.cpp
+LevenStein.cpp
+Light.cpp
+lineProp.cpp
+lines.cpp
+MagDlg.cpp
+MagWnd.cpp
+MedReg.cpp
+memdc.cpp
+misc.cpp
+MsgBox.cpp
+multimon.cpp
+mxpad.cpp
+parse.cpp
+Generating Code...
+Compiling...
+PatDmg.cpp
+pcSelection.cpp
+PersistDlg.cpp
+PGedit.cpp
+PGtree.cpp
+PicList.cpp
+PicSel.cpp
+Plot.cpp
+PlotDlg.cpp
+Popup.cpp
+prl.cpp
+ProcDlg.cpp
+PRocList.cpp
+pybind.cpp
+PyGlg.cpp
+ScrKbd.cpp
+SelHelper.cpp
+sellist.cpp
+shades.cpp
+shadesDlg.cpp
+Generating Code...
+Compiling...
+ShadesFunc.cpp
+ShadesHelp.cpp
+ShadesSel.cpp
+ShapeProp.cpp
+SimpleGrid.cpp
+Splash.cpp
+Status.cpp
+Support.cpp
+TestDlg.cpp
+TextMode.cpp
+TextProp.cpp
+tools.cpp
+ToolShow.cpp
+Transcript.cpp
+transprog.cpp
+TransSlider.cpp
+TransStatic.cpp
+Triangle.cpp
+UniqID.cpp
+xcalDlg.cpp
+Generating Code...
+Compiling...
+xCalen.cpp
+xConfig.cpp
+xFile.cpp
+xImg.cpp
+xntmask.cpp
+xPtrArr.cpp
+xrayDlg.cpp
+XrayDoc.cpp
+XrayM.cpp
+xRect.cpp
+xScroll.cpp
+xStr.cpp
+xTargetButton.cpp
+xTracker.cpp
+xyzDlg.cpp
+yScroll.cpp
+Generating Code...
+Linking...
+   Creating library Debug/xraynotes.lib and object Debug/xraynotes.exp
+
+
+
+<h3>Results</h3>
+xraynotes.exe - 0 error(s), 23 warning(s)
+</pre>
+</body>
+</html>

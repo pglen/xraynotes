@@ -1,0 +1,25 @@
+pfs			pPy_GetVersion                  ;
+pfo			pPyDict_New 					;
+pfo_svar 	pPy_BuildValue				;
+pfo_osvar	pPyArg_ParseTuple       ;
+pfo_s		pPyString_FromString		;
+pfo_oio		pPyTuple_SetItem            ;
+pfo_i		pPyTuple_New				;
+pfv_os		pPyErr_SetString            ;
+pfo_soo		pPyErr_NewException         ;
+pfo_pi		pPyBuffer_FromReadWriteMemor;
+pfv_o		pPyDict_Clear               ;
+pfo_ooo		pPyEval_EvalCode            ;
+pfv			pPyErr_Clear                    ;
+pfv_ooo		pPyErr_Restore              ;
+pfs_o		pPyString_AsString          ;
+pfo_o		pPyObject_Str               ;
+pfv_popopo	pPyErr_Fetch            ;
+pfo_ssip	pPy_CompileStringFlags  ;
+pfi_oso		pPyDict_SetItemString       ;
+pfo			pPyEval_GetBuiltins             ;
+pfv			pPy_Finalize                    ;
+pfo_smsoi	pPy_InitModule4         ;
+pfv			pPy_Initialize                  ;
+pfv_s		pPy_SetProgramName          ;
+

@@ -1,0 +1,180 @@
+
+------- Begin License ------------
+
+Name: ......... Allan Parsons
+Company: ...... test
+License: ...... FGPN-SPNC-OEID-HWTQ
+
+------- End License ------------
+
+
+------- Begin License ------------
+
+Name: ......... Allan Parson
+Company: ...... test
+License: ...... OUOS-XTLB-HXKR-ENRC
+
+------- End License ------------
+
+
+------- Begin License ------------
+
+Name: ......... Steven Feldman
+Company: ...... XCPT
+License: ...... XYPI-HPHC-IBYB-NJEI
+
+------- End License ------------
+
+
+------- Begin License ------------
+
+Name: ......... Beta Test
+Company: ...... XCPT
+License: ...... UCLW-GBPK-IDSI-CPCD
+
+------- End License ------------
+
+
+------- Begin License ------------
+
+Name: ......... Steven Feldman
+Company: ...... 
+License: ...... RPFJ-PBGW-OWSN-LKWI
+
+------- End License ------------
+
+
+------- Begin License ------------
+
+Name: ......... Paul Jevorsky
+Company: ...... XCPT
+License: ...... GKID-EGHO-YDOM-NBFK
+
+------- End License ------------
+
+
+------- Begin License ------------
+
+Name: ......... Paul H Jaworski 
+Company: ...... XCPT
+License: ...... NTNL-KGTK-GEQU-AQVO
+
+------- End License ------------
+
+
+------- Begin License ------------
+
+Name: ......... Paul H Jaworski 
+Company: ...... XCPT
+License: ...... EFNW-CWDE-UWLX-GKHY
+
+------- End License ------------
+
+
+------- Begin License ------------
+
+Name: ......... Peter Glen
+Company: ...... XCPT
+License: ...... TBJX-FIMA-VEDM-USVH
+
+------- End License ------------
+
+
+------- Begin License ------------
+
+Name: ......... Peter Glen
+Company: ...... 
+License: ...... DLRK-GIIY-HUIT-GMEG
+
+------- End License ------------
+
+
+------- Begin License ------------
+
+Name: ......... Peter
+Company: ...... 
+License: ...... FRBE-BJOD-IJOP-HCBU
+
+------- End License ------------
+
+
+------- Begin License ------------
+
+Name: ......... Steven
+Company: ...... 
+License: ...... SCEB-ADIP-OLJK-LRQR
+
+------- End License ------------
+
+
+------- Begin License ------------
+
+Name: ......... Steven Feldman
+Company: ...... 
+License: ...... QIGN-LHJO-SKHV-MKYW
+
+------- End License ------------
+
+
+------- Begin License ------------
+
+Name: ......... Steven Feldman
+Company: ...... 
+License: ...... GUCV-WOPN-KBSR-DFTW
+
+------- End License ------------
+
+
+------- Begin License ------------
+
+Name: ......... Steven Feldman
+Company: ...... 
+License: ...... EKWL-KXJF-UNWF-IVGT
+
+------- End License ------------
+
+
+------- Begin License ------------
+
+Name: ......... Steven Feldman
+Company: ...... 
+License: ...... KPOD-PGJJ-XMSC-POYT
+
+------- End License ------------
+
+
+------- Begin License ------------
+
+Name: ......... Peter Glen
+Company: ...... 
+License: ...... WEIS-BYQH-AQPY-AABN
+
+------- End License ------------
+
+
+------- Begin License ------------
+
+Name: ......... Peter Glen
+Company: ...... 
+License: ...... AXNI-BBHV-XJGX-ICSG
+
+------- End License ------------
+
+
+------- Begin License ------------
+
+Name: ......... Peter Glen
+Company: ...... Developer
+License: ...... RCBM-GCCS-CXCM-YKEU
+
+------- End License ------------
+
+
+------- Begin License ------------
+
+Name: ......... Peter Glen
+Company: ...... 
+License: ...... TENJ-YEFC-RXGQ-HJAL
+
+------- End License ------------
+

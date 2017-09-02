@@ -1,0 +1,42 @@
+// unicode.odl : type library source for unicode.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (unicode.tlb).
+
+[ uuid(F4A89078-03CB-4424-AB33-37B782A2A67F), version(1.0) ]
+library Unicode
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+
+	//  Primary dispatch interface for CUnicodeDoc
+	
+	[ uuid(7411CBB8-79EA-4936-9A64-B825ECA1B9D8) ]
+	dispinterface IUnicode
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CUnicodeDlgAutoProxy)
+			//}}AFX_ODL_PROP
+			
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CUnicodeDlgAutoProxy)
+			//}}AFX_ODL_METHOD
+
+	};
+
+	//  Class information for CUnicodeDoc
+	
+	[ uuid(5B279D39-2FFA-445D-A957-762AC7045E5A) ]
+	coclass Unicode
+	{
+		[default] dispinterface IUnicode;
+	};
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

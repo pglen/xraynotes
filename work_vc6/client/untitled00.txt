@@ -1,0 +1,42 @@
+
+    DDX_Control(pDX, IDC_BUTTON13,     m_Exec		 );
+    DDX_Control(pDX, IDOK        ,     m_Exit		 );
+    DDX_Control(pDX, IDCANCEL    ,     m_Cancel		 );
+    DDX_Control(pDX, IDC_BUTTON12,     m_ClearLog	 );
+    DDX_Control(pDX, IDC_BUTTON1 ,     m_Connect	 );
+    DDX_Control(pDX, IDC_BUTTON2 ,     m_Disconnect	 );
+    DDX_Control(pDX, IDC_BUTTON3 ,     m_Login		 );
+    DDX_Control(pDX, IDC_BUTTON5 ,     m_LS			 );
+    DDX_Control(pDX, IDC_BUTTON6 ,     m_Slst		 );
+    DDX_Control(pDX, IDC_BUTTON7 ,     m_Recv		 );
+    DDX_Control(pDX, IDC_BUTTON11,     m_Abort		 );
+    DDX_Control(pDX, IDC_BUTTON8 ,     m_Help		 );
+    DDX_Control(pDX, IDC_BUTTON10,     m_Stat		 );
+    DDX_Control(pDX, IDC_BUTTON9 ,     m_PWD		 );
+    DDX_Control(pDX, IDC_BUTTON4 ,     m_eKey		 );
+
+
+
+	CxTargetButton	m_con;
+
+
+	CxTargetButton	m_Exec			;
+	CxTargetButton	m_Exit          ;
+	CxTargetButton	m_Cancel        ;
+	CxTargetButton	m_ClearLog     ;
+	CxTargetButton	m_Connect       ;
+	CxTargetButton	m_Disconnect    ;
+	CxTargetButton	m_Login         ;
+	CxTargetButton	m_LS            ;
+	CxTargetButton	m_Slst          ;
+	CxTargetButton	m_Recv          ;
+	CxTargetButton	m_Abort         ;
+	CxTargetButton	m_Help          ;
+	CxTargetButton	m_Stat          ;
+	CxTargetButton	m_PWD           ;
+	CxTargetButton	m_eKey          ;
+
+
+	DDX_Control(pDX, IDC_BUTTON1, m_con);
+
+

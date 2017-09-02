@@ -1,0 +1,144 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad_1_1_cx_circular.html#44b26a22283187e9372359668b5fab86"><param name="Name" value="Add"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cx_ptr_arr.html#cc1d0669ad1acc304965893be2b74e1e"><param name="Name" value="AddUniq"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#efb411a43bb7274ba820f66574a664e3"><param name="Name" value="AnsiToUnicode"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_xray_m.html#ae15f476681019f40dd5461f2451fb3d"><param name="Name" value="AppendMenuItem"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_xray_m.html#886949cb1b053edce8a6fde47a9cd494"><param name="Name" value="AppendSubMenu"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#9b86c66c72a0c56da6c37fb36b716d7c"><param name="Name" value="aprintf"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_xray_m.html#d4a7fd2257fc643e976932a23bcf1614"><param name="Name" value="Clear"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#588f36d8c92b7c9f99cb175e2cf0ee1a"><param name="Name" value="ClearNotepad"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_splash.html"><param name="Name" value="CSplash"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_splash.html#4556bad281a41595ee5d6fd7f562b9c4"><param name="Name" value="OnChar"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_splash.html#70ad7d4ddfd0fbf909327d44342c632d"><param name="Name" value="OnLButtonDown"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cx_ptr_arr.html"><param name="Name" value="CxPtrArr"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cx_ptr_arr.html#cc1d0669ad1acc304965893be2b74e1e"><param name="Name" value="AddUniq"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cx_ptr_arr.html#bee005daf0bd6a3ef98ffd81b2e984cd"><param name="Name" value="ElementAt"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cx_ptr_arr.html#11357931f9c1cf946c78d583f9730e5a"><param name="Name" value="Find"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cx_ptr_arr.html#52da154dce6dfbf5a55bd5db9f15bbf3"><param name="Name" value="FreeExtra"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cx_ptr_arr.html#b4f4e1868f1a1d2ac3b58ca5a78c05a8"><param name="Name" value="GetAt"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cx_ptr_arr.html#af8c2b26626badc505a97e5fd3490fbe"><param name="Name" value="GetData"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cx_ptr_arr.html#e0ef374b84cc2c2c732dca1a0d8d28b7"><param name="Name" value="GetSize"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cx_ptr_arr.html#49e87a9183dc17cb87cfbd0c815ea0bc"><param name="Name" value="GetUpperBound"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cx_ptr_arr.html#87ffc5a385f59d58de8b0a27e8761eb7"><param name="Name" value="operator int"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cx_ptr_arr.html#4f3f8712977f858903540acf624ff0d7"><param name="Name" value="operator[]"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cx_ptr_arr.html#6c70cd18ff427cd19e319f7c32151ba0"><param name="Name" value="RemoveAll"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cx_ptr_arr.html#e8f4ca23a0c9da10c1baf749f846dddc"><param name="Name" value="RemoveValue"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cx_ptr_arr.html#a0f42858ff357b7437c6b39871ed86a2"><param name="Name" value="SetAt"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cx_ptr_arr.html#93dbfc4072e892512960a572c849f027"><param name="Name" value="SetAtGrow"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cx_ptr_arr.html#6c1f36dbe52200d289de94ce940fa241"><param name="Name" value="SetSize"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_xray_m.html"><param name="Name" value="CXrayM"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_xray_m.html#ae15f476681019f40dd5461f2451fb3d"><param name="Name" value="AppendMenuItem"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_xray_m.html#886949cb1b053edce8a6fde47a9cd494"><param name="Name" value="AppendSubMenu"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_xray_m.html#d4a7fd2257fc643e976932a23bcf1614"><param name="Name" value="Clear"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_xray_m.html#8d51656c96ecef5441d7174145e70dde"><param name="Name" value="DelMenuItem"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_xray_m.html#08b70f733db2f470554f4e10ef67a5be"><param name="Name" value="DumpMenu"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_xray_m.html#9ce981d16ec81b7772d8a1d12b42ef31"><param name="Name" value="FindMenuItem"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_xray_m.html#403df0a6ca6c196fc945bf76377a86d4"><param name="Name" value="FindSubmenu"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_xray_m.html#af48f2bb590dde6b86c3d38e99bddbc1"><param name="Name" value="GetMenuItemText"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_xray_m.html#50693c7d3fd9f6a30496fb1fdbd7e6b8"><param name="Name" value="GetMenuTextSize"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_xray_m.html#a1471ba092c4565cae39bc6e105750d0"><param name="Name" value="GetNumItems"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_xray_m.html#3fa87ed54ffa72f3ccfea700de56eefe"><param name="Name" value="Hide"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_xray_m.html#82ab88e03261ce538399990b8ff157d3"><param name="Name" value="LoadAndShow"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_xray_m.html#4c1f59d5de52a8470d923adc14ceff8f"><param name="Name" value="LoadMenu"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_xray_m.html#235b6dedf2ccaa700a7bf8f8304ac9c4"><param name="Name" value="SetCheck"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_xray_m.html#f9c39ae5b43d79d01e1e12cb658915a0"><param name="Name" value="SetItemKey"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_xray_m.html#2daf3028c6358594a968cc31c42441c6"><param name="Name" value="SetItemStatus"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_xray_m.html#e312dccb98cc37dd3c9b90dbdf5d97ba"><param name="Name" value="SetItemText"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_xray_m.html#f3555d1ae92cca3453238f3bd4928963"><param name="Name" value="SetToolTip"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_xray_m.html#9d4af20071547072a0caf56ce34bca3a"><param name="Name" value="Show"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_xray_m.html#8d51656c96ecef5441d7174145e70dde"><param name="Name" value="DelMenuItem"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#6cf0b69254016796c1a4e488a6e2943e"><param name="Name" value="dump"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#11c3962ae5522ea91aa4b89723642aea"><param name="Name" value="DumpEdS"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#8b68d8abcda52faa062876f2bdd91812"><param name="Name" value="DumpExStyles"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_xray_m.html#08b70f733db2f470554f4e10ef67a5be"><param name="Name" value="DumpMenu"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#9864ef323d4e3b7b06f2b43534ed7b65"><param name="Name" value="DumpSS"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#1abf94791d4db226088daab80c38f387"><param name="Name" value="DumpStyles"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cx_ptr_arr.html#bee005daf0bd6a3ef98ffd81b2e984cd"><param name="Name" value="ElementAt"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cx_ptr_arr.html#11357931f9c1cf946c78d583f9730e5a"><param name="Name" value="Find"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_xray_m.html#9ce981d16ec81b7772d8a1d12b42ef31"><param name="Name" value="FindMenuItem"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_xray_m.html#403df0a6ca6c196fc945bf76377a86d4"><param name="Name" value="FindSubmenu"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cx_ptr_arr.html#52da154dce6dfbf5a55bd5db9f15bbf3"><param name="Name" value="FreeExtra"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad_1_1_cx_circular.html#0aadbff3deab8f2a7682c6c8a58905f4"><param name="Name" value="Get"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cx_ptr_arr.html#b4f4e1868f1a1d2ac3b58ca5a78c05a8"><param name="Name" value="GetAt"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cx_ptr_arr.html#af8c2b26626badc505a97e5fd3490fbe"><param name="Name" value="GetData"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_xray_m.html#af48f2bb590dde6b86c3d38e99bddbc1"><param name="Name" value="GetMenuItemText"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_xray_m.html#50693c7d3fd9f6a30496fb1fdbd7e6b8"><param name="Name" value="GetMenuTextSize"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_xray_m.html#a1471ba092c4565cae39bc6e105750d0"><param name="Name" value="GetNumItems"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cx_ptr_arr.html#e0ef374b84cc2c2c732dca1a0d8d28b7"><param name="Name" value="GetSize"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cx_ptr_arr.html#49e87a9183dc17cb87cfbd0c815ea0bc"><param name="Name" value="GetUpperBound"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_xray_m.html#3fa87ed54ffa72f3ccfea700de56eefe"><param name="Name" value="Hide"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#ce562b68dcb1845170d5ab3146685136"><param name="Name" value="is_junk"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#50b567f0fed61eb4839676c6b98bac3b"><param name="Name" value="is_nonclient"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#bc9eefb45f3f25adde4cfdefc4776b56"><param name="Name" value="IsLocalAvail"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#2a181c62c0e401eba4065cc01468f970"><param name="Name" value="IsRemoteAvail"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_xray_m.html#82ab88e03261ce538399990b8ff157d3"><param name="Name" value="LoadAndShow"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_xray_m.html#4c1f59d5de52a8470d923adc14ceff8f"><param name="Name" value="LoadMenu"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad_1_1_cx_circular.html"><param name="Name" value="MxPad::CxCircular"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad_1_1_cx_circular.html#44b26a22283187e9372359668b5fab86"><param name="Name" value="Add"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad_1_1_cx_circular.html#0aadbff3deab8f2a7682c6c8a58905f4"><param name="Name" value="Get"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html"><param name="Name" value="MxPad"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#efb411a43bb7274ba820f66574a664e3"><param name="Name" value="AnsiToUnicode"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#9b86c66c72a0c56da6c37fb36b716d7c"><param name="Name" value="aprintf"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#588f36d8c92b7c9f99cb175e2cf0ee1a"><param name="Name" value="ClearNotepad"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#6cf0b69254016796c1a4e488a6e2943e"><param name="Name" value="dump"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#11c3962ae5522ea91aa4b89723642aea"><param name="Name" value="DumpEdS"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#8b68d8abcda52faa062876f2bdd91812"><param name="Name" value="DumpExStyles"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#9864ef323d4e3b7b06f2b43534ed7b65"><param name="Name" value="DumpSS"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#1abf94791d4db226088daab80c38f387"><param name="Name" value="DumpStyles"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#ce562b68dcb1845170d5ab3146685136"><param name="Name" value="is_junk"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#50b567f0fed61eb4839676c6b98bac3b"><param name="Name" value="is_nonclient"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#bc9eefb45f3f25adde4cfdefc4776b56"><param name="Name" value="IsLocalAvail"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#2a181c62c0e401eba4065cc01468f970"><param name="Name" value="IsRemoteAvail"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#35641e1753f9e14f53d31c31a6c600b7"><param name="Name" value="num2err"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#183144569fb0621d72c2a1ce6cd18a64"><param name="Name" value="num2msg"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#f9d07b20e45266327444402d09916184"><param name="Name" value="printf"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#0b2d73d5decaa3af11e1c1c105f54b12"><param name="Name" value="SetAppname"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#fddcbf473790d91d58f60794d2b56bf0"><param name="Name" value="SetLocal"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#a72641666b4689ce9f9d969e75c959f6"><param name="Name" value="SetRemote"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#3f9508d1d3b1dbea37e471f8a75036ba"><param name="Name" value="SetTrace"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#c06d731ad427483e438a544472630ff7"><param name="Name" value="ToNotepad"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#c369591f58d861f8bcef80ee447a2dea"><param name="Name" value="UnicodeToAnsi"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#68d97614f0477f8eae8c9f1c0ee65ce1"><param name="Name" value="vkey2keystr"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#35641e1753f9e14f53d31c31a6c600b7"><param name="Name" value="num2err"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#183144569fb0621d72c2a1ce6cd18a64"><param name="Name" value="num2msg"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_splash.html#4556bad281a41595ee5d6fd7f562b9c4"><param name="Name" value="OnChar"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_splash.html#70ad7d4ddfd0fbf909327d44342c632d"><param name="Name" value="OnLButtonDown"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cx_ptr_arr.html#87ffc5a385f59d58de8b0a27e8761eb7"><param name="Name" value="operator int"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cx_ptr_arr.html#4f3f8712977f858903540acf624ff0d7"><param name="Name" value="operator[]"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#f9d07b20e45266327444402d09916184"><param name="Name" value="printf"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cx_ptr_arr.html#6c70cd18ff427cd19e319f7c32151ba0"><param name="Name" value="RemoveAll"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cx_ptr_arr.html#e8f4ca23a0c9da10c1baf749f846dddc"><param name="Name" value="RemoveValue"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#0b2d73d5decaa3af11e1c1c105f54b12"><param name="Name" value="SetAppname"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cx_ptr_arr.html#a0f42858ff357b7437c6b39871ed86a2"><param name="Name" value="SetAt"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cx_ptr_arr.html#93dbfc4072e892512960a572c849f027"><param name="Name" value="SetAtGrow"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_xray_m.html#235b6dedf2ccaa700a7bf8f8304ac9c4"><param name="Name" value="SetCheck"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_xray_m.html#f9c39ae5b43d79d01e1e12cb658915a0"><param name="Name" value="SetItemKey"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_xray_m.html#2daf3028c6358594a968cc31c42441c6"><param name="Name" value="SetItemStatus"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_xray_m.html#e312dccb98cc37dd3c9b90dbdf5d97ba"><param name="Name" value="SetItemText"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#fddcbf473790d91d58f60794d2b56bf0"><param name="Name" value="SetLocal"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#a72641666b4689ce9f9d969e75c959f6"><param name="Name" value="SetRemote"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cx_ptr_arr.html#6c1f36dbe52200d289de94ce940fa241"><param name="Name" value="SetSize"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_xray_m.html#f3555d1ae92cca3453238f3bd4928963"><param name="Name" value="SetToolTip"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#3f9508d1d3b1dbea37e471f8a75036ba"><param name="Name" value="SetTrace"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_xray_m.html#9d4af20071547072a0caf56ce34bca3a"><param name="Name" value="Show"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#c06d731ad427483e438a544472630ff7"><param name="Name" value="ToNotepad"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#c369591f58d861f8bcef80ee447a2dea"><param name="Name" value="UnicodeToAnsi"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mx_pad.html#68d97614f0477f8eae8c9f1c0ee65ce1"><param name="Name" value="vkey2keystr"></OBJECT>
+</UL>
+</BODY>
+</HTML>

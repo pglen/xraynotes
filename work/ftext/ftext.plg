@@ -1,0 +1,88 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ftext - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\PETERG~1\LOCALS~1\Temp\RSP1FF.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "../common" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/ftext.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\develop2\xraynotes\work\ftext\xFedit.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\PETERG~1\LOCALS~1\Temp\RSP1FF.tmp" 
+Creating temporary file "C:\DOCUME~1\PETERG~1\LOCALS~1\Temp\RSP200.tmp" with contents
+[
+winmm.lib user32.lib msimg32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/ftext.pdb" /debug /machine:I386 /out:"Debug/ftext.exe" /pdbtype:sept 
+.\Debug\BaseWnd.obj
+.\Debug\ExcRep.obj
+.\Debug\Flag.obj
+.\Debug\ftext.obj
+.\Debug\ftextDlg.obj
+.\Debug\GrayDlg.obj
+.\Debug\label.obj
+.\Debug\LevenStein.obj
+.\Debug\memdc.obj
+.\Debug\misc.obj
+.\Debug\mxpad.obj
+.\Debug\PaintDCSave.obj
+.\Debug\PersistDlg.obj
+.\Debug\PGedit.obj
+.\Debug\Popup.obj
+.\Debug\StdAfx.obj
+.\Debug\Support.obj
+.\Debug\toolstrip.obj
+.\Debug\Version.obj
+.\Debug\xFedit.obj
+.\Debug\xPtrArr.obj
+.\Debug\xRect.obj
+.\Debug\xScrollBar.obj
+.\Debug\ftext.res
+.\Debug\ClipBoard.obj
+.\Debug\ParseStr.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\PETERG~1\LOCALS~1\Temp\RSP200.tmp"
+<h3>Output Window</h3>
+Compiling...
+xFedit.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\PETERG~1\LOCALS~1\Temp\RSP201.tmp" with contents
+[
+/nologo /o"Debug/ftext.bsc" 
+.\Debug\StdAfx.sbr
+.\Debug\BaseWnd.sbr
+.\Debug\ExcRep.sbr
+.\Debug\Flag.sbr
+.\Debug\ftext.sbr
+.\Debug\ftextDlg.sbr
+.\Debug\GrayDlg.sbr
+.\Debug\label.sbr
+.\Debug\LevenStein.sbr
+.\Debug\memdc.sbr
+.\Debug\misc.sbr
+.\Debug\mxpad.sbr
+.\Debug\PaintDCSave.sbr
+.\Debug\PersistDlg.sbr
+.\Debug\PGedit.sbr
+.\Debug\Popup.sbr
+.\Debug\Support.sbr
+.\Debug\toolstrip.sbr
+.\Debug\Version.sbr
+.\Debug\xFedit.sbr
+.\Debug\xPtrArr.sbr
+.\Debug\xRect.sbr
+.\Debug\xScrollBar.sbr
+.\Debug\ClipBoard.sbr
+.\Debug\ParseStr.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\PETERG~1\LOCALS~1\Temp\RSP201.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+ftext.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

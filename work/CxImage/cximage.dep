@@ -1,0 +1,403 @@
+# Microsoft Developer Studio Generated Dependency File, included by cximage.mak
+
+.\tif_xfile.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\tiff\tif_dir.h"\
+	"..\tiff\tiff.h"\
+	"..\tiff\tiffcomp.h"\
+	"..\tiff\tiffconf.h"\
+	"..\tiff\tiffio.h"\
+	"..\tiff\tiffiop.h"\
+	".\xfile.h"\
+	".\ximacfg.h"\
+	".\ximadef.h"\
+	".\ximage.h"\
+	".\xiofile.h"\
+	".\xmemfile.h"\
+	
+
+.\ximabmp.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\xfile.h"\
+	".\ximabmp.h"\
+	".\ximacfg.h"\
+	".\ximadef.h"\
+	".\ximage.h"\
+	".\ximaiter.h"\
+	".\xiofile.h"\
+	".\xmemfile.h"\
+	
+
+.\ximadsp.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\xfile.h"\
+	".\ximacfg.h"\
+	".\ximadef.h"\
+	".\ximage.h"\
+	".\ximaiter.h"\
+	".\xiofile.h"\
+	".\xmemfile.h"\
+	
+
+.\ximaenc.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\jasper\include\jasper\jas_cm.h"\
+	"..\jasper\include\jasper\jas_config.h"\
+	"..\jasper\include\jasper\jas_config2.h"\
+	"..\jasper\include\jasper\jas_debug.h"\
+	"..\jasper\include\jasper\jas_fix.h"\
+	"..\jasper\include\jasper\jas_getopt.h"\
+	"..\jasper\include\jasper\jas_icc.h"\
+	"..\jasper\include\jasper\jas_image.h"\
+	"..\jasper\include\jasper\jas_init.h"\
+	"..\jasper\include\jasper\jas_malloc.h"\
+	"..\jasper\include\jasper\jas_math.h"\
+	"..\jasper\include\jasper\jas_seq.h"\
+	"..\jasper\include\jasper\jas_stream.h"\
+	"..\jasper\include\jasper\jas_string.h"\
+	"..\jasper\include\jasper\jas_tvp.h"\
+	"..\jasper\include\jasper\jas_types.h"\
+	"..\jasper\include\jasper\jas_version.h"\
+	"..\jasper\include\jasper\jasper.h"\
+	"..\jpeg\Jconfig.h"\
+	"..\jpeg\Jerror.h"\
+	"..\jpeg\Jmorecfg.h"\
+	"..\jpeg\Jpeglib.h"\
+	"..\png\png.h"\
+	"..\png\pngconf.h"\
+	"..\tiff\tiff.h"\
+	"..\tiff\tiffio.h"\
+	"..\zlib\zconf.h"\
+	"..\zlib\zlib.h"\
+	".\xfile.h"\
+	".\ximabmp.h"\
+	".\ximacfg.h"\
+	".\ximadef.h"\
+	".\ximage.h"\
+	".\ximagif.h"\
+	".\ximaico.h"\
+	".\ximajas.h"\
+	".\ximajpg.h"\
+	".\ximapcx.h"\
+	".\ximapng.h"\
+	".\ximatga.h"\
+	".\ximatif.h"\
+	".\ximawbmp.h"\
+	".\ximawmf.h"\
+	".\xiofile.h"\
+	".\xmemfile.h"\
+	
+
+.\ximaexif.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\jpeg\Jconfig.h"\
+	"..\jpeg\Jerror.h"\
+	"..\jpeg\Jmorecfg.h"\
+	"..\jpeg\Jpeglib.h"\
+	".\xfile.h"\
+	".\ximacfg.h"\
+	".\ximadef.h"\
+	".\ximage.h"\
+	".\ximajpg.h"\
+	".\xiofile.h"\
+	".\xmemfile.h"\
+	
+
+.\xImage.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\xfile.h"\
+	".\ximacfg.h"\
+	".\ximadef.h"\
+	".\ximage.h"\
+	".\xiofile.h"\
+	".\xmemfile.h"\
+	
+
+.\ximagif.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\xfile.h"\
+	".\ximacfg.h"\
+	".\ximadef.h"\
+	".\ximage.h"\
+	".\ximagif.h"\
+	".\ximaiter.h"\
+	".\xiofile.h"\
+	".\xmemfile.h"\
+	
+
+.\ximahist.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\xfile.h"\
+	".\ximacfg.h"\
+	".\ximadef.h"\
+	".\ximage.h"\
+	".\xiofile.h"\
+	".\xmemfile.h"\
+	
+
+.\ximaico.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\xfile.h"\
+	".\ximacfg.h"\
+	".\ximadef.h"\
+	".\ximage.h"\
+	".\ximaico.h"\
+	".\xiofile.h"\
+	".\xmemfile.h"\
+	
+
+.\ximainfo.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\xfile.h"\
+	".\ximacfg.h"\
+	".\ximadef.h"\
+	".\ximage.h"\
+	".\xiofile.h"\
+	".\xmemfile.h"\
+	
+
+.\ximaint.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\xfile.h"\
+	".\ximacfg.h"\
+	".\ximadef.h"\
+	".\ximage.h"\
+	".\ximath.h"\
+	".\xiofile.h"\
+	".\xmemfile.h"\
+	
+
+.\ximaj2k.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\xfile.h"\
+	".\ximacfg.h"\
+	".\ximadef.h"\
+	".\ximage.h"\
+	".\ximaj2k.h"\
+	".\xiofile.h"\
+	".\xmemfile.h"\
+	
+
+.\ximajas.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\jasper\include\jasper\jas_cm.h"\
+	"..\jasper\include\jasper\jas_config.h"\
+	"..\jasper\include\jasper\jas_config2.h"\
+	"..\jasper\include\jasper\jas_debug.h"\
+	"..\jasper\include\jasper\jas_fix.h"\
+	"..\jasper\include\jasper\jas_getopt.h"\
+	"..\jasper\include\jasper\jas_icc.h"\
+	"..\jasper\include\jasper\jas_image.h"\
+	"..\jasper\include\jasper\jas_init.h"\
+	"..\jasper\include\jasper\jas_malloc.h"\
+	"..\jasper\include\jasper\jas_math.h"\
+	"..\jasper\include\jasper\jas_seq.h"\
+	"..\jasper\include\jasper\jas_stream.h"\
+	"..\jasper\include\jasper\jas_string.h"\
+	"..\jasper\include\jasper\jas_tvp.h"\
+	"..\jasper\include\jasper\jas_types.h"\
+	"..\jasper\include\jasper\jas_version.h"\
+	"..\jasper\include\jasper\jasper.h"\
+	".\xfile.h"\
+	".\ximacfg.h"\
+	".\ximadef.h"\
+	".\ximage.h"\
+	".\ximajas.h"\
+	".\xiofile.h"\
+	".\xmemfile.h"\
+	
+
+.\ximajbg.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\xfile.h"\
+	".\ximacfg.h"\
+	".\ximadef.h"\
+	".\ximage.h"\
+	".\ximajbg.h"\
+	".\xiofile.h"\
+	".\xmemfile.h"\
+	
+
+.\ximajpg.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\jpeg\Jconfig.h"\
+	"..\jpeg\Jerror.h"\
+	"..\jpeg\Jmorecfg.h"\
+	"..\jpeg\Jpeglib.h"\
+	".\xfile.h"\
+	".\ximacfg.h"\
+	".\ximadef.h"\
+	".\ximage.h"\
+	".\ximaiter.h"\
+	".\ximajpg.h"\
+	".\xiofile.h"\
+	".\xmemfile.h"\
+	
+
+.\ximalpha.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\xfile.h"\
+	".\ximacfg.h"\
+	".\ximadef.h"\
+	".\ximage.h"\
+	".\xiofile.h"\
+	".\xmemfile.h"\
+	
+
+.\ximalyr.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\xfile.h"\
+	".\ximacfg.h"\
+	".\ximadef.h"\
+	".\ximage.h"\
+	".\xiofile.h"\
+	".\xmemfile.h"\
+	
+
+.\ximamng.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\xfile.h"\
+	".\ximacfg.h"\
+	".\ximadef.h"\
+	".\ximage.h"\
+	".\ximamng.h"\
+	".\xiofile.h"\
+	".\xmemfile.h"\
+	
+
+.\ximapal.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\xfile.h"\
+	".\ximacfg.h"\
+	".\ximadef.h"\
+	".\ximage.h"\
+	".\xiofile.h"\
+	".\xmemfile.h"\
+	
+
+.\ximapcx.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\xfile.h"\
+	".\ximacfg.h"\
+	".\ximadef.h"\
+	".\ximage.h"\
+	".\ximapcx.h"\
+	".\xiofile.h"\
+	".\xmemfile.h"\
+	
+
+.\ximapng.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\png\png.h"\
+	"..\png\pngconf.h"\
+	"..\zlib\zconf.h"\
+	"..\zlib\zlib.h"\
+	".\xfile.h"\
+	".\ximacfg.h"\
+	".\ximadef.h"\
+	".\ximage.h"\
+	".\ximaiter.h"\
+	".\ximapng.h"\
+	".\xiofile.h"\
+	".\xmemfile.h"\
+	
+
+.\ximasel.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\xfile.h"\
+	".\ximacfg.h"\
+	".\ximadef.h"\
+	".\ximage.h"\
+	".\xiofile.h"\
+	".\xmemfile.h"\
+	
+
+.\ximatga.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\xfile.h"\
+	".\ximacfg.h"\
+	".\ximadef.h"\
+	".\ximage.h"\
+	".\ximaiter.h"\
+	".\ximatga.h"\
+	".\xiofile.h"\
+	".\xmemfile.h"\
+	
+
+.\ximath.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\xfile.h"\
+	".\ximacfg.h"\
+	".\ximadef.h"\
+	".\ximage.h"\
+	".\ximath.h"\
+	".\xiofile.h"\
+	".\xmemfile.h"\
+	
+
+.\ximatif.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\tiff\tiff.h"\
+	"..\tiff\tiffio.h"\
+	".\xfile.h"\
+	".\ximacfg.h"\
+	".\ximadef.h"\
+	".\ximage.h"\
+	".\ximatif.h"\
+	".\xiofile.h"\
+	".\xmemfile.h"\
+	
+
+.\ximatran.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\xfile.h"\
+	".\ximacfg.h"\
+	".\ximadef.h"\
+	".\ximage.h"\
+	".\ximath.h"\
+	".\xiofile.h"\
+	".\xmemfile.h"\
+	
+
+.\ximawbmp.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\xfile.h"\
+	".\ximacfg.h"\
+	".\ximadef.h"\
+	".\ximage.h"\
+	".\ximaiter.h"\
+	".\ximawbmp.h"\
+	".\xiofile.h"\
+	".\xmemfile.h"\
+	
+
+.\ximawmf.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\xfile.h"\
+	".\ximacfg.h"\
+	".\ximadef.h"\
+	".\ximage.h"\
+	".\ximawmf.h"\
+	".\xiofile.h"\
+	".\xmemfile.h"\
+	
+
+.\ximawnd.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\xfile.h"\
+	".\ximabmp.h"\
+	".\ximacfg.h"\
+	".\ximadef.h"\
+	".\ximage.h"\
+	".\ximaiter.h"\
+	".\xiofile.h"\
+	".\xmemfile.h"\
+	
+
+.\xmemfile.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\xfile.h"\
+	".\ximacfg.h"\
+	".\ximadef.h"\
+	".\xmemfile.h"\
+	

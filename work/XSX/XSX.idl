@@ -1,0 +1,40 @@
+// XSX.idl : IDL source for XSX.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (XSX.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+	
+	[
+		object,
+		uuid(CA507F13-9839-4466-8EF0-5CAEA1E66A1C),
+		dual,
+		helpstring("IXFX Interface"),
+		pointer_default(unique)
+	]
+	interface IXFX : IDispatch
+	{
+	};
+
+[
+	uuid(BA63C474-F386-4542-B779-CB315AC66FF6),
+	version(1.0),
+	helpstring("XSX 1.0 Type Library")
+]
+library XSXLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	
+	[
+		uuid(9580EBAF-B0FF-4F0C-A2DF-2DFD46B9CB4C),
+		helpstring("XFX Class")
+	]
+	coclass XFX
+	{
+		[default] interface IXFX;
+	};
+};

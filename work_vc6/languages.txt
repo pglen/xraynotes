@@ -1,0 +1,51 @@
+Czech
+Ceština
+CES/CZE (0405) 	Directory selection in Czech Overall interface in Czech
+
+German
+Deutsch
+DEU/GER (0407) 	Directory selection in German Overall interface in German
+
+English
+English
+ENG (0409) 	Directory selection in English Overall interface in English
+
+Spanish
+Español
+ESL/SPA (040a) 	Directory selection in Spanish Overall interface in Spanish
+
+Finnish
+Suomi
+FIN (040b)
+
+French
+Français
+FRA/FRE (040c) 	Directory selection in French Overall interface in French
+
+Hungarian
+Magyar
+HUN (040e) 	Directory selection in Hungarian Overall interface in Hungarian
+
+Italian
+Italiano
+ITA (0410) 	Directory selection in Italian Overall interface in Italian
+
+Dutch
+Nederlands
+DUT/NLA (0413)
+
+Polish
+Polski
+POL (0415) 	Directory selection in Polish Overall interface in Polish
+
+
+Russian
+???????/Russkij
+RUS (0419) 	Directory selection in Russian Overall interface in Russian
+
+Estonian
+Eesti
+EST (0425)
+Thanks to 'Logard'
+
+

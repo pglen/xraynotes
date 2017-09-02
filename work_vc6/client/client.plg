@@ -1,0 +1,94 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: client - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/client.res" /d "_DEBUG" /d "_AFXDLL" "C:\develop2\xraynotes\work\client\client.rc"" 
+Creating temporary file "C:\DOCUME~1\PETERG~1\LOCALS~1\Temp\RSPAD.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/client.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\develop2\xraynotes\work\bluepoint\bluepoint.cpp"
+"C:\develop2\xraynotes\work\client\client.cpp"
+"C:\develop2\xraynotes\work\client\clientDlg.cpp"
+"C:\develop2\xraynotes\work\client\label.cpp"
+"C:\develop2\xraynotes\work\client\LogWin.cpp"
+"C:\develop2\xraynotes\work\client\Support.cpp"
+"C:\develop2\xraynotes\work\client\xCircular.cpp"
+"C:\develop2\xraynotes\work\client\xFile.cpp"
+"C:\develop2\xraynotes\work\client\xpad.cpp"
+"C:\develop2\xraynotes\work\client\xSocket.cpp"
+"C:\develop2\xraynotes\work\client\xTargetButton.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\PETERG~1\LOCALS~1\Temp\RSPAD.tmp" 
+Creating temporary file "C:\DOCUME~1\PETERG~1\LOCALS~1\Temp\RSPAE.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/client.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\develop2\xraynotes\work\client\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\PETERG~1\LOCALS~1\Temp\RSPAE.tmp" 
+Creating temporary file "C:\DOCUME~1\PETERG~1\LOCALS~1\Temp\RSPAF.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/client.pdb" /debug /machine:I386 /out:"Debug/client.exe" /pdbtype:sept 
+.\Debug\bluepoint.obj
+.\Debug\client.obj
+.\Debug\clientDlg.obj
+.\Debug\label.obj
+.\Debug\LogWin.obj
+.\Debug\StdAfx.obj
+.\Debug\Support.obj
+.\Debug\xCircular.obj
+.\Debug\xFile.obj
+.\Debug\xpad.obj
+.\Debug\xSocket.obj
+.\Debug\xTargetButton.obj
+.\Debug\client.res
+]
+Creating command line "link.exe @C:\DOCUME~1\PETERG~1\LOCALS~1\Temp\RSPAF.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+bluepoint.cpp
+client.cpp
+clientDlg.cpp
+label.cpp
+LogWin.cpp
+Support.cpp
+xCircular.cpp
+xFile.cpp
+xpad.cpp
+xSocket.cpp
+xTargetButton.cpp
+Generating Code...
+Linking...
+LINK : LNK6004: Debug/client.exe not found or not built by the last incremental link; performing full link
+Creating temporary file "C:\DOCUME~1\PETERG~1\LOCALS~1\Temp\RSPB1.tmp" with contents
+[
+/nologo /o"Debug/client.bsc" 
+.\Debug\StdAfx.sbr
+.\Debug\bluepoint.sbr
+.\Debug\client.sbr
+.\Debug\clientDlg.sbr
+.\Debug\label.sbr
+.\Debug\LogWin.sbr
+.\Debug\Support.sbr
+.\Debug\xCircular.sbr
+.\Debug\xFile.sbr
+.\Debug\xpad.sbr
+.\Debug\xSocket.sbr
+.\Debug\xTargetButton.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\PETERG~1\LOCALS~1\Temp\RSPB1.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+client.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

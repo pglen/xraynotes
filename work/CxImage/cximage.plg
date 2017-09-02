@@ -1,0 +1,100 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CxImage - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\PETERG~1\AppData\Local\Temp\RSPEB15.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\jpeg" /I "..\png" /I "..\zlib" /I "..\mng" /I "..\tiff" /I "..\j2k" /I "..\jasper\include" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "_AFXDLL" /D "JAS_WIN_MSVC_BUILD" /Fr"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\develop3\xraynotes\work\CxImage\ximapal.cpp"
+"C:\develop3\xraynotes\work\CxImage\ximawnd.cpp"
+]
+Creating command line "cl.exe @C:\Users\PETERG~1\AppData\Local\Temp\RSPEB15.tmp" 
+Creating temporary file "C:\Users\PETERG~1\AppData\Local\Temp\RSPEB16.tmp" with contents
+[
+/nologo /out:"Debug\CxImage.lib" 
+.\Debug\tif_xfile.obj
+.\Debug\ximabmp.obj
+.\Debug\ximadsp.obj
+.\Debug\ximaenc.obj
+.\Debug\ximaexif.obj
+.\Debug\xImage.obj
+.\Debug\ximagif.obj
+.\Debug\ximahist.obj
+.\Debug\ximaico.obj
+.\Debug\ximainfo.obj
+.\Debug\ximaint.obj
+.\Debug\ximaj2k.obj
+.\Debug\ximajas.obj
+.\Debug\ximajbg.obj
+.\Debug\ximajpg.obj
+.\Debug\ximalpha.obj
+.\Debug\ximalyr.obj
+.\Debug\ximamng.obj
+.\Debug\ximapal.obj
+.\Debug\ximapcx.obj
+.\Debug\ximapng.obj
+.\Debug\ximasel.obj
+.\Debug\ximatga.obj
+.\Debug\ximath.obj
+.\Debug\ximatif.obj
+.\Debug\ximatran.obj
+.\Debug\ximawbmp.obj
+.\Debug\ximawmf.obj
+.\Debug\ximawnd.obj
+.\Debug\xmemfile.obj
+]
+Creating command line "link.exe -lib @C:\Users\PETERG~1\AppData\Local\Temp\RSPEB16.tmp"
+<h3>Output Window</h3>
+Compiling...
+ximapal.cpp
+ximawnd.cpp
+Generating Code...
+Creating library...
+Creating temporary file "C:\Users\PETERG~1\AppData\Local\Temp\RSPEE23.tmp" with contents
+[
+/nologo /o"Debug/CxImage.bsc" 
+.\Debug\tif_xfile.sbr
+.\Debug\ximabmp.sbr
+.\Debug\ximadsp.sbr
+.\Debug\ximaenc.sbr
+.\Debug\ximaexif.sbr
+.\Debug\xImage.sbr
+.\Debug\ximagif.sbr
+.\Debug\ximahist.sbr
+.\Debug\ximaico.sbr
+.\Debug\ximainfo.sbr
+.\Debug\ximaint.sbr
+.\Debug\ximaj2k.sbr
+.\Debug\ximajas.sbr
+.\Debug\ximajbg.sbr
+.\Debug\ximajpg.sbr
+.\Debug\ximalpha.sbr
+.\Debug\ximalyr.sbr
+.\Debug\ximamng.sbr
+.\Debug\ximapal.sbr
+.\Debug\ximapcx.sbr
+.\Debug\ximapng.sbr
+.\Debug\ximasel.sbr
+.\Debug\ximatga.sbr
+.\Debug\ximath.sbr
+.\Debug\ximatif.sbr
+.\Debug\ximatran.sbr
+.\Debug\ximawbmp.sbr
+.\Debug\ximawmf.sbr
+.\Debug\ximawnd.sbr
+.\Debug\xmemfile.sbr]
+Creating command line "bscmake.exe @C:\Users\PETERG~1\AppData\Local\Temp\RSPEE23.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+CxImage.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

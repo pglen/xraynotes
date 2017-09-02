@@ -1,0 +1,27 @@
+
+------- Begin License ------------
+
+Name: ......... Peter Glen
+Company: ...... 
+License: ...... MRCO-PRIG-PYFK-EDDO
+
+------- End License ------------
+
+
+------- Begin License ------------
+
+Name: ......... Peter Glen
+Company: ...... XCPT
+License: ...... LKWP-KEUW-SVEB-NCKA
+
+------- End License ------------
+
+
+------- Begin License ------------
+
+Name: ......... Peter Glen
+Company: ...... Developer
+License: ...... SPHG-HMEF-EFMS-CFST
+
+------- End License ------------
+

@@ -1,0 +1,83 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: vgrid - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/vgrid.res" /d "NDEBUG" /d "_AFXDLL" "C:\develop2\xraynotes\work\vgrid\vgrid.rc"" 
+Creating temporary file "C:\Users\PETERG~1\AppData\Local\Temp\RSP3B42.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/vgrid.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\develop2\xraynotes\work\vgrid\GrayDlg.cpp"
+"C:\develop2\xraynotes\work\vgrid\label.cpp"
+"C:\develop2\xraynotes\work\vgrid\misc.cpp"
+"C:\develop2\xraynotes\work\vgrid\mxpad.cpp"
+"C:\develop2\xraynotes\work\vgrid\PersistDlg.cpp"
+"C:\develop2\xraynotes\work\vgrid\Popup.cpp"
+"C:\develop2\xraynotes\work\vgrid\Support.cpp"
+"C:\develop2\xraynotes\work\vgrid\TextMode.cpp"
+"C:\develop2\xraynotes\work\vgrid\TransSlider.cpp"
+"C:\develop2\xraynotes\work\vgrid\vgrid.cpp"
+"C:\develop2\xraynotes\work\vgrid\vgridDlg.cpp"
+"C:\develop2\xraynotes\work\vgrid\xPtrArr.cpp"
+"C:\develop2\xraynotes\work\vgrid\XrayM.cpp"
+]
+Creating command line "cl.exe @C:\Users\PETERG~1\AppData\Local\Temp\RSP3B42.tmp" 
+Creating temporary file "C:\Users\PETERG~1\AppData\Local\Temp\RSP3B43.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/vgrid.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\develop2\xraynotes\work\vgrid\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\PETERG~1\AppData\Local\Temp\RSP3B43.tmp" 
+Creating temporary file "C:\Users\PETERG~1\AppData\Local\Temp\RSP3B44.tmp" with contents
+[
+rpcrt4.lib ws2_32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/vgrid.pdb" /machine:I386 /out:"Release/vgrid.exe" 
+.\Release\GrayDlg.obj
+.\Release\label.obj
+.\Release\misc.obj
+.\Release\mxpad.obj
+.\Release\PersistDlg.obj
+.\Release\Popup.obj
+.\Release\StdAfx.obj
+.\Release\Support.obj
+.\Release\TextMode.obj
+.\Release\TransSlider.obj
+.\Release\vgrid.obj
+.\Release\vgridDlg.obj
+.\Release\xPtrArr.obj
+.\Release\XrayM.obj
+.\Release\vgrid.res
+]
+Creating command line "link.exe @C:\Users\PETERG~1\AppData\Local\Temp\RSP3B44.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+GrayDlg.cpp
+label.cpp
+misc.cpp
+mxpad.cpp
+PersistDlg.cpp
+Popup.cpp
+Support.cpp
+TextMode.cpp
+TransSlider.cpp
+vgrid.cpp
+vgridDlg.cpp
+xPtrArr.cpp
+XrayM.cpp
+Generating Code...
+Linking...
+LINK : warning LNK4089: all references to "ADVAPI32.dll" discarded by /OPT:REF
+LINK : warning LNK4089: all references to "RPCRT4.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+vgrid.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

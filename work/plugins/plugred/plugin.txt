@@ -1,0 +1,2 @@
+
+This exmple plugin paints the red channel to 255;
